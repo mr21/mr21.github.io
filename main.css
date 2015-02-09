@@ -67,7 +67,7 @@ h1 {
 				box-sizing: border-box;
 				width: 100px;
 				height: 100px;
-				background-size: cover;
+				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: center;
 				-webkit-transition: all .2s ease;
@@ -83,3 +83,10 @@ h1 {
 				display: block;
 				clear: both;
 				}
+		.rub:last-child {
+			padding-bottom: 25px;
+			}
+
+.rub.skills .content > a {
+	background-size: 87%;
+	}
