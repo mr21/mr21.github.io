@@ -4,8 +4,7 @@ html, body {
 body {
 	margin: 0;
 	font: 12px sans-serif;
-	background: #111;
-	/*background: #000;*/
+	background: #333 url(bg-noise.png);
 	}
 a {
 	color: inherit;
@@ -19,8 +18,8 @@ h1 {
 	margin: auto;
 	width: 400px;
 	min-height: 100%;
-	padding: 0 25px;
-	/*background: #090909;*/
+	padding: 0 50px;
+	background: rgba(0,0,0,.5);
 	}
 	.global > .header {
 		padding-top: 10px;
