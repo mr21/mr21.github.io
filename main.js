@@ -52,9 +52,10 @@ $(function() {
 	}
 
 	window.onhashchange = function() {
-		var	hash = window.location.hash;
+		var	hash = window.location.hash,
+			slideDur = 150;
 		function slideUp() {
-			jq_page.slideUp(250);
+			jq_page.slideUp(slideDur);
 			jq_aOld
 				.attr("href", jq_aOld.attr("hrefOld"))
 				.parent()
@@ -89,18 +90,18 @@ $(function() {
 					} else {
 						writeData(jq_a);
 						jq_page
-							.slideDown(250);
+							.slideDown(slideDur);
 					}
 				} else if (!jq_aNext) {
 					writeData(jq_a);
-					jq_page.slideDown(250);
+					jq_page.slideDown(slideDur);
 				} else {
-					jq_page.slideUp(250, function() {
+					jq_page.slideUp(slideDur, function() {
 						writeData(jq_a);
 						jq_page
 							.hide()
 							.insertAfter(jq_aNext)
-							.slideDown(250);
+							.slideDown(slideDur);
 					});
 				}
 			}
