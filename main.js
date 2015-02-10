@@ -30,11 +30,15 @@ $(function() {
 	});
 
 	function writeData(jq_page, data) {
-
+		jq_page
+			.children("h2").text(data.title).end()
+			.children("a").prop("href", data.href).end()
+			.children("p[lang='en']").html(data.en).end()
+			.children("p[lang='fr']").html(data.fr).end()
 	}
 
 	function setPage(jq_a) {
-		lg(jq_a[0].pageData);
+		writeData(jq_page, jq_a[0].pageData);
 	}
 
 	window.onhashchange = function() {
