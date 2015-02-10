@@ -5,6 +5,8 @@ $(function() {
 	var	jq_page = $(".global .page").detach(),
 		jq_projectsContent = $(".rub.projects .content");
 
+	document.body.lang = "en";
+
 	$.each(window.projectsData, function() {
 		$('<a href="#' + this.href + '" style="background-image: url(' + this.img + ');"></a>')
 			.appendTo(jq_projectsContent)
@@ -27,13 +29,17 @@ $(function() {
 			});
 	});
 
+	function writeData(jq_page, data) {
+
+	}
+
 	function setPage(jq_a) {
 		lg(jq_a[0].pageData);
 	}
 
 	window.onhashchange = function() {
 		var jq_a = $("[href='" + window.location.hash + "']");
-		if (jq_a[0]) {
+		if (jq_a[0] && jq_a[0].pageData) {
 			var	jq_aNext_before,
 				jq_aNext = jq_a;
 			for (;;) {
@@ -55,6 +61,7 @@ $(function() {
 				jq_page.slideUp(250, function() {
 					setPage(jq_a);
 					jq_page
+						.hide()
 						.insertAfter(jq_aNext)
 						.slideDown(250);
 				});
