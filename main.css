@@ -77,6 +77,12 @@ h1 {
 				.rub .content > a:hover {
 					opacity: 1;
 					}
+			.rub .content .page {
+				float: left;
+				width: 100%;
+				height: 350px;
+				background: #333;
+				}
 			.rub .content:after {
 				content: "";
 				display: block;
