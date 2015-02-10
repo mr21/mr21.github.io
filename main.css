@@ -83,14 +83,15 @@ body[lang="fr"] [lang="en"] {
 				    -ms-transition: all .2s ease;
 				        transition: all .2s ease;
 				}
+				.rub .content.selected > a,
 				.rub .content.alpha > a {
 					opacity: .1;
 					}
 				.rub .content > a:hover,
-				.rub .content > a.selected {
+				.rub .content > a[href="#"] {
 					opacity: 1;
 					}
-				.rub .content > a.selected:after {
+				.rub .content > a[href="#"]:after {
 					content: "";
 					position: absolute;
 					width: 10px;
