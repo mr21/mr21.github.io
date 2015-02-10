@@ -2,7 +2,8 @@ function lg(s) { console.log(s) }
 
 $(function() {
 
-	var	jq_page = $(".global .page").detach(),
+	var	jq_aOld,
+		jq_page = $(".global .page").detach(),
 		jq_projectsContent = $(".rub.projects .content");
 
 	document.body.lang = "en";
@@ -29,16 +30,23 @@ $(function() {
 			});
 	});
 
-	function writeData(jq_page, data) {
+	function writeData(jq_a) {
+		var d = jq_a[0].pageData;
+		if (jq_aOld)
+			jq_aOld
+				.removeClass("selected");
+		jq_a
+			.addClass("selected");
 		jq_page
-			.children("h2").text(data.title).end()
-			.children("a").prop("href", data.href).end()
-			.children("p[lang='en']").html(data.en).end()
-			.children("p[lang='fr']").html(data.fr).end()
+			.children("h2").text(d.title).end()
+			.children("a").prop("href", d.href).end()
+			.children("p[lang='en']").html(d.en).end()
+			.children("p[lang='fr']").html(d.fr).end();
+		jq_aOld = jq_a;
 	}
 
 	function setPage(jq_a) {
-		writeData(jq_page, jq_a[0].pageData);
+		writeData(jq_a);
 	}
 
 	window.onhashchange = function() {

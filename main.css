@@ -69,6 +69,8 @@ body[lang="fr"] [lang="en"] {
 			background: rgba(0,0,0,.5);
 			}
 			.rub .content > a {
+				position: relative;
+				overflow: hidden;
 				float: left;
 				box-sizing: border-box;
 				width: 100px;
@@ -77,9 +79,26 @@ body[lang="fr"] [lang="en"] {
 				background-repeat: no-repeat;
 				background-position: center;
 				-webkit-transition: all .2s ease;
+				   -moz-transition: all .2s ease;
+				    -ms-transition: all .2s ease;
+				        transition: all .2s ease;
 				}
+				.rub .content > a.selected:after {
+					content: "";
+					position: absolute;
+					width: 10px;
+					height: 10px;
+					left: 50%;
+					margin-left: -5px;
+					bottom: -5px;
+					background: rgb(8,8,8);
+					-webkit-transform: rotate(45deg);
+					   -moz-transform: rotate(45deg);
+					    -ms-transform: rotate(45deg);
+					        transform: rotate(45deg);
+					}
 				.rub .content > a.hide {
-					opacity: .5;
+					opacity: .1;
 					}
 				.rub .content > a:hover {
 					opacity: 1;
