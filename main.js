@@ -2,7 +2,7 @@ function lg(s) { console.log(s) }
 
 $(function() {
 
-	var	jq_page = $("<div>").addClass("page"),
+	var	jq_page = $(".global .page").detach(),
 		jq_projectsContent = $(".rub.projects .content");
 
 	$.each(window.projectsData, function() {
