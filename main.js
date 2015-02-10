@@ -16,16 +16,15 @@ $(function() {
 
 	$(".rub .content").each(function() {
 		var	idTimeout,
-			jq_a = $(this).children("a");
-		jq_a
+			jq_content = $(this);
+		jq_content.children("a")
 			.mouseover(function() {
-				jq_a.addClass("hide");
+				jq_content.addClass("alpha");
 				clearTimeout(idTimeout);
 			})
 			.mouseout(function() {
-				$(this).removeClass("hide");
 				idTimeout = setTimeout(function() {
-					jq_a.removeClass("hide");
+					jq_content.removeClass("alpha");
 				}, 50);
 			});
 	});
