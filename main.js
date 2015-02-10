@@ -24,12 +24,12 @@ $(function() {
 			jq_content = $(this);
 		jq_content.children("a")
 			.mouseover(function() {
-				jq_content.addClass("alpha");
+				jq_content.addClass("alpha-mouseover");
 				clearTimeout(idTimeout);
 			})
 			.mouseout(function() {
 				idTimeout = setTimeout(function() {
-					jq_content.removeClass("alpha");
+					jq_content.removeClass("alpha-mouseover");
 				}, 50);
 			});
 	});
@@ -42,7 +42,7 @@ $(function() {
 		jq_a
 			.attr("href", "#")
 			.parent()
-				.addClass("selected");
+				.addClass("alpha-selected");
 		jq_page
 			.children("h2").text(d.title).end()
 			.children("a").prop("href", d.href).end()
@@ -59,7 +59,7 @@ $(function() {
 			jq_aOld
 				.attr("href", jq_aOld.attr("hrefOld"))
 				.parent()
-					.removeClass("selected");
+					.removeClass("alpha-selected alpha-mouseover")
 		}
 
 		if (!hash) {

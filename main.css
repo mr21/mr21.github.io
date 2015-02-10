@@ -83,8 +83,8 @@ body[lang="fr"] [lang="en"] {
 				    -ms-transition: all .2s ease;
 				        transition: all .2s ease;
 				}
-				.rub .content.selected > a,
-				.rub .content.alpha > a {
+				.rub .content.alpha-mouseover > a,
+				.rub .content.alpha-selected > a {
 					opacity: .1;
 					}
 				.rub .content > a:hover,
