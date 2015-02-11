@@ -107,19 +107,26 @@ body[lang="fr"] [lang="en"] {
 				.rub .content > a[href="#"] {
 					opacity: 1;
 					}
-				.rub .content > a[href="#"]:after {
+				.rub .content > a:after {
 					content: "";
 					position: absolute;
 					width: 10px;
 					height: 10px;
 					left: 50%;
 					margin-left: -5px;
-					bottom: -5px;
+					bottom: -15px;
 					background: rgb(8,8,8);
 					-webkit-transform: rotate(45deg);
 					   -moz-transform: rotate(45deg);
 					    -ms-transform: rotate(45deg);
 					        transform: rotate(45deg);
+					-webkit-transition: bottom .25s ease;
+					   -moz-transition: bottom .25s ease;
+					    -ms-transition: bottom .25s ease;
+					        transition: bottom .25s ease;
+					}
+				.rub .content > a[href="#"]:after {
+					bottom: -5px;
 					}
 			.rub .content .page {
 				float: left;
