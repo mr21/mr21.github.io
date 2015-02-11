@@ -3,7 +3,7 @@ function lg(s) { console.log(s) }
 $(function() {
 
 	var	jq_aOld,
-		jq_page = $(".global .page").detach(),
+		jq_page = $(".global .page").detach().hide(),
 		jq_projectsContent = $(".rub.projects .content");
 
 	document.body.lang = "en";
@@ -51,9 +51,8 @@ $(function() {
 		jq_aOld = jq_a;
 	}
 
-	window.onhashchange = function() {
-		var	hash = window.location.hash,
-			slideDur = 150;
+	function togglePage(hash) {
+		var	slideDur = 150;
 		function slideUp() {
 			jq_page.slideUp(slideDur);
 			jq_aOld
@@ -89,8 +88,7 @@ $(function() {
 						slideUp();
 					} else {
 						writeData(jq_a);
-						jq_page
-							.slideDown(slideDur);
+						jq_page.slideDown(slideDur);
 					}
 				} else if (!jq_aNext) {
 					writeData(jq_a);
@@ -99,13 +97,16 @@ $(function() {
 					jq_page.slideUp(slideDur, function() {
 						writeData(jq_a);
 						jq_page
-							.hide()
 							.insertAfter(jq_aNext)
 							.slideDown(slideDur);
 					});
 				}
 			}
 		}
+	}
+
+	window.onhashchange = function() {
+		togglePage(window.location.hash);
 	};
 	window.onhashchange();
 
