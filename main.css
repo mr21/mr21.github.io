@@ -15,6 +15,13 @@ h2,
 p {
 	margin: 0;
 	}
+.table {
+	display: table;
+	width: 100%;
+	}
+	.table > * {
+		display: table-cell;
+		}
 
 body[lang="en"] [lang="fr"],
 body[lang="fr"] [lang="en"] {
@@ -40,6 +47,21 @@ body[lang="fr"] [lang="en"] {
 			.global > .header h1 span {
 				font-size: .5em;
 				}
+	.global .header a {
+		color: #666;
+		}
+		.global .header a:hover {
+			color: #ccc;
+			}
+		.global .header .social {
+			margin-top: 20px;
+			}
+			.global .header .social > * {
+				text-align: center;
+				}
+				.global .header .social a {
+					font-size: 24px;
+					}
 	.rub {
 
 		}
@@ -47,20 +69,14 @@ body[lang="fr"] [lang="en"] {
 			padding: 5px 0;
 			margin-top: 20px;
 			}
-			.rub .header a {
-				color: #666;
+			.rub .header .fa {
+				font-size: 16px;
 				}
-				.rub .header a:hover {
-					color: #ccc;
-					}
-				.rub .header .fa {
-					font-size: 16px;
-					}
-				.rub .header span {
-					font-size: 14px;
-					font-weight: bold;
-					text-transform: uppercase;
-					}
+			.rub .header span {
+				font-size: 14px;
+				font-weight: bold;
+				text-transform: uppercase;
+				}
 		.rub .content {
 			margin-left: -7px;
 			width: 100%;
