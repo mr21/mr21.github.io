@@ -10,6 +10,9 @@ a {
 	color: #99f;
 	text-decoration: none;
 	}
+	a:hover {
+		color: #bbf;
+		}
 h1,
 h2,
 p {
@@ -21,6 +24,13 @@ p {
 	}
 	.table > * {
 		display: table-cell;
+		}
+
+a.dark {
+	color: #666;
+	}
+	a.dark:hover {
+		color: #ccc;
 		}
 
 body[lang="en"] [lang="fr"],
