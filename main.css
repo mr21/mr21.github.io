@@ -40,19 +40,30 @@ body[lang="fr"] [lang="en"] {
 		}
 		.global > .header h1 {
 			color: #fff;
-			font-size: 36px;
 			font-weight: normal;
 			font-family: 'Alfa Slab One', sans-serif;
 			}
-			.global > .header h1 span {
-				font-size: .5em;
+			.global > .header .title {
+				font-size: 36px;
 				}
-	.global .header a {
-		color: #666;
-		}
-		.global .header a:hover {
-			color: #ccc;
-			}
+				.global > .header .title span {
+					font-size: .5em;
+					}
+			.global > .header .languages img {
+				padding: 5px;
+				border-radius: 4px;
+				border: 2px solid transparent;
+				-webkit-transition: border-color .2s ease;
+				}
+				.global > .header .languages a img {
+					margin-bottom: -7px;
+					}
+				.global > .header .languages :hover img {
+					border-color: rgba(255,255,255,.1);
+					}
+				.global > .header .languages .selected img {
+					border-color: rgba(255,255,255,.2);
+					}
 		.global .header .social {
 			margin-top: 20px;
 			}
