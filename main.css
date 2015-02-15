@@ -77,12 +77,24 @@ body[lang="fr"] [lang="en"] {
 		.global .header .social {
 			margin-top: 20px;
 			}
-			.global .header .social > * {
+			.global .header .social .table > * {
 				text-align: center;
 				}
-				.global .header .social a {
+				.global .header .social .table a {
 					font-size: 24px;
 					}
+			.global .header .social .content {
+				margin-top: 15px;
+				color: #fff;
+				letter-spacing: 1px;
+				}
+				.global .header .social .content > * {
+					display: none;
+					color: #fff;
+					}
+					.global .header .social .content > .selected {
+						display: inline;
+						}
 	.rub {
 
 		}
