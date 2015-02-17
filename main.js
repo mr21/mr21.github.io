@@ -2,23 +2,25 @@ function lg(s) { console.log(s) }
 
 $(function() {
 
-	var	slideDur = 150,
-		jq_aOld,
+	var	jq_aOld,
 		jq_page = $(".global .page").detach().hide(),
-		jq_projectsContent = $(".rub.projects .content");
+		slideDur = 150;
 
 	// data --------------------------------
-	// * projects
-	$.each(window.projectsData, function() {
-		$('<a>')
-			.prop("pageData", this)
-			.attr({
-				class: this.href,
-				href:  "##toggle(p, " + this.href + ")",
-			})
-			.append('<img src="'+this.img+'"/>')
-			.appendTo(jq_projectsContent);
-	});
+	function createEachData(arr, jq_content) {
+		$.each(arr, function() {
+			$('<a>')
+				.prop("pageData", this)
+				.attr({
+					class: this.href,
+					href:  "##toggle(p, " + this.href + ")",
+				})
+				.append('<img src="'+this.img+'"/>')
+				.appendTo(jq_content);
+		});
+	}
+	createEachData(window.projectsData, $(".rub.projects .content"));
+	createEachData(window.skillsData, $(".rub.skills .content"));
 	// -------------------------------------
 
 	$(".rub .content").each(function() {
@@ -47,7 +49,7 @@ $(function() {
 				.addClass("alpha-selected");
 		jq_page
 			.children("h2").text(d.title).end()
-			.children("a").prop("href", d.href).end()
+			.children("a").prop("href", d.link).end()
 			.children("p[lang='en']").html(d.en).end()
 			.children("p[lang='fr']").html(d.fr).end();
 		jq_aOld = jq_a;
