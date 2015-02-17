@@ -15,8 +15,8 @@ $(function() {
 			.attr({
 				class: this.href,
 				href:  "##toggle(p, " + this.href + ")",
-				style: "background-image: url('" + this.img + "');"
 			})
+			.append('<img src="'+this.img+'"/>')
 			.appendTo(jq_projectsContent);
 	});
 	// -------------------------------------
