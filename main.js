@@ -2,22 +2,24 @@ function lg(s) { console.log(s) }
 
 $(function() {
 
-	var	jq_aOld,
+	var	slideDur = 150,
+		jq_aOld,
 		jq_page = $(".global .page").detach().hide(),
 		jq_projectsContent = $(".rub.projects .content");
 
-	document.body.lang = "en";
-
+	// data --------------------------------
+	// * projects
 	$.each(window.projectsData, function() {
-		var a = $('<a style="background-image: url(' + this.img + ');"></a>')
+		$('<a>')
 			.prop("pageData", this)
 			.attr({
-				href:     "#" + this.href,
-				hrefOld:  "#" + this.href,
-				style:    "background-image: url('" + this.img + "');"
+				class: this.href,
+				href:  "##toggle(p, " + this.href + ")",
+				style: "background-image: url('" + this.img + "');"
 			})
 			.appendTo(jq_projectsContent);
 	});
+	// -------------------------------------
 
 	$(".rub .content").each(function() {
 		var	idTimeout,
@@ -36,11 +38,11 @@ $(function() {
 
 	function writeData(jq_a) {
 		var d = jq_a.prop("pageData");
-		if (jq_aOld) {
-			jq_aOld.attr("href", jq_aOld.attr("hrefOld"));
-		}
+		if (jq_aOld)
+			jq_aOld
+				.removeClass("selected");
 		jq_a
-			.attr("href", "#")
+			.addClass("selected")
 			.parent()
 				.addClass("alpha-selected");
 		jq_page
@@ -51,63 +53,58 @@ $(function() {
 		jq_aOld = jq_a;
 	}
 
-	function togglePage(hash) {
-		var	slideDur = 150;
-		function slideUp() {
-			jq_page.slideUp(slideDur);
-			jq_aOld
-				.attr("href", jq_aOld.attr("hrefOld"))
-				.parent()
-					.removeClass("alpha-selected alpha-mouseover")
-		}
-
-		if (!hash) {
-			if (jq_aOld && jq_aOld[0]) {
-				slideUp();
+	function openPage(jq_a) {
+		if (jq_a.prop("pageData")) {
+			var	jq_aNext_before,
+				jq_aNext = jq_a;
+			for (;;) {
+				jq_aNext_before = jq_aNext;
+				jq_aNext = jq_aNext.next();
+				if (!jq_aNext[0])
+					jq_aNext = jq_aNext_before;
+				else if (jq_aNext[0].tagName !== "A")
+					jq_aNext = null;
+				else if (jq_aNext.position().top > jq_aNext_before.position().top)
+					jq_aNext = jq_aNext_before;
+				else
+					continue;
+				break;
 			}
-		} else {
-			var jq_a = $("[href='" + hash + "']");
-			if (jq_a.prop("pageData")) {
-				var	jq_aNext_before,
-					jq_aNext = jq_a;
-				for (;;) {
-					jq_aNext_before = jq_aNext;
-					jq_aNext = jq_aNext.next();
-					if (!jq_aNext[0])
-						jq_aNext = jq_aNext_before;
-					else if (jq_aNext[0].tagName !== "A")
-						jq_aNext = null;
-					else if (jq_aNext.position().top > jq_aNext_before.position().top)
-						jq_aNext = jq_aNext_before;
-					else
-						continue;
-					break;
-				}
-				if (jq_aOld && jq_a[0] === jq_aOld[0]) {
-					if (jq_a.attr("href") === "#") {
-						slideUp();
-					} else {
-						writeData(jq_a);
-						jq_page.slideDown(slideDur);
-					}
-				} else if (!jq_aNext) {
+			if (!jq_aNext || (jq_aOld && jq_a[0] === jq_aOld[0])) {
+				writeData(jq_a);
+				jq_page.slideDown(slideDur);
+			} else {
+				jq_page.slideUp(slideDur, function() {
 					writeData(jq_a);
-					jq_page.slideDown(slideDur);
-				} else {
-					jq_page.slideUp(slideDur, function() {
-						writeData(jq_a);
-						jq_page
-							.insertAfter(jq_aNext)
-							.slideDown(slideDur);
-					});
-				}
+					jq_page
+						.insertAfter(jq_aNext)
+						.slideDown(slideDur);
+				});
 			}
 		}
 	}
 
-	window.onhashchange = function() {
-		togglePage(window.location.hash);
-	};
-	window.onhashchange();
+	function closePage() {
+		if (jq_aOld && jq_aOld[0]) {
+			jq_page
+				.slideUp(slideDur);
+			jq_aOld
+				.removeClass("selected")
+				.parent()
+					.removeClass("alpha-selected alpha-mouseover");
+		}
+	}
+
+	locationHash.watch({
+		lang: function(l) {
+			document.body.lang = l || "en";
+		},
+		p: function(p) {
+			if (!p)
+				closePage();
+			else
+				openPage($('.' + p));
+		}
+	});
 
 });
