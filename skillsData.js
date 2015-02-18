@@ -54,7 +54,7 @@ window.skillsData = [
 		en: "",
 		fr: ""
 	}, {
-		href: "c++",
+		href: "cplusplus",
 		title: "C++",
 		img: "logos/c++.png",
 		en: "",
