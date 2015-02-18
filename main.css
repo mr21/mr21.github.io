@@ -39,15 +39,13 @@ body[lang="fr"] [lang="en"] {
 	}
 
 .global {
+	box-sizing: border-box;
 	margin: auto;
-	width: 480px;
+	width: 600px;
 	min-height: 100%;
-	padding: 0 50px;
+	padding: 30px 50px 50px;
 	background: rgba(0,0,0,.5);
 	}
-	.global > .header {
-		padding-top: 35px;
-		}
 		.global > .header h1 {
 			color: #fff;
 			font-weight: normal;
@@ -95,9 +93,6 @@ body[lang="fr"] [lang="en"] {
 					.global .header .social .content > .selected {
 						display: inline;
 						}
-	.rub {
-
-		}
 		.rub .header {
 			padding: 5px 0;
 			margin-top: 20px;
@@ -181,6 +176,3 @@ body[lang="fr"] [lang="en"] {
 				display: block;
 				clear: both;
 				}
-		.rub:last-child {
-			padding-bottom: 25px;
-			}
