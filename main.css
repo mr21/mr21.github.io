@@ -130,6 +130,7 @@ body[lang="fr"] [lang="en"] {
 				.rub .content > a img {
 					display: block;
 					width: 100%;
+					min-height: 5px; /* otherwise the if with $().position().top fail */
 					}
 				.rub .content.alpha-mouseover > a,
 				.rub .content.alpha-selected > a {
