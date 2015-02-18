@@ -1,9 +1,12 @@
+window.data = {};
+
 $(function() {
 
 	// data --------------------------------
 	(function() {
-		function createEachData(arr, jq_content) {
-			$.each(arr, function() {
+		$.each(window.data, function(key) {
+			var jq_content = $(".rub." + key + " .content");
+			$.each(this, function() {
 				$('<a>')
 					.prop("pageData", this)
 					.attr({
@@ -13,9 +16,7 @@ $(function() {
 					.append('<img src="'+this.img+'"/>')
 					.appendTo(jq_content);
 			});
-		}
-		createEachData(projectsData, $(".rub.projects .content"));
-		createEachData(skillsData, $(".rub.skills .content"));
+		});
 	})();
 
 	// languages ---------------------------

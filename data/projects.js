@@ -1,4 +1,4 @@
-window.projectsData = [
+window.data.projects = [
 	{
 		href: "youtube-playlists-manager",
 		title: "YouTube - playlists manager",

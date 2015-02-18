@@ -1,4 +1,4 @@
-window.skillsData = [
+window.data.skills = [
 	{
 		href: "javascript",
 		title: "JavaScript",
@@ -57,6 +57,24 @@ window.skillsData = [
 		href: "cplusplus",
 		title: "C++",
 		img: "logos/c++.png",
+		en: "",
+		fr: ""
+	}, {
+		href: "photoshop",
+		title: "Photoshop",
+		img: "logos/photoshop.png",
+		en: "",
+		fr: ""
+	}, {
+		href: "illustrator",
+		title: "Illustrator",
+		img: "logos/illustrator.png",
+		en: "",
+		fr: ""
+	}, {
+		href: "indesign",
+		title: "InDesign",
+		img: "logos/indesign.png",
 		en: "",
 		fr: ""
 	}
