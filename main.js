@@ -1,5 +1,3 @@
-function lg(s) { console.log(s) }
-
 $(function() {
 
 	// data --------------------------------
@@ -38,12 +36,7 @@ $(function() {
 		});
 	})();
 
-	// -------------------------------------
-
-	var	jq_aOld,
-		jq_page = $(".global .page").detach().hide(),
-		slideDur = 150;
-
+	// links mouseover/out -----------------
 	$(".rub .content").each(function() {
 		var	idTimeout,
 			jq_content = $(this);
@@ -58,6 +51,12 @@ $(function() {
 				}, 50);
 			});
 	});
+
+	// -------------------------------------
+
+	var	jq_aOld,
+		jq_page = $(".global .page").detach().hide(),
+		slideDur = 150;
 
 	function writeData(jq_a) {
 		var d = jq_a.prop("pageData");
