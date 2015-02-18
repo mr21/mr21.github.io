@@ -2,26 +2,47 @@ function lg(s) { console.log(s) }
 
 $(function() {
 
+	// data --------------------------------
+	(function() {
+		function createEachData(arr, jq_content) {
+			$.each(arr, function() {
+				$('<a>')
+					.prop("pageData", this)
+					.attr({
+						class: this.href,
+						href:  "##toggle(p, " + this.href + ")",
+					})
+					.append('<img src="'+this.img+'"/>')
+					.appendTo(jq_content);
+			});
+		}
+		createEachData(projectsData, $(".rub.projects .content"));
+		createEachData(skillsData, $(".rub.skills .content"));
+	})();
+
+	// languages ---------------------------
+	(function() {
+		var	jq_oldLang = $(),
+			jq_languages = $(".languages"),
+			langs = {
+				en: $("[href*=en]", jq_languages),
+				fr: $("[href*=fr]", jq_languages)
+			};
+		locationHash.watch({
+			lang: function(l) {
+				l = l || "en";
+				jq_oldLang.removeClass("selected");
+				jq_oldLang = langs[l].addClass("selected");
+				document.body.lang = oldLang = l;
+			}
+		});
+	})();
+
+	// -------------------------------------
+
 	var	jq_aOld,
 		jq_page = $(".global .page").detach().hide(),
 		slideDur = 150;
-
-	// data --------------------------------
-	function createEachData(arr, jq_content) {
-		$.each(arr, function() {
-			$('<a>')
-				.prop("pageData", this)
-				.attr({
-					class: this.href,
-					href:  "##toggle(p, " + this.href + ")",
-				})
-				.append('<img src="'+this.img+'"/>')
-				.appendTo(jq_content);
-		});
-	}
-	createEachData(window.projectsData, $(".rub.projects .content"));
-	createEachData(window.skillsData, $(".rub.skills .content"));
-	// -------------------------------------
 
 	$(".rub .content").each(function() {
 		var	idTimeout,
@@ -105,23 +126,5 @@ $(function() {
 				openPage($('.' + p));
 		}
 	});
-
-	// languages
-	(function() {
-		var	jq_oldLang = $(),
-			jq_languages = $(".languages"),
-			langs = {
-				en: $("[href*=en]", jq_languages),
-				fr: $("[href*=fr]", jq_languages)
-			};
-		locationHash.watch({
-			lang: function(l) {
-				l = l || "en";
-				jq_oldLang.removeClass("selected");
-				jq_oldLang = langs[l].addClass("selected");
-				document.body.lang = oldLang = l;
-			}
-		});
-	})();
 
 });
