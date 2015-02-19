@@ -17,6 +17,13 @@ a {
 	a:hover {
 		color: #bbf;
 		}
+code {
+	display: inline-block;
+	margin: .2em;
+	padding: .2em .5em;
+	background: rgba(255,255,255,.1);
+	border-radius: 2px;
+	}
 h1,
 h2,
 p {
