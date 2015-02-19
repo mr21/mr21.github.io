@@ -20,9 +20,10 @@ a {
 code {
 	display: inline-block;
 	margin: .2em;
-	padding: .2em .5em;
+	padding: 0 .4em;
 	background: rgba(255,255,255,.1);
 	border-radius: 2px;
+	text-indent: initial;
 	}
 h1,
 h2,
@@ -210,6 +211,13 @@ body[lang="fr"] [lang="en"] {
 						.rub .content .page .subTitle.close:after {
 							content: "\f0d7"; /* fa-caret-down */
 							}
+					.rub .content .page .subTitle * {
+						vertical-align: middle;
+						}
+					.rub .content .page .appLink .fa,
+					.rub .content .page .subTitle .fa {
+						margin-right: .3em;
+						}
 				.rub .content .page p {
 					margin-top: 10px;
 					line-height: 1.5em;
