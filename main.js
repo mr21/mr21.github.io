@@ -96,6 +96,8 @@ $(function() {
 				writeData(jq_a);
 				jq_page.slideDown(SLIDE_DUR);
 			} else {
+				if (jq_aOld)
+					jq_aOld.parent().removeClass("alpha-selected alpha-mouseover");
 				jq_page.slideUp(SLIDE_DUR, function() {
 					writeData(jq_a);
 					jq_page
