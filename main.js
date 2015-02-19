@@ -1,19 +1,17 @@
-window.data = {};
-
 $(function() {
+
+	var	SLIDE_DUR = 250;
 
 	// data --------------------------------
 	(function() {
-		$.each(window.data, function(key) {
-			var jq_content = $(".rub." + key + " .content");
-			$.each(this, function() {
-				$('<a>')
-					.prop("pageData", this)
-					.attr({
-						class: this.href,
-						href:  "##toggle(p, " + this.href + ")",
-					})
-					.append('<img src="'+this.img+'"/>')
+		$("#data > *").each(function() {
+			var jq_content = $(".rub." + this.className + " .content");
+			$(this).children().each(function() {
+				$("<a>")
+					.prop("el_data", this)
+					.attr("class", this.className)
+					.attr("href", "##toggle(p, " + this.className + ")")
+					.append($(this).children("img"))
 					.appendTo(jq_content);
 			});
 		});
@@ -56,28 +54,21 @@ $(function() {
 	// -------------------------------------
 
 	var	jq_aOld,
-		jq_page = $(".global .page").detach().hide(),
-		slideDur = 150;
+		jq_page = $("<div class='page'>").hide();
 
 	function writeData(jq_a) {
-		var d = jq_a.prop("pageData");
 		if (jq_aOld)
-			jq_aOld
-				.removeClass("selected");
-		jq_a
-			.addClass("selected")
-			.parent()
-				.addClass("alpha-selected");
+			jq_aOld.removeClass("selected");
+		jq_a.addClass("selected")
+			.parent().addClass("alpha-selected");
 		jq_page
-			.children("h2").text(d.title).end()
-			.children("a").prop("href", d.link).end()
-			.children("p[lang='en']").html(d.en).end()
-			.children("p[lang='fr']").html(d.fr).end();
+			.children().detach().end()
+			.append(jq_a.prop("el_data"));
 		jq_aOld = jq_a;
 	}
 
 	function openPage(jq_a) {
-		if (jq_a.prop("pageData")) {
+		if (jq_a.prop("el_data")) {
 			var	jq_aNext_before,
 				jq_aNext = jq_a;
 			for (;;) {
@@ -95,13 +86,13 @@ $(function() {
 			}
 			if (!jq_aNext || (jq_aOld && jq_a[0] === jq_aOld[0])) {
 				writeData(jq_a);
-				jq_page.slideDown(slideDur);
+				jq_page.slideDown(SLIDE_DUR);
 			} else {
-				jq_page.slideUp(slideDur, function() {
+				jq_page.slideUp(SLIDE_DUR, function() {
 					writeData(jq_a);
 					jq_page
 						.insertAfter(jq_aNext)
-						.slideDown(slideDur);
+						.slideDown(SLIDE_DUR);
 				});
 			}
 		}
@@ -110,7 +101,7 @@ $(function() {
 	function closePage() {
 		if (jq_aOld && jq_aOld[0]) {
 			jq_page
-				.slideUp(slideDur);
+				.slideUp(SLIDE_DUR);
 			jq_aOld
 				.removeClass("selected")
 				.parent()
@@ -123,7 +114,7 @@ $(function() {
 			if (!p)
 				closePage();
 			else
-				openPage($('.' + p));
+				openPage($("a." + p));
 		}
 	});
 

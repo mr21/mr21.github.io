@@ -18,6 +18,10 @@ h2,
 p {
 	margin: 0;
 	}
+.fa {
+	text-indent: initial;
+	}
+
 .table {
 	display: table;
 	width: 100%;
@@ -25,7 +29,6 @@ p {
 	.table > * {
 		display: table-cell;
 		}
-
 a.dark {
 	color: #666;
 	}
@@ -35,6 +38,10 @@ a.dark {
 
 body[lang="en"] [lang="fr"],
 body[lang="fr"] [lang="en"] {
+	display: none;
+	}
+
+#data {
 	display: none;
 	}
 
@@ -167,8 +174,12 @@ body[lang="fr"] [lang="en"] {
 				.rub .content .page h2 {
 					margin-bottom: 20px;
 					}
+				.rub .content .page .appLink {
+					font-weight: bold;
+					}
 				.rub .content .page p {
 					margin-top: 10px;
+					text-indent: 1em;
 					line-height: 1.5em;
 					}
 			.rub .content:after {
