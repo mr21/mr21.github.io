@@ -3,19 +3,17 @@ $(function() {
 	var	SLIDE_DUR = 250;
 
 	// data --------------------------------
-	(function() {
-		$("#data > *").each(function() {
-			var jq_content = $(".rub." + this.className + " .content");
-			$(this).children().each(function() {
-				$("<a>")
-					.prop("el_data", this)
-					.attr("class", this.className)
-					.attr("href", "##toggle(p, " + this.className + ")")
-					.append($(this).children("img:first-child"))
-					.appendTo(jq_content);
-			});
+	$("#data > *").each(function() {
+		var jq_content = $(".rub." + this.className + " .content");
+		$(this).children().each(function() {
+			$("<a>")
+				.prop("el_data", this)
+				.attr("class", this.className)
+				.attr("href", "##toggle(p, " + this.className + ")")
+				.append($(this).children("img:first-child"))
+				.appendTo(jq_content);
 		});
-	})();
+	});
 
 	// languages ---------------------------
 	(function() {
