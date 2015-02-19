@@ -51,6 +51,14 @@ $(function() {
 			});
 	});
 
+	// page .subTitle ----------------------
+	$("#data .subTitle").click(function() {
+		$(this)
+			.toggleClass("close")
+			.next().slideToggle(SLIDE_DUR);
+		return false;
+	}).click();
+
 	// -------------------------------------
 
 	var	jq_aOld,

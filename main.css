@@ -7,8 +7,12 @@ body {
 	background: #333 url(bg-noise.png);
 	}
 a {
-	color: #99f;
 	text-decoration: none;
+	-webkit-transition: color .2s ease;
+	   -moz-transition: color .2s ease;
+	    -ms-transition: color .2s ease;
+	        transition: color .2s ease;
+	color: #99f;
 	}
 	a:hover {
 		color: #bbf;
@@ -177,6 +181,28 @@ body[lang="fr"] [lang="en"] {
 				.rub .content .page .appLink {
 					font-weight: bold;
 					}
+				.rub .content .page .subTitle {
+					display: inline-block;
+					margin-top: 1em;
+					font-weight: bold;
+					font-size: 12px;
+					}
+					.rub .content .page .subTitle.close {
+						color: #777;
+						}
+					.rub .content .page .subTitle,
+					.rub .content .page .subTitle:hover {
+						color: inherit;
+						}
+					.rub .content .page .subTitle:after {
+						content: "\f0d8"; /* fa-caret-up */
+						margin-left: .2em;
+						font: .7em FontAwesome;
+						opacity: .7;
+						}
+						.rub .content .page .subTitle.close:after {
+							content: "\f0d7"; /* fa-caret-down */
+							}
 				.rub .content .page p {
 					margin-top: 10px;
 					line-height: 1.5em;
