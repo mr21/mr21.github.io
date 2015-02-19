@@ -11,7 +11,7 @@ $(function() {
 					.prop("el_data", this)
 					.attr("class", this.className)
 					.attr("href", "##toggle(p, " + this.className + ")")
-					.append($(this).children("img"))
+					.append($(this).children("img:first-child"))
 					.appendTo(jq_content);
 			});
 		});
