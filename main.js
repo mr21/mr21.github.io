@@ -49,6 +49,41 @@ $(function() {
 			});
 	});
 
+	// page .thatUseIt ---------------------
+	(function() {
+		var	jq_page = $("#data > * > *"),
+			jq_tags = jq_page.find(".tags a");
+		jq_page.each(function() {
+			var	jq_this = $(this),
+				name = this.className,
+				html = "",
+				nbProj = 0;
+			jq_tags.each(function(i) {
+				if (name === this.textContent.toLowerCase()) {
+					var jq_page = jq_tags.eq(i).parent().parent();
+					++nbProj;
+					html +=
+						"<li><a href='##toggle(p, "+jq_page[0].className+")'>"+
+							jq_page.find("h2").html()+
+						"</a></li>";
+				}
+			});
+			if (nbProj) {
+				$(
+					"<br/>"+
+					"<a href='#' class='subTitle'>"+
+						"<i class='fa fa-fw fa-code'></i>"+
+						"<span lang='en'>I made "+nbProj+" project"+(nbProj>1?"s":"")+" with it</span> "+
+						"<span lang='fr'>J'ai fait "+nbProj+" projet"+(nbProj>1?"s":"")+" avec</span> "+
+					"</a>"+
+					"<ul>"+
+						html+
+					"</ul>"
+				).appendTo(this);
+			}
+		});
+	})();
+
 	// page .subTitle ----------------------
 	$("#data .subTitle").click(function() {
 		$(this)
