@@ -17,13 +17,16 @@ a {
 	a:hover {
 		color: #bbf;
 		}
+.tags a,
 code {
 	display: inline-block;
-	margin: .2em;
+	margin: .3em .2em;
 	padding: 0 .4em;
-	background: rgba(255,255,255,.1);
 	border-radius: 2px;
 	text-indent: initial;
+	}
+code {
+	background: rgba(255,255,255,.1);
 	}
 h1,
 h2,
@@ -33,7 +36,9 @@ p {
 .fa {
 	text-indent: initial;
 	}
-
+li {
+	line-height: 1.8em;
+	}
 .table {
 	display: table;
 	width: 100%;
@@ -214,9 +219,8 @@ body[lang="fr"] [lang="en"] {
 					.rub .content .page .subTitle * {
 						vertical-align: middle;
 						}
-					.rub .content .page .appLink .fa,
-					.rub .content .page .subTitle .fa {
-						margin-right: .3em;
+					.rub .content .page a .fa {
+						margin: 0 .3em;
 						}
 				.rub .content .page p {
 					margin-top: 10px;
@@ -224,6 +228,32 @@ body[lang="fr"] [lang="en"] {
 					text-indent: 1em;
 					text-align: justify;
 					}
+				.rub .content .page .tags {
+					margin-top: 1em;
+					}
+					.rub .content .page .tags > * {
+						vertical-align: middle;
+					}
+					.rub .content .page .tags:before {
+						content: "\f02c";
+						font-family: FontAwesome;
+						font-size: 14px;
+						}
+					.rub .content .page .tags a {
+						font: bold 12px monospace;
+						background: rgba(200,200,255,.15);
+						-webkit-transition: border-color .2s ease;
+						   -moz-transition: border-color .2s ease;
+						    -ms-transition: border-color .2s ease;
+						        transition: border-color .2s ease;
+						border: 1px solid transparent;
+						}
+						.rub .content .page .tags a:before {
+							content: "#";
+							}
+						.rub .content .page .tags a:hover {
+							border-color: inherit;
+							}
 			.rub .content:after {
 				content: "";
 				display: block;
