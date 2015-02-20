@@ -207,7 +207,7 @@ body[lang="fr"] [lang="en"] {
 					font-size: 12px;
 					}
 					.rub .content .page .subTitle.close {
-						color: #777;
+						color: #888;
 						}
 					.rub .content .page .subTitle,
 					.rub .content .page .subTitle:hover {
@@ -216,7 +216,7 @@ body[lang="fr"] [lang="en"] {
 					.rub .content .page .subTitle:after {
 						content: "\f0d8"; /* fa-caret-up */
 						margin-left: .2em;
-						font: .7em FontAwesome;
+						font: .8em FontAwesome;
 						opacity: .7;
 						}
 						.rub .content .page .subTitle.close:after {
@@ -226,7 +226,7 @@ body[lang="fr"] [lang="en"] {
 						vertical-align: middle;
 						}
 					.rub .content .page a .fa {
-						margin: 0 .3em;
+						font-size: 14px;
 						}
 				.rub .content .page p {
 					margin-top: 10px;
