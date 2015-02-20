@@ -109,6 +109,14 @@ $(function() {
 	}
 
 	function openPage(jq_a) {
+		function slideDown() {
+			jq_page.slideDown(SLIDE_DUR, function() {
+				var jq_subTitles = $(this).find(".subTitle");
+				if (!jq_subTitles.hasClass("open"))
+					jq_subTitles.eq(0).click();
+			});
+		}
+
 		if (jq_a.prop("el_data")) {
 			var	jq_aNext_before,
 				jq_aNext = jq_a;
@@ -127,15 +135,14 @@ $(function() {
 			}
 			if (!jq_aNext || (jq_aOld && jq_a[0] === jq_aOld[0])) {
 				writeData(jq_a);
-				jq_page.slideDown(SLIDE_DUR);
+				slideDown();
 			} else {
 				if (jq_aOld)
 					jq_aOld.parent().removeClass("alpha-selected alpha-mouseover");
 				jq_page.slideUp(SLIDE_DUR, function() {
 					writeData(jq_a);
-					jq_page
-						.insertAfter(jq_aNext)
-						.slideDown(SLIDE_DUR);
+					jq_page.insertAfter(jq_aNext);
+					slideDown();
 				});
 			}
 		}
