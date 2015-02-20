@@ -194,6 +194,12 @@ body[lang="fr"] [lang="en"] {
 				.rub .content .page .appLink {
 					font-weight: bold;
 					}
+					.rub .content .page .appLink:before {
+						content: "\f14c"; /* fa-external-link-square */
+						content: "\f08e"; /* fa-external-link */
+						font: 14px FontAwesome;
+						margin-right: .2em;
+						}
 				.rub .content .page .subTitle {
 					display: inline-block;
 					margin-top: 1em;
