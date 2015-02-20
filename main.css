@@ -195,7 +195,6 @@ body[lang="fr"] [lang="en"] {
 					font-weight: bold;
 					}
 					.rub .content .page .appLink:before {
-						content: "\f14c"; /* fa-external-link-square */
 						content: "\f08e"; /* fa-external-link */
 						font: 14px FontAwesome;
 						margin-right: .2em;
@@ -205,28 +204,29 @@ body[lang="fr"] [lang="en"] {
 					margin-top: 1em;
 					font-weight: bold;
 					font-size: 12px;
+					color: #888;
 					}
-					.rub .content .page .subTitle.close {
-						color: #888;
-						}
-					.rub .content .page .subTitle,
+					.rub .content .page .subTitle.open,
 					.rub .content .page .subTitle:hover {
 						color: inherit;
 						}
 					.rub .content .page .subTitle:after {
-						content: "\f0d8"; /* fa-caret-up */
+						content: "\f0d7"; /* fa-caret-down */
 						margin-left: .2em;
 						font: .8em FontAwesome;
 						opacity: .7;
 						}
-						.rub .content .page .subTitle.close:after {
-							content: "\f0d7"; /* fa-caret-down */
+						.rub .content .page .subTitle.open:after {
+							content: "\f0d8"; /* fa-caret-up */
 							}
 					.rub .content .page .subTitle * {
 						vertical-align: middle;
 						}
 					.rub .content .page a .fa {
 						font-size: 14px;
+						}
+					.rub .content .page .subTitle + * {
+						display: none;
 						}
 				.rub .content .page p {
 					margin-top: 10px;

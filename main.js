@@ -87,10 +87,10 @@ $(function() {
 	// page .subTitle ----------------------
 	$("#data .subTitle").click(function() {
 		$(this)
-			.toggleClass("close")
+			.toggleClass("open")
 			.next().slideToggle(SLIDE_DUR);
 		return false;
-	}).click();
+	});
 
 	// -------------------------------------
 
