@@ -204,6 +204,13 @@ body[lang="fr"] [lang="en"] {
 						font: 14px FontAwesome;
 						margin-right: .2em;
 						}
+				.rub .content .page .sourceLink:before {
+					content: "cf.\A0";
+					}
+					.rub .content .page .sourceLink a:before {
+						content: "\f0c1\A0"; /* fa-link */
+						font: 14px FontAwesome;
+						}
 				.rub .content .page .subTitle {
 					display: inline-block;
 					margin-top: 1em;
