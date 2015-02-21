@@ -48,6 +48,9 @@ li {
 	.table > * {
 		display: table-cell;
 		}
+	thead {
+		font-weight: bold;
+		}
 a.dark {
 	color: #666;
 	}
@@ -230,8 +233,11 @@ body[lang="fr"] [lang="en"] {
 					.rub .content .page .subTitle + * {
 						display: none;
 						}
-				.rub .content .page p {
+				.rub .content .page p,
+				.rub .content .page table {
 					margin-top: 10px;
+					}
+				.rub .content .page p {
 					line-height: 1.5em;
 					text-indent: 1em;
 					text-align: justify;
@@ -267,3 +273,8 @@ body[lang="fr"] [lang="en"] {
 				display: block;
 				clear: both;
 				}
+
+/* particular */
+.gitfast td.alias {
+	width: 85px;
+	}
