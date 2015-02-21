@@ -7,6 +7,7 @@ body {
 	background: #333 url(bg-noise.png);
 	}
 a {
+	outline: 0;
 	text-decoration: none;
 	-webkit-transition: color .2s ease;
 	   -moz-transition: color .2s ease;
