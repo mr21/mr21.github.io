@@ -72,7 +72,7 @@ $(function() {
 				$(
 					"<br/>"+
 					"<a href='#' class='subTitle'>"+
-						"<i class='fa fa-fw fa-code'></i>"+
+						"<i class='fa fa-fw fa-code'></i> "+
 						"<span lang='en'>I made "+nbProj+" project"+(nbProj>1?"s":"")+" with it</span> "+
 						"<span lang='fr'>J'ai fait "+nbProj+" projet"+(nbProj>1?"s":"")+" avec</span> "+
 					"</a>"+
