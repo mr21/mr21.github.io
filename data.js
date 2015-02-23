@@ -742,43 +742,447 @@ window.data = [
 				]
 			}
 		]
+	}, {
+		rub: "skills",
+		data: [
+			{
+				name: "javascript",
+				img: "logos/javascript.png",
+				title: {
+					span: "JavaScript"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									" JavaScript is a lightweight, interpreted, object-oriented language"+
+									" with first-class functions, most known as the scripting language"+
+									" for Web pages, but used in many non-browser environments as well"+
+									" such as node.js or Apache CouchDB. It is a prototype-based,"+
+									" multi-paradigm scripting language that is dynamic, and supports"+
+									" object-oriented, imperative, and functional programming styles. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" JavaScript est un langage de script léger, orienté objet,"+
+									" principalement connu comme le langage de script des pages web."+
+									" Mais il est aussi utilisé dans de nombreux environnements extérieurs"+
+									" aux navigateurs web tels que node.js ou Apache CouchDB. C'est un"+
+									" langage à objets utilisant le concept de prototype, disposant d'un"+
+									" typage faible et dynamique qui permet de programmer suivant plusieurs"+
+									" paradigmes de programmation&nbsp;: fonctionnelle, impérative et orientée objet. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='https://developer.mozilla.org/en/docs/Web/JavaScript'>mozilla.org</a>"+
+									"<a lang='fr' target='_blank' href='https://developer.mozilla.org/fr/docs/Web/JavaScript'>mozilla.org</a>"+
+								"</span>."+
+							"</p>"
+					}
+				]
+			}, {
+				name: "jquery",
+				img: "logos/jquery.png",
+				title: {
+					span: "jQuery"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									" <b>jQuery</b> is a fast, small, and feature-rich <b>JavaScript"+
+									" library</b>. It makes things like HTML document traversal and"+
+									" manipulation, event handling, animation, and Ajax much simpler"+
+									" with an easy-to-use API that works across a multitude of browsers."+
+									" With a combination of versatility and extensibility, jQuery has"+
+									" changed the way that millions of people write JavaScript. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" <b>jQuery</b> est une <b>bibliothèque JavaScript</b> rapide,"+
+									" petite et riche en fonctionnalités. Elle rend le parcours et"+
+									" la manipulation du DOM ainsi que la gestion des événements,"+
+									" les animations et l'Ajax beaucoup plus simple avec une API"+
+									" facile à utiliser à travers tous les navigateurs différents."+
+									" Avec une combinaison de polyvalence et d'extensibilité, jQuery"+
+									" a changé la façon dont des millions de personnes écrivent le"+
+									" JavaScript. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a target='_blank' href='http://jquery.com/'>jquery.com</a>"+
+								"</span>."+
+							"</p>"
+					}
+				]
+			}, {
+				name: "html5",
+				img: "logos/html5.png",
+				title: {
+					icon: "fa-html5",
+					span: "HTML5"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									" <b>HTML5</b> is the latest evolution of the standard that defines HTML."+
+									" The term represents two different concepts&nbsp;:"+
+									" It's a new version of the language HTML, with new elements, attributes,"+
+									" and behaviors, and a <b>larger set of technologies</b> that allows more diverse"+
+									" and powerful Web sites and applications. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" <b>HTML5</b> est la dernière évolution des standards qui définissent HTML."+
+									" Le terme HTML5 regroupe deux concepts différents&nbsp;:"+
+									" Il s'agit de la nouvelle version du langage HTML, avec de nouveaux éléments,"+
+									" attributs et comportements&nbsp;; mais aussi un <b>ensemble plus large de technologies</b>"+
+									" qui permettent des sites web plus variés et puissants, et des applications web. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5'>mozilla.org</a>"+
+									"<a lang='fr' target='_blank' href='https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5'>mozilla.org</a>"+
+								"</span>."+
+							"</p>"
+					}
+				]
+			}, {
+				name: "css3",
+				img: "logos/css3.png",
+				title: {
+					icon: "fa-css3",
+					span: "CSS3"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									" <b>CSS3</b> is the latest evolution of the CSS language and aims at"+
+									" extending CSS2.1. It brings a lot of long-awaited novelties, like"+
+									" rounded corners, shadows, gradients, <b>transitions or animations</b>,"+
+									" as well as new layouts like multi-columns, flexible box or grid layouts. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" <b>CSS3</b> est la dernière évolution du langage CSS et vise à"+
+									" étendre CSS2.1. Il apporte beaucoup de nouveautés attendues, comme"+
+									" les angles arrondis, les ombres, les dégradés, les <b>transitions ou"+
+									" animations</b>, aussi bien que de nouvelles mise en page comme le"+
+									" multi-colonnes, les boîtes flexibles ou les mises en pages en grille. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='https://developer.mozilla.org/en/docs/Web/CSS/CSS3'>mozilla.org</a>"+
+									"<a lang='fr' target='_blank' href='https://developer.mozilla.org/fr/docs/Web/CSS/CSS3'>mozilla.org</a>"+
+								"</span>."+
+							"</p>"
+					}
+				]
+			}, {
+				name: "sass",
+				img: "logos/sass.png",
+				title: {
+					icon: "fa-css3",
+					span: "Sass"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "mysql",
+				img: "logos/mysql.png",
+				title: {
+					icon: "fa-database",
+					span: "MySQL"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "php",
+				img: "logos/php.png",
+				title: {
+					span: "PHP"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "git",
+				img: "logos/git.png",
+				title: {
+					icon: "fa-git-square",
+					span: "git"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "linux",
+				img: "logos/linux.png",
+				title: {
+					icon: "fa-linux",
+					span: "Linux"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "bash",
+				img: "logos/bash.png",
+				title: {
+					icon: "fa-terminal",
+					span: "Bash"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "cplusplus",
+				img: "logos/c++.png",
+				title: {
+					span: "C++"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "c",
+				img: "logos/c.png",
+				title: {
+					span: "C"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "photoshop",
+				img: "logos/photoshop.png",
+				title: {
+					icon: "fa-picture-o",
+					span: "Photoshop"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									" <b>Photoshop</b> is an editing software, processing and computer"+
+									" aided drafting. It is mainly used for processing digital photographs,"+
+									" but also serves to create images from scratch. It works"+
+									" essentially on raster images because the images are composed of"+
+									" a grid of pixels. The advantage of these images is to reproduce"+
+									" subtle gradations of color. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" <b>Photoshop</b> est un logiciel de retouche, de traitement et"+
+									" de dessin assisté par ordinateur. Il est principalement utilisé"+
+									" pour le traitement de photographies numériques, mais sert"+
+									" également à la création d’images à partir de rien. Il travaille"+
+									" essentiellement sur images matricielles car les images sont"+
+									" constituées d’une grille de pixels. L’intérêt de ces images est"+
+									" de reproduire des graduations subtiles de couleurs. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Adobe_Photoshop'>wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/Adobe_Photoshop'>wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
+					}
+				]
+			}, {
+				name: "illustrator",
+				img: "logos/illustrator.png",
+				title: {
+					span: "Illustrator"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}, {
+				name: "indesign",
+				img: "logos/indesign.png",
+				title: {
+					icon: "fa-file-pdf-o",
+					span: "InDesign"
+				},
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									" InDesign is a desktop publishing software application."+
+									" It can be used to create works such as posters, flyers,"+
+									" brochures, magazines, newspapers and books."+
+								"</span>"+
+								"<span lang='fr'>"+
+									" InDesign est un logiciel d'application d'édition. Il peut"+
+									" être utilisé pour créer des œuvres telles que des affiches,"+
+									" dépliants, brochures, magazines, journaux ou livres."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}
+		]
 	}
 ];
 
 /*
-	}, {
-		name: "xxxxxxx",
-		img: "xxxxxxx",
-		href: "xxxxxxx",
-		title: {
-			icon: "fa-xxxxxxx",
-			span: "xxxxxxx"
-		},
-		appLink: {
-			en: "xxxxxxx",
-			fr: "xxxxxxx"
-		},
-		tags: [
-			{ name: "xxxxxxx", title: "xxxxxxx" },
-		],
-		subRub: [
-			{
+			}, {
+				name: "xxxxxxx",
+				img: "xxxxxxx",
 				title: {
 					icon: "fa-xxxxxxx",
-					en: "xxxxxxx",
-					fr: "xxxxxxx"
+					span: "xxxxxxx"
 				},
-				content:
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p></p>"
+					}
+				]
+			}
+
 
 			}, {
+				name: "xxxxxxx",
+				img: "xxxxxxx",
+				href: "xxxxxxx",
 				title: {
 					icon: "fa-xxxxxxx",
+					span: "xxxxxxx"
+				},
+				appLink: {
 					en: "xxxxxxx",
 					fr: "xxxxxxx"
 				},
-				content:
+				tags: [
+					{ name: "xxxxxxx", title: "xxxxxxx" },
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-xxxxxxx",
+							en: "xxxxxxx",
+							fr: "xxxxxxx"
+						},
+						content:
 
+					}, {
+						title: {
+							icon: "fa-xxxxxxx",
+							en: "xxxxxxx",
+							fr: "xxxxxxx"
+						},
+						content:
+
+					}
+				]
 			}
-		]
-	}
 */

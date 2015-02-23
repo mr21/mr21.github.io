@@ -1,6 +1,8 @@
 function dataToHtml() {
 
-	var	jq_data = $("#data");
+	var	el_data =
+		$("<div id='data'>")
+			.prependTo(document.body);
 
 	$.each(window.data, function() {
 
@@ -18,22 +20,27 @@ function dataToHtml() {
 						'<i class="fa '+this.title.icon+'"></i>';
 			html +=
 						'<span> '+this.title.span+'</span>'+
-					'</h2>'+
+					'</h2>';
 
+			if (this.appLink)
+				html +=
 					// .appLink ---------------
 					'<a class="appLink" target="_blank" href="'+this.href+'">'+
 						'<span lang="en">'+this.appLink.en+'</span>'+
 						'<span lang="fr">'+this.appLink.fr+'</span>'+
-					'</a>'+
+					'</a>';
 
+			if (this.tags) {
+				html +=
 					// .tags ------------------
 					'<div class="tags">';
-			$.each(this.tags, function() {
-				html +=
+				$.each(this.tags, function() {
+					html +=
 						' <a href="##toggle(p, '+this.name+')">'+this.title+'</a>';
-			});
-			html +=
+				});
+				html +=
 					'</div>';
+			}
 
 					// .subRub -----------------
 			$.each(this.subRub, function() {
@@ -51,7 +58,10 @@ function dataToHtml() {
 				'</div>';
 		});
 
-		$("." + this.rub, jq_data).append(html);
-		
+		$("<div>")
+			.addClass(this.rub)
+			.append(html)
+			.appendTo(el_data);
+
 	});
 }
