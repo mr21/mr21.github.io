@@ -911,7 +911,24 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									" Sass is a meta-language of CSS. It's a scripting"+
+									" language that is interpreted in CSS. SassScript is"+
+									" the scripting language itself. Sass may be expanded"+
+									" with Compass (useful for prefixes different browsers). "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" Sass est un métalangage de CSS. C'est un langage de"+
+									" script qui est interprété en CSS. SassScript est le"+
+									" langage de script lui-même. Sass peut-être étoffé"+
+									" avec Compass (pratique pour les préfixes des"+
+									" différents navigateurs). "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a target='_blank' href='http://sass-lang.com/'>sass-lang.com</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
