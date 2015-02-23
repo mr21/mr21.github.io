@@ -70,15 +70,16 @@ $(function() {
 			});
 			if (nbProj) {
 				$(
-					"<br/>"+
-					"<a href='#' class='subTitle'>"+
-						"<i class='fa fa-fw fa-code'></i> "+
-						"<span lang='en'>I made "+nbProj+" project"+(nbProj>1?"s":"")+" with it</span> "+
-						"<span lang='fr'>J'ai fait "+nbProj+" projet"+(nbProj>1?"s":"")+" avec</span> "+
-					"</a>"+
-					"<ul>"+
-						html+
-					"</ul>"
+					"<div class='subRub'>"+
+						"<a href='#' class='subTitle'>"+
+							"<i class='fa fa-fw fa-code'></i> "+
+							"<span lang='en'>I made "+nbProj+" project"+(nbProj>1?"s":"")+" with it</span> "+
+							"<span lang='fr'>J'ai fait "+nbProj+" projet"+(nbProj>1?"s":"")+" avec</span> "+
+						"</a>"+
+						"<ul>"+
+							html+
+						"</ul>"+
+					"</div>"
 				).appendTo(this);
 			}
 		});

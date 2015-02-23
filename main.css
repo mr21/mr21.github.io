@@ -151,11 +151,6 @@ body[lang="fr"] [lang="en"] {
 				    -ms-transition: opacity .2s ease;
 				        transition: opacity .2s ease;
 				}
-				.rub .content > a img {
-					display: block;
-					width: 100%;
-					min-height: 5px; /* otherwise the if with $().position().top fail */
-					}
 				.rub .content.alpha-mouseover > a,
 				.rub .content.alpha-selected > a {
 					opacity: .1;
@@ -171,7 +166,6 @@ body[lang="fr"] [lang="en"] {
 					height: 10px;
 					left: 50%;
 					margin-left: -5px;
-					bottom: -15px;
 					background: rgb(8,8,8);
 					-webkit-transform: rotate(45deg);
 					   -moz-transform: rotate(45deg);
@@ -181,9 +175,15 @@ body[lang="fr"] [lang="en"] {
 					   -moz-transition: bottom .25s ease;
 					    -ms-transition: bottom .25s ease;
 					        transition: bottom .25s ease;
+					bottom: -15px;
 					}
 				.rub .content > a.selected:after {
 					bottom: -5px;
+					}
+				.rub .content > a img {
+					display: block;
+					width: 100%;
+					min-height: 5px; /* otherwise the if with $().position().top fail */
 					}
 			.rub .content .page {
 				float: left;
@@ -193,10 +193,13 @@ body[lang="fr"] [lang="en"] {
 				color: #ddd;
 				background: rgba(0,0,0,.3);
 				}
-				.rub .content .page h2 {
-					margin-bottom: 20px;
+				.rub .content .page .appLink,
+				.rub .content .page .tags,
+				.rub .content .page .subRub {
+					margin-top: 10px;
 					}
 				.rub .content .page .appLink {
+					display: inline-block;
 					font-weight: bold;
 					}
 					.rub .content .page .appLink:before {
@@ -213,7 +216,6 @@ body[lang="fr"] [lang="en"] {
 						}
 				.rub .content .page .subTitle {
 					display: inline-block;
-					margin-top: 1em;
 					font-weight: bold;
 					font-size: 12px;
 					color: #888;
@@ -249,32 +251,29 @@ body[lang="fr"] [lang="en"] {
 					text-indent: 1em;
 					text-align: justify;
 					}
-				.rub .content .page .tags {
-					margin-top: 1em;
+				.rub .content .page .tags > * {
+					vertical-align: middle;
 					}
-					.rub .content .page .tags > * {
-						vertical-align: middle;
+				.rub .content .page .tags:before {
+					content: "\f02c";
+					font-family: FontAwesome;
+					font-size: 14px;
 					}
-					.rub .content .page .tags:before {
-						content: "\f02c";
-						font-family: FontAwesome;
-						font-size: 14px;
+				.rub .content .page .tags a {
+					font: bold 12px monospace;
+					background: rgba(200,200,255,.15);
+					-webkit-transition: border-color .2s ease;
+					   -moz-transition: border-color .2s ease;
+					    -ms-transition: border-color .2s ease;
+					        transition: border-color .2s ease;
+					border: 1px solid transparent;
+					}
+					.rub .content .page .tags a:before {
+						content: "#";
 						}
-					.rub .content .page .tags a {
-						font: bold 12px monospace;
-						background: rgba(200,200,255,.15);
-						-webkit-transition: border-color .2s ease;
-						   -moz-transition: border-color .2s ease;
-						    -ms-transition: border-color .2s ease;
-						        transition: border-color .2s ease;
-						border: 1px solid transparent;
+					.rub .content .page .tags a:hover {
+						border-color: inherit;
 						}
-						.rub .content .page .tags a:before {
-							content: "#";
-							}
-						.rub .content .page .tags a:hover {
-							border-color: inherit;
-							}
 			.rub .content:after {
 				content: "";
 				display: block;
