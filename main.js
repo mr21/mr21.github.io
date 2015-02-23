@@ -2,6 +2,8 @@ $(function() {
 
 	var	SLIDE_DUR = 250;
 
+	dataToHtml();
+
 	// data --------------------------------
 	$("#data > *").each(function() {
 		var jq_content = $(".rub." + this.className + " .content");
