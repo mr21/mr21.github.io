@@ -1088,8 +1088,8 @@ window.data = [
 									" de reproduire des graduations subtiles de couleurs. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
-									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Adobe_Photoshop'>wikipedia.org</a>"+
-									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/Adobe_Photoshop'>wikipedia.org</a>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Adobe_Photoshop'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/Adobe_Photoshop'>fr.wikipedia.org</a>"+
 								"</span>."+
 							"</p>"
 					}
@@ -1108,7 +1108,24 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									" Adobe Illustrator is a vector graphics editor. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" Adobe Illustrator est un logiciel de création"+
+									" graphique vectorielle. Il peut être utilisé"+
+									" indépendamment ou en complément de Photoshop,"+
+									" il offre des outils de dessin vectoriel puissants."+
+									" Les images vectorielles sont constituées de courbes"+
+									" générées par des formules mathématiques. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Adobe_Illustrator'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/Adobe_Illustrator'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
+
 					}
 				]
 			}, {
