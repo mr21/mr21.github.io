@@ -259,10 +259,10 @@ window.data = [
 								"</li>"+
 								"<li>"+
 									"<code>"+
-										"<i class='fa fa-arrow-up'></i>"+
-										"<i class='fa fa-arrow-right'></i>"+
-										"<i class='fa fa-arrow-down'></i>"+
-										"<i class='fa fa-arrow-left'></i>"+
+										" <i class='fa fa-arrow-up'></i>"+
+										" <i class='fa fa-arrow-right'></i>"+
+										" <i class='fa fa-arrow-down'></i>"+
+										" <i class='fa fa-arrow-left'></i>"+
 									"</code>"+
 									"<span lang='en'> fire with the 8 turrets.</span>"+
 									"<span lang='fr'> tire avec les huits tourelles.</span>"+

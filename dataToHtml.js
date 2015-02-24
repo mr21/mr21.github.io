@@ -46,7 +46,7 @@ function dataToHtml() {
 			$.each(this.subRub, function() {
 				html +=
 					'<div class="subRub">'+
-						'<a href="#" class="subTitle">'+
+						'<a href="#" class="gray subTitle">'+
 							'<i class="fa fa-fw '+this.title.icon+'"></i>'+
 							'<span lang="en"> '+this.title.en+' </span>'+
 							'<span lang="fr"> '+this.title.fr+' </span>'+

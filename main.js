@@ -30,10 +30,17 @@ $(function() {
 				l = l || "en";
 				jq_oldLang.removeClass("selected");
 				jq_oldLang = langs[l].addClass("selected");
-				document.body.lang = oldLang = l;
+				document.body.lang = l;
 			}
 		});
 	})();
+
+	// design: dark/light ------------------
+	locationHash.watch({
+		light: function(l) {
+			document.body.className = l ? "light" : "";
+		}
+	});
 
 	// links mouseover/out -----------------
 	$(".rub .content").each(function() {
@@ -73,7 +80,7 @@ $(function() {
 			if (nbProj) {
 				$(
 					"<div class='subRub'>"+
-						"<a href='#' class='subTitle'>"+
+						"<a href='#' class='gray subTitle'>"+
 							"<i class='fa fa-fw fa-code'></i> "+
 							"<span lang='en'>I made "+nbProj+" project"+(nbProj>1?"s":"")+" with it</span> "+
 							"<span lang='fr'>J'ai fait "+nbProj+" projet"+(nbProj>1?"s":"")+" avec</span> "+
