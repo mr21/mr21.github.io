@@ -55,11 +55,11 @@ li {
 body       { background: #343434 url("bg-dark.png");  }
 body.light { background: #c9c9c9 url("bg-light.png"); }
 body       .global { background: rgba(  0,  0,  0, .5); }
-body.light .global { background: rgba(255,255,255, .5); }
+body.light .global { background: rgba(255,255,255, .3); }
 body       h1 { color: #fff; }
 body.light h1 { color: #000; }
 body       .content { background: rgba(  0,  0,  0, .5); }
-body.light .content { background: rgba(255,255,255, .5); }
+body.light .content { background: rgba(255,255,255, .7); }
 body       a { color: rgb(153,153,255); }
 body.light a { color: rgb( 85, 85,255); }
 body       a:hover { color: rgb(187,187,255); }
@@ -69,7 +69,7 @@ body.light .tags a { background: rgba( 85, 85,255, .25); }
 body       .tags a:hover { background: rgba(153,153,255, .3); }
 body.light .tags a:hover { background: rgba( 85, 85,255, .4); }
 body       a.gray { color: #666; }
-body.light a.gray { color: #999; }
+body.light a.gray { color: #666; }
 body       a.gray:hover { color: #ccc; }
 body.light a.gray:hover { color: #333; }
 body       a.gray.open { color: #ddd; }
