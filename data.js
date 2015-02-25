@@ -1027,11 +1027,11 @@ window.data = [
 					}
 				]
 			}, {
-				name: "bash",
-				img: "logos/bash.png",
+				name: "shell-scripting",
+				img: "logos/shell.png",
 				title: {
 					icon: "fa-terminal",
-					span: "Bash"
+					span: "Shell scripting"
 				},
 				subRub: [
 					{
