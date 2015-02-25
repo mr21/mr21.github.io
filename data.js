@@ -1041,7 +1041,28 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									" A shell script is a computer program designed to be"+
+									" run by the Unix shell, a command line interpreter."+
+									" The various dialects of shell scripts are considered"+
+									" to be scripting languages. Typical operations performed"+
+									" by shell scripts include file manipulation,"+
+									" program execution, and printing text. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" Un script shell est un programme informatique conçu"+
+									" pour être exécuté par le shell Unix, un interpréteur"+
+									" de ligne de commande. Les divers dialectes de scripts"+
+									" shell sont considérés comme langages de script. Les"+
+									" opérations typiques effectuées par des scripts shell"+
+									" comprennent la manipulation de fichiers, l'exécution"+
+									" du programme, et l'impression de texte. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a target='_blank' href='http://en.wikipedia.org/wiki/Shell_script'>en.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
