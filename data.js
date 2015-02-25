@@ -999,7 +999,31 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									" Linux is a computer operating system assembled under"+
+									" the model of free and open-source software development"+
+									" and distribution. Linux was originally developed as a"+
+									" free operating system for Intel x86–based personal"+
+									" computers, but has since been ported to more computer"+
+									" hardware platforms than any other operating system. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									" Linux est un système d’exploitation libre multitâche,"+
+									" multiplate-forme et multi-utilisateur de type UNIX"+
+									" basé sur le noyau Linux, résultat des efforts de"+
+									" multiples projets collaborant via Internet. Il peut"+
+									" faire fonctionner la plupart des modèles d’ordinateurs"+
+									" existant, des superordinateurs aux systèmes embarqués"+
+									" en passant par les serveurs et les ordinateurs personnels,"+
+									" sur lesquels l’installation est facilitée par des"+
+									" distributions Linux. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Linux'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/Linux'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
