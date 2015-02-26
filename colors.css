@@ -1,0 +1,32 @@
+body       { background: #343434 url("bg-dark.png");  }
+body.light { background: #c9c9c9 url("bg-light.png"); }
+body       .global { background: rgba(  0,  0,  0, .5); }
+body.light .global { background: rgba(255,255,255, .3); }
+body       .content { background: rgba(  0,  0,  0, .5); }
+body.light .content { background: rgba(255,255,255, .7); }
+body       h1 { color: #fff; }
+body.light h1 { color: #000; }
+body       code { background: rgba(255,255,255, .1); }
+body.light code { background: rgba(  0,  0,  0, .2); }
+body       a { color: rgb(153,153,255); }
+body.light a { color: rgb( 85, 85,255); }
+body       a:hover { color: rgb(187,187,255); }
+body.light a:hover { color: rgb( 34, 34,255); }
+body       .tags a { background: rgba(153,153,255, .15); }
+body.light .tags a { background: rgba( 85, 85,255, .25); }
+body       .tags a:hover { background: rgba(153,153,255, .3); }
+body.light .tags a:hover { background: rgba( 85, 85,255, .4); }
+body       a.gray { color: #666; }
+body.light a.gray { color: #666; }
+body       a.gray:hover { color: #ccc; }
+body.light a.gray:hover { color: #333; }
+body       a.gray.open { color: #ddd; }
+body.light a.gray.open { color: #222; }
+body       .languages :hover    img { border-color: rgba(255,255,255, .1); }
+body.light .languages :hover    img { border-color: rgba(  0,  0,  0, .1); }
+body       .languages .selected img { border-color: rgba(255,255,255, .2); }
+body.light .languages .selected img { border-color: rgba(  0,  0,  0, .2); }
+body       .rub .content .page { color: #ddd; background: rgba(  0,  0,  0, .3); }
+body.light .rub .content .page { color: #222; background: #fff; }
+body       .rub .content > a:after { background: rgb(  8,  8,  8); }
+body.light .rub .content > a:after { background: #fff; }
