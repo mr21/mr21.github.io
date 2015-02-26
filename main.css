@@ -8,10 +8,7 @@ body {
 a {
 	outline: 0;
 	text-decoration: none;
-	-webkit-transition: color .2s ease;
-	   -moz-transition: color .2s ease;
-	    -ms-transition: color .2s ease;
-	        transition: color .2s ease;
+	transition: color .2s ease;
 	color: #99f;
 	}
 	a:hover {
@@ -77,7 +74,7 @@ body[lang="fr"] [lang="en"],
 				padding: 5px;
 				border-radius: 4px;
 				border: 2px solid transparent;
-				-webkit-transition: border-color .2s ease;
+				transition: border-color .2s ease;
 				}
 				.languages a img {
 					margin-bottom: -7px;
@@ -111,10 +108,7 @@ body[lang="fr"] [lang="en"],
 				float: left;
 				width: 25%;
 				overflow: hidden;
-				-webkit-transition: opacity .2s ease;
-				   -moz-transition: opacity .2s ease;
-				    -ms-transition: opacity .2s ease;
-				        transition: opacity .2s ease;
+				transition: opacity .2s ease;
 				}
 				.rub .content.alpha-mouseover > a,
 				.rub .content.alpha-selected > a {
@@ -131,14 +125,8 @@ body[lang="fr"] [lang="en"],
 					height: 10px;
 					left: 50%;
 					margin-left: -5px;
-					-webkit-transform: rotate(45deg);
-					   -moz-transform: rotate(45deg);
-					    -ms-transform: rotate(45deg);
-					        transform: rotate(45deg);
-					-webkit-transition: bottom .25s ease;
-					   -moz-transition: bottom .25s ease;
-					    -ms-transition: bottom .25s ease;
-					        transition: bottom .25s ease;
+					transform: rotate(45deg);
+					transition: bottom .25s ease;
 					bottom: -15px;
 					}
 				.rub .content > a.selected:after {
@@ -219,10 +207,7 @@ body[lang="fr"] [lang="en"],
 				.rub .content .page .tags a {
 					font-family: monospace;
 					font-weight: bold;
-					-webkit-transition: background .2s ease;
-					   -moz-transition: background .2s ease;
-					    -ms-transition: background .2s ease;
-					        transition: background .2s ease;
+					transition: background .2s ease;
 					}
 					.rub .content .page .tags a:before {
 						content: "#";
