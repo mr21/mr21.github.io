@@ -32,41 +32,16 @@ window.data = [
 						content:
 							"<div>"+
 								"<p lang='en'>"+
-									" I'm a guy who fully uses <b>YouTube's playlists</b> and I'm also"+
-									" passionate about <b>UX</b> (<b>U</b>ser e<b>X</b>perience)."+
-									" Currently on youtube.com it's relatively complex to perform"+
-									" certain actions with the actual system, such as move a video"+
-									" from a playlist to another or to move several items at the same"+
-									" time. Some other actions requires too many clicks like changing"+
-									" the privacy or the name of the playlist."+
+									"I'm a guy who fully uses <b>YouTube's playlists</b> and I'm also passionate about <b>UX</b> (<b>U</b>ser e<b>X</b>perience). Currently on youtube.com it's relatively complex to perform certain actions with the actual system, such as move a video from a playlist to another or to move several items at the same time. Some other actions requires too many clicks like changing the privacy or the name of the playlist. "+
 								"</p>"+
 								"<p lang='en'>"+
-									" So I have decided to make something different, a web application"+
-									" to simplify everything. Now you can <b>edit</b> all your playlists"+
-									" and videos <b>in some few clicks</b>. And even if you don't need"+
-									" to edit anything you can <b>have an eye on all your playlists and"+
-									" their videos</b>. It's really enjoyable to play some music by"+
-									" clicking easily where you want :)"+
+									"So I have decided to make something different, a web application to simplify everything. Now you can <b>edit</b> all your playlists and videos <b>in some few clicks</b>. And even if you don't need to edit anything you can <b>have an eye on all your playlists and their videos</b>. It's really enjoyable to play some music by clicking easily where you want :) "+
 								"</p>"+
 								"<p lang='fr'>"+
-									" Je suis quelqu'un qui utilise tout le temps les <b>playlists"+
-									" YouTube</b> et je suis aussi passionné d'<b>UX</b>"+
-									" (e<b>X</b>périence <b>U</b>tilisateur). Actuellement sur"+
-									" youtube.com il est relativement difficile de faire certaines"+
-									" actions avec le système actuel, telle que déplacer une vidéo"+
-									" d'une playlist à une autre ou d'en déplacer plusieurs à la fois."+
-									" D'autres actions requièrent aussi trop de cliques comme changer"+
-									" la <i>privacy</i> ou le nom d'une playlist."+
+									"Je suis quelqu'un qui utilise tout le temps les <b>playlists YouTube</b> et je suis aussi passionné d'<b>UX</b> (e<b>X</b>périence <b>U</b>tilisateur). Actuellement sur youtube.com il est relativement difficile de faire certaines actions avec le système actuel, telle que déplacer une vidéo d'une playlist à une autre ou d'en déplacer plusieurs à la fois. D'autres actions requièrent aussi trop de cliques comme changer la <i>privacy</i> ou le nom d'une playlist. "+
 								"</p>"+
 								"<p lang='fr'>"+
-									" Du coup j'ai décidé de faire quelque chose de différent, une"+
-									" application web pour tout simplifier. Maintenant vous pouvez"+
-									" <b>éditer</b> toutes vos playlists et videos <b>en quelques"+
-									" cliques</b>. Et même si vous n'avez pas besoin d'éditer quoi"+
-									" que ce soit il est très pratique avec cette application"+
-									" d'<b>avoir un œil sur toutes vos playlists et vidéos</b>."+
-									" C'est plutôt cool de pouvoir jouer n'importe quelle musique"+
-									" en cliquant facilement où l'on veut :)"+
+									"Du coup j'ai décidé de faire quelque chose de différent, une application web pour tout simplifier. Maintenant vous pouvez <b>éditer</b> toutes vos playlists et videos <b>en quelques cliques</b>. Et même si vous n'avez pas besoin d'éditer quoi que ce soit il est très pratique avec cette application d'<b>avoir un œil sur toutes vos playlists et vidéos</b>. C'est plutôt cool de pouvoir jouer n'importe quelle musique en cliquant facilement où l'on veut :) "+
 								"</p>"+
 							"</div>"
 					}, {
@@ -82,36 +57,18 @@ window.data = [
 									"<span lang='fr'>Si vous cliquez sur ce bouton&nbsp;:</span>"+
 									"<b> <i class='fa fa-sign-in'></i> Login with Google</b>"+
 									"<span lang='en'>"+
-										" a Google's popup will appear to connect you to your personnal"+
-										" YouTube account directly. After that you will be able to manage"+
-										" your own playlists by rename it, reorder the videos, etc. Once"+
-										" you have completed your changes, you will be able to summarize"+
-										" all changes with a diff viewing by clicking this"+
-										" button&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;."+
+										"a Google's popup will appear to connect you to your personnal YouTube account directly. After that you will be able to manage your own playlists by rename it, reorder the videos, etc. Once you have completed your changes, you will be able to summarize all changes with a diff viewing by clicking this button&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;. "+
 									"</span>"+
 									"<span lang='fr'>"+
-										" une popup Google va apparaître pour vous connecter directement"+
-										" à votre compte YouTube personnel. Après ça vous serez en mesure"+
-										" de gérer vos propres playlists en les renommant, en changeant"+
-										" l'ordre des vidéos, etc. Une fois que vous aurez terminé vos"+
-										" changements, vous aurez la possibilité d'avoir resumé des"+
-										" modifications en cliquant sur ce"+
-										" bouton&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;."+
+										"une popup Google va apparaître pour vous connecter directement à votre compte YouTube personnel. Après ça vous serez en mesure de gérer vos propres playlists en les renommant, en changeant l'ordre des vidéos, etc. Une fois que vous aurez terminé vos changements, vous aurez la possibilité d'avoir resumé des modifications en cliquant sur ce bouton&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;. "+
 									"</span>"+
 								"</p>"+
 								"<p>"+
 									"<span lang='en'>"+
-										" When the <i>diff page</i> appear you have the choice to cancel"+
-										" all these changes or save it on your YouTube account. On this"+
-										" page you will see different icons etc. you can understand"+
-										" easily with this picture&nbsp;: "+
+										"When the <i>diff page</i> appear you have the choice to cancel all these changes or save it on your YouTube account. On this page you will see different icons etc. you can understand easily with this picture&nbsp;: "+
 									"</span>"+
 									"<span lang='fr'>"+
-										" Quand la page résumant les changements apparaît, vous avez le"+
-										" choix de tout annuler ou de tout sauvegarder sur votre compte"+
-										" YouTube à vous. Sur cette page vous verrez différentes icônes"+
-										" etc. que vous pouvez comprendre facilement à l'aide de cette"+
-										" image&nbsp;: "+
+										"Quand la page résumant les changements apparaît, vous avez le choix de tout annuler ou de tout sauvegarder sur votre compte YouTube à vous. Sur cette page vous verrez différentes icônes etc. que vous pouvez comprendre facilement à l'aide de cette image&nbsp;: "+
 									"</span>"+
 									"<a target='_blank' href='YouTube-playlists-manager/img/help-diff.jpg'><b>help.jpg</b></a>."+
 								"</p>"+
@@ -145,16 +102,10 @@ window.data = [
 						content:
 							"<div>"+
 								"<p lang='en'>"+
-									" This application use the <b>Google's API</b> with the"+
-									" <b>JavaScript <i>gapi.js</i> client</b>. In other way,"+
-									" the development of this project required several other"+
-									" JavaScript projects including <b>three jQuery plugins</b>&nbsp;:"+
+									"This application use the <b>Google's API</b> with the <b>JavaScript <i>gapi.js</i> client</b>. In other way, the development of this project required several other JavaScript projects including <b>three jQuery plugins</b>&nbsp;:"+
 								"</p>"+
 								"<p lang='fr'>"+
-									" Cette application utilise l'<b>API Google</b> avec le"+
-									" <b>client JavaScript <i>gapi.js</i></b>. D'un autre côté,"+
-									" le développement de ce projet à requis plusieurs autres"+
-									" projets JavaScript dont <b>trois plugins jQuery</b>&nbsp;:"+
+									"Cette application utilise l'<b>API Google</b> avec le <b>client JavaScript <i>gapi.js</i></b>. D'un autre côté, le développement de ce projet à requis plusieurs autres projets JavaScript dont <b>trois plugins jQuery</b>&nbsp;:"+
 								"</p>"+
 								"<ul>"+
 									"<li>"+
@@ -194,12 +145,10 @@ window.data = [
 								"<span lang='fr'> et </span>"+
 								"<a target='_blank' href='http://melanieducani.com/'><b>Mélanie Ducani</b> aka <b>Misty</b></a>"+
 								"<span lang='en'>"+
-									" for bringing some ideas to this project, reporting many"+
-									" bugs and also… being awesome."+
+									" for bringing some ideas to this project, reporting many bugs and also… being awesome."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" pour avoir apportés des idées à ce projet, remontés tout"+
-									" un tas de bugs et aussi… être géniaux."+
+									" pour avoir apportés des idées à ce projet, remontés tout un tas de bugs et aussi… être géniaux."+
 								"</span>"+
 							"</p>"
 					}
@@ -232,16 +181,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" This projects is a <b>tiny-game</b>, more precisely a <b><i>shoot'em up</i></b>."+
-									" The principle is very simple&nbsp;:"+
-									" We control a spaceship that must destroy some others without being touched for earn some points."+
-									" It's developed in <b>JavaScript</b> with the element <b>HTML5 &lt;canvas&gt;</b>."+
+									"This projects is a <b>tiny-game</b>, more precisely a <b><i>shoot'em up</i></b>. The principle is very simple&nbsp;: We control a spaceship that must destroy some others without being touched for earn some points. It's developed in <b>JavaScript</b> with the element <b>HTML5 &lt;canvas&gt;</b>."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Ce projet est un <b>mini-jeu</b> ou plus précisément un <b><i>shoot'em up</i></b>."+
-									" Le principe est très simple&nbsp;:"+
-									" On contrôle un vaisseau qui doit en détruire d'autres sans se faire toucher pour gagner des points."+
-									" Il est développé en <b>JavaScript</b> avec l'élément <b>HTML5 &lt;canvas&gt;</b>."+
+									"Ce projet est un <b>mini-jeu</b> ou plus précisément un <b><i>shoot'em up</i></b>. Le principe est très simple&nbsp;: On contrôle un vaisseau qui doit en détruire d'autres sans se faire toucher pour gagner des points. Il est développé en <b>JavaScript</b> avec l'élément <b>HTML5 &lt;canvas&gt;</b>."+
 								"</span>"+
 							"</p>"
 					}, {
@@ -259,10 +202,10 @@ window.data = [
 								"</li>"+
 								"<li>"+
 									"<code>"+
-										" <i class='fa fa-arrow-up'></i>"+
-										" <i class='fa fa-arrow-right'></i>"+
-										" <i class='fa fa-arrow-down'></i>"+
-										" <i class='fa fa-arrow-left'></i>"+
+										"<i class='fa fa-arrow-up'></i> "+
+										"<i class='fa fa-arrow-right'></i> "+
+										"<i class='fa fa-arrow-down'></i> "+
+										"<i class='fa fa-arrow-left'></i> "+
 									"</code>"+
 									"<span lang='en'> fire with the 8 turrets.</span>"+
 									"<span lang='fr'> tire avec les huits tourelles.</span>"+
@@ -311,48 +254,34 @@ window.data = [
 							"<div>"+
 								"<p>"+
 									"<span lang='en'>"+
-										" This app is a small <b>&lt;canvas&gt; experiment</b> who simulates"+
-										" the gravity around the Earth. You can control a tiny ship"+
-										" <i class='fa fa-rocket'></i> with the arrow keys of your keyboard"+
+										"This app is a small <b>&lt;canvas&gt; experiment</b> who simulates the gravity around the Earth. You can control a tiny ship <i class='fa fa-rocket'></i> with the arrow keys of your keyboard "+
 									"</span>"+
 									"<span lang='fr'>"+
-										" Cette application est une petite <b>expérimentation &lt;canvas&gt;</b> qui"+
-										" simule la gravité autour de la Terre. Vous pouvez contrôler un petit satellite"+
-										" <i class='fa fa-rocket'></i> avec les flèches directionnelles du clavier"+
+										"Cette application est une petite <b>expérimentation &lt;canvas&gt;</b> qui simule la gravité autour de la Terre. Vous pouvez contrôler un petit satellite <i class='fa fa-rocket'></i> avec les flèches directionnelles du clavier "+
 									"</span>"+
-									" <i class='fa fa-arrow-up'></i>"+
-									" <i class='fa fa-arrow-right'></i>"+
-									" <i class='fa fa-arrow-down'></i>"+
-									" <i class='fa fa-arrow-left'></i> ."+
+									"<i class='fa fa-arrow-up'></i> "+
+									"<i class='fa fa-arrow-right'></i> "+
+									"<i class='fa fa-arrow-down'></i> "+
+									"<i class='fa fa-arrow-left'></i> . "+
 									"<span lang='en'>"+
-										" So, it's easy to <b>understand</b> how"+
-										" <b>the placement into orbit</b> around a planet works.<br/>"+
-										" I wanted to code this page after seeing the video&nbsp;: "+
+										"So, it's easy to <b>understand</b> how <b>the placement into orbit</b> around a planet works.<br/> I wanted to code this page after seeing the video&nbsp;: "+
 									"</span>"+
 									"<span lang='fr'>"+
-										" Ainsi, il est facile de <b>réaliser</b> comment fonctionne"+
-										" <b>le placement en orbite</b> d'un objet autour d'une planète.<br/>"+
-										" J'ai voulu coder cette chose après avoir vu cette vidéo&nbsp;: "+
+										"Ainsi, il est facile de <b>réaliser</b> comment fonctionne <b>le placement en orbite</b> d'un objet autour d'une planète.<br/> J'ai voulu coder cette chose après avoir vu cette vidéo&nbsp;: "+
 									"</span>"+
-									"<a href='http://youtu.be/t-nWPBBWRZs' target='_blank'>e-penser (Ep.03)</a>."+
+									"<a href='http://youtu.be/t-nWPBBWRZs' target='_blank'>e-penser (Ep.03)</a>. "+
 									"<span lang='en'>"+
-										" Inside is explained several things like the reason why there is no need"+
-										" of energy to maintaining an object into its orbit."+
-										" Or understand there is no place without gravity especially just near the atmosphere, etc."+
+										"Inside is explained several things like the reason why there is no need of energy to maintaining an object into its orbit. Or understand there is no place without gravity especially just near the atmosphere, etc. "+
 									"</span>"+
 									"<span lang='fr'>"+
-										" Il y est expliqué plusieurs choses telle que la raison qui fait"+
-										" qu'il n'y a pas besoin d'énergie pour maintenir un objet sur son orbite."+
-										" Ou comprendre qu'il n'y a aucun lieu sans gravité notamment entre la Terre et la Lune, etc."+
+										"Il y est expliqué plusieurs choses telle que la raison qui fait qu'il n'y a pas besoin d'énergie pour maintenir un objet sur son orbite. Ou comprendre qu'il n'y a aucun lieu sans gravité notamment entre la Terre et la Lune, etc. "+
 									"</span>"+
 								"</p>"+
 								"<p lang='en'>"+
-									" And for the fun, you can choose which object of the scene becomes the"+
-									" referencial for the camera by clicking the buttons at the bottom&nbsp;:"+
+									"And for the fun, you can choose which object of the scene becomes the referencial for the camera by clicking the buttons at the bottom&nbsp;:"+
 								"</p>"+
 								"<p lang='fr'>"+
-									" Pour plus de fun, il est possible de choisir quels objets devient le"+
-									" référentiel pour la caméra en cliquant sur les boutons en bas&nbsp;:"+
+									"Pour plus de fun, il est possible de choisir quels objets devient le référentiel pour la caméra en cliquant sur les boutons en bas&nbsp;:"+
 								"</p>"+
 								"<ul>"+
 									"<li>"+
@@ -407,18 +336,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" This plugin offers a fluide <b>drag and drop with great visual feedback</b> to the user."+
-									" jquery-dragndrop can works alone but if you want the possibility"+
-									" to select several items in the same time with the"+
-									" <code>Ctrl</code> / <code><i class='fa fa-apple'></i></code> / <code>Shift</code> keys,"+
-									" you have to include also this one&nbsp;: "+
+									"This plugin offers a fluide <b>drag and drop with great visual feedback</b> to the user. jquery-dragndrop can works alone but if you want the possibility to select several items in the same time with the <code>Ctrl</code> / <code><i class='fa fa-apple'></i></code> / <code>Shift</code> keys, you have to include also this one&nbsp;: "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Ce plugin propose un <b><i>drag and drop</i> avec beaucoup de retours visuel</b> pour l'utilisateur."+
-									" jquery-dragndrop peut fonctionner seul mais si vous voulez la possibilité"+
-									" de sélectionner plusieurs items à la fois avec les touches"+
-									" <code>Ctrl</code> / <code><i class='fa fa-apple'></i></code> / <code>Shift</code>,"+
-									" vous devrez aussi inclure celui-là&nbsp;: "+
+									"Ce plugin propose un <b><i>drag and drop</i> avec beaucoup de retours visuel</b> pour l'utilisateur. jquery-dragndrop peut fonctionner seul mais si vous voulez la possibilité de sélectionner plusieurs items à la fois avec les touches <code>Ctrl</code> / <code><i class='fa fa-apple'></i></code> / <code>Shift</code>, vous devrez aussi inclure celui-là&nbsp;: "+
 								"</span>"+
 								"<a href='##add(p, jquery-selection)'>jquery-selection</a>."+
 							"</p>"
@@ -451,21 +372,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" This is another plugin to manage some tabs. By default this"+
-									" plugin propose something very basic, just like jqueryui-tabs."+
-									" But the amazing here is if you also include the plugin"+
-									" <a href='##toggle(p, jquery-dragndrop)'>jquery-dragndrop</a>"+
-									" in your HTML, you'll be able to reorder the tabs as you want"+
-									" with your mouse (like Chrome or Sublime Text for example)."+
+									"This is another plugin to manage some tabs. By default this plugin propose something very basic, just like jqueryui-tabs. But the amazing here is if you also include the plugin <a href='##toggle(p, jquery-dragndrop)'>jquery-dragndrop</a> in your HTML, you'll be able to reorder the tabs as you want with your mouse (like Chrome or Sublime Text for example)."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Ceci est un énième plugin pour gérer des onglets. Par défaut"+
-									" ça donne quelque chose de très basique comme jqueryui-tabs."+
-									" Mais l'incroyable ici est dans le cas ou"+
-									" <a href='##toggle(p, jquery-dragndrop)'>jquery-dragndrop</a>"+
-									" est aussi inclus dans le HTML, il sera alors possible de"+
-									" réorganiser les onglets directement avec la souris (comme"+
-									" avec Chrome ou Sublime Text par exemple)."+
+									"Ceci est un énième plugin pour gérer des onglets. Par défaut ça donne quelque chose de très basique comme jqueryui-tabs. Mais l'incroyable ici est dans le cas ou <a href='##toggle(p, jquery-dragndrop)'>jquery-dragndrop</a> est aussi inclus dans le HTML, il sera alors possible de réorganiser les onglets directement avec la souris (comme avec Chrome ou Sublime Text par exemple)."+
 								"</span>"+
 							"</p>"
 					}
@@ -496,19 +406,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" Canvasloth is a <b>very minimal</b> framework to manage an"+
-									" <b>HTML5-Canvas application</b>. It manages the <b>events</b>,"+
-									" prepares the <b>DOM for the HUD</b>, <b>waits</b> until all"+
-									" <b>the assets</b> are loaded, <b>cancels</b> the <b>keys repetition</b>"+
-									" of the keyboard, provides a tiny <b>time manager</b> and that's it."+
+									"Canvasloth is a <b>very minimal</b> framework to manage an <b>HTML5-Canvas application</b>. It manages the <b>events</b>, prepares the <b>DOM for the HUD</b>, <b>waits</b> until all <b>the assets</b> are loaded, <b>cancels</b> the <b>keys repetition</b> of the keyboard, provides a tiny <b>time manager</b> and that's it."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Canvasloth est un framework <b>très minime</b> pour gérer une"+
-									" <b>application Canvas HTML5</b>. Il gère les <b>événements</b>,"+
-									" prépare le <b>DOM pour le HUD</b>, <b>attend</b> jusqu'à ce"+
-									" que toutes <b>les ressources</b> soient chargées, <b>annule</b>"+
-									" la <b>répétition des touches</b> du clavier, fournit un simple"+
-									" <b>gestionnaire de temps</b> et c'est tout."+
+									"Canvasloth est un framework <b>très minime</b> pour gérer une <b>application Canvas HTML5</b>. Il gère les <b>événements</b>, prépare le <b>DOM pour le HUD</b>, <b>attend</b> jusqu'à ce que toutes <b>les ressources</b> soient chargées, <b>annule</b> la <b>répétition des touches</b> du clavier, fournit un simple <b>gestionnaire de temps</b> et c'est tout."+
 								"</span>"+
 							"</p>"
 					}
@@ -539,16 +440,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" This is a tiny <b>Sass</b> projects, wherein I have reproduced the"+
-									" tiny animation who makes everybody waiting on <b>Windows 8</b> only"+
-									" with the <b>@keyframes</b> offered by the <b>CSS3</b>. I have also"+
-									" changed a little detail at the end of the loop."+
+									"This is a tiny <b>Sass</b> projects, wherein I have reproduced the tiny animation who makes everybody waiting on <b>Windows 8</b> only with the <b>@keyframes</b> offered by the <b>CSS3</b>. I have also changed a little detail at the end of the loop."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Ceci est un petit projet <b>Sass</b>, où j'ai reproduit l'animation"+
-									" de chargement qui fait attendre tout le monde sur <b>Windows 8</b>"+
-									" uniquement avec les <b>@keyframes</b> offertes par le <b>CSS3</b>."+
-									" J'ai aussi changé un petit détail sur la fin de la boucle."+
+									"Ceci est un petit projet <b>Sass</b>, où j'ai reproduit l'animation de chargement qui fait attendre tout le monde sur <b>Windows 8</b> uniquement avec les <b>@keyframes</b> offertes par le <b>CSS3</b>. J'ai aussi changé un petit détail sur la fin de la boucle."+
 								"</span>"+
 							"</p>"
 					}
@@ -579,15 +474,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" This project is just a simple page for <b>educational purposes</b>. It"+
-									" list many examples of <b>CSS selection</b> on which it's possible"+
-									" to click to see in real time which elements are selected."+
+									"This project is just a simple page for <b>educational purposes</b>. It list many examples of <b>CSS selection</b> on which it's possible to click to see in real time which elements are selected."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Ce projet se résume à une simple page <b>à des fins éducatives</b>. Elle"+
-									" liste de nombreux exemples de <b>sélections CSS</b> sur lesquelles"+
-									" il est possible de cliquer pour voir en temps réel quels éléments"+
-									" sont sélectionnés."+
+									"Ce projet se résume à une simple page <b>à des fins éducatives</b>. Elle liste de nombreux exemples de <b>sélections CSS</b> sur lesquelles il est possible de cliquer pour voir en temps réel quels éléments sont sélectionnés."+
 								"</span>"+
 							"</p>"
 					}, {
@@ -647,14 +537,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" <b>GitFast.sh</b> is a <b>Bash</b> shell script file offering many"+
-									" intelligent <b>aliases</b> to accelerate the use of <b>Git</b>"+
-									" on the command line."+
+									"<b>GitFast.sh</b> is a <b>Bash</b> shell script file offering many intelligent <b>aliases</b> to accelerate the use of <b>Git</b> on the command line."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" <b>GitFast.sh</b> est un script shell pour <b>Bash</b> offrant une serie"+
-									" d'<b>alias</b> intelligents pour accélérer l'usage de <b>Git</b>"+
-									" en ligne de commande."+
+									"<b>GitFast.sh</b> est un script shell pour <b>Bash</b> offrant une serie d'<b>alias</b> intelligents pour accélérer l'usage de <b>Git</b> en ligne de commande."+
 								"</span>"+
 							"</p>"
 					}, {
@@ -726,16 +612,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" To make its <b>paralax</b>, the script use the CSS property"+
-									" <code>z-index</code> to calculate the more or less faster"+
-									" move of the elements during the changement of the slide."+
-									" This has the effect of giving <b>an impression of depth</b>."+
+									"To make its <b>paralax</b>, the script use the CSS property <code>z-index</code> to calculate the more or less faster move of the elements during the changement of the slide. This has the effect of giving <b>an impression of depth</b>."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Pour faire son <b>parallax</b>, le script utilise la propriété"+
-									" CSS <code>z-index</code> pour calculer les déplacements"+
-									" plus ou moins rapide des éléments lors du changement de slide."+
-									" Ce qui a pour effet de donner <b>une impression de profondeur</b>."+
+									"Pour faire son <b>parallax</b>, le script utilise la propriété CSS <code>z-index</code> pour calculer les déplacements plus ou moins rapide des éléments lors du changement de slide. Ce qui a pour effet de donner <b>une impression de profondeur</b>."+
 								"</span>"+
 							"</p>"
 					}
@@ -761,21 +641,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" JavaScript is a lightweight, interpreted, object-oriented language"+
-									" with first-class functions, most known as the scripting language"+
-									" for Web pages, but used in many non-browser environments as well"+
-									" such as node.js or Apache CouchDB. It is a prototype-based,"+
-									" multi-paradigm scripting language that is dynamic, and supports"+
-									" object-oriented, imperative, and functional programming styles. "+
+									"<b>JavaScript</b> is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" JavaScript est un langage de script léger, orienté objet,"+
-									" principalement connu comme le langage de script des pages web."+
-									" Mais il est aussi utilisé dans de nombreux environnements extérieurs"+
-									" aux navigateurs web tels que node.js ou Apache CouchDB. C'est un"+
-									" langage à objets utilisant le concept de prototype, disposant d'un"+
-									" typage faible et dynamique qui permet de programmer suivant plusieurs"+
-									" paradigmes de programmation&nbsp;: fonctionnelle, impérative et orientée objet. "+
+									"<b>JavaScript</b> est un langage de script léger, orienté objet, principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que node.js ou Apache CouchDB. C'est un langage à objets utilisant le concept de prototype, disposant d'un typage faible et dynamique qui permet de programmer suivant plusieurs paradigmes de programmation&nbsp;: fonctionnelle, impérative et orientée objet. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='https://developer.mozilla.org/en/docs/Web/JavaScript'>mozilla.org</a>"+
@@ -800,22 +669,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" <b>jQuery</b> is a fast, small, and feature-rich <b>JavaScript"+
-									" library</b>. It makes things like HTML document traversal and"+
-									" manipulation, event handling, animation, and Ajax much simpler"+
-									" with an easy-to-use API that works across a multitude of browsers."+
-									" With a combination of versatility and extensibility, jQuery has"+
-									" changed the way that millions of people write JavaScript. "+
+									"<b>jQuery</b> is a fast, small, and feature-rich <b>JavaScript library</b>. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" <b>jQuery</b> est une <b>bibliothèque JavaScript</b> rapide,"+
-									" petite et riche en fonctionnalités. Elle rend le parcours et"+
-									" la manipulation du DOM ainsi que la gestion des événements,"+
-									" les animations et l'Ajax beaucoup plus simple avec une API"+
-									" facile à utiliser à travers tous les navigateurs différents."+
-									" Avec une combinaison de polyvalence et d'extensibilité, jQuery"+
-									" a changé la façon dont des millions de personnes écrivent le"+
-									" JavaScript. "+
+									"<b>jQuery</b> est une <b>bibliothèque JavaScript</b> rapide, petite et riche en fonctionnalités. Elle rend le parcours et la manipulation du DOM ainsi que la gestion des événements, les animations et l'Ajax beaucoup plus simple avec une API facile à utiliser à travers tous les navigateurs différents. Avec une combinaison de polyvalence et d'extensibilité, jQuery a changé la façon dont des millions de personnes écrivent le JavaScript. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a target='_blank' href='http://jquery.com/'>jquery.com</a>"+
@@ -840,18 +697,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" <b>HTML5</b> is the latest evolution of the standard that defines HTML."+
-									" The term represents two different concepts&nbsp;:"+
-									" It's a new version of the language HTML, with new elements, attributes,"+
-									" and behaviors, and a <b>larger set of technologies</b> that allows more diverse"+
-									" and powerful Web sites and applications. "+
+									"<b>HTML5</b> is the latest evolution of the standard that defines HTML. The term represents two different concepts&nbsp;: It's a new version of the language HTML, with new elements, attributes, and behaviors, and a <b>larger set of technologies</b> that allows more diverse and powerful Web sites and applications. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" <b>HTML5</b> est la dernière évolution des standards qui définissent HTML."+
-									" Le terme HTML5 regroupe deux concepts différents&nbsp;:"+
-									" Il s'agit de la nouvelle version du langage HTML, avec de nouveaux éléments,"+
-									" attributs et comportements&nbsp;; mais aussi un <b>ensemble plus large de technologies</b>"+
-									" qui permettent des sites web plus variés et puissants, et des applications web. "+
+									"<b>HTML5</b> est la dernière évolution des standards qui définissent HTML. Le terme HTML5 regroupe deux concepts différents&nbsp;: Il s'agit de la nouvelle version du langage HTML, avec de nouveaux éléments, attributs et comportements&nbsp;; mais aussi un <b>ensemble plus large de technologies</b> qui permettent des sites web plus variés et puissants, et des applications web. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5'>mozilla.org</a>"+
@@ -877,17 +726,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" <b>CSS3</b> is the latest evolution of the CSS language and aims at"+
-									" extending CSS2.1. It brings a lot of long-awaited novelties, like"+
-									" rounded corners, shadows, gradients, <b>transitions or animations</b>,"+
-									" as well as new layouts like multi-columns, flexible box or grid layouts. "+
+									"<b>CSS3</b> is the latest evolution of the CSS language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, <b>transitions or animations</b>, as well as new layouts like multi-columns, flexible box or grid layouts. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" <b>CSS3</b> est la dernière évolution du langage CSS et vise à"+
-									" étendre CSS2.1. Il apporte beaucoup de nouveautés attendues, comme"+
-									" les angles arrondis, les ombres, les dégradés, les <b>transitions ou"+
-									" animations</b>, aussi bien que de nouvelles mise en page comme le"+
-									" multi-colonnes, les boîtes flexibles ou les mises en pages en grille. "+
+									"<b>CSS3</b> est la dernière évolution du langage CSS et vise à étendre CSS2.1. Il apporte beaucoup de nouveautés attendues, comme les angles arrondis, les ombres, les dégradés, les <b>transitions ou animations</b>, aussi bien que de nouvelles mise en page comme le multi-colonnes, les boîtes flexibles ou les mises en pages en grille. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='https://developer.mozilla.org/en/docs/Web/CSS/CSS3'>mozilla.org</a>"+
@@ -913,17 +755,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" Sass is a meta-language of CSS. It's a scripting"+
-									" language that is interpreted in CSS. SassScript is"+
-									" the scripting language itself. Sass may be expanded"+
-									" with Compass (useful for prefixes different browsers). "+
+									"<b>Sass</b> is a meta-language of CSS. It's a scripting language that is interpreted in CSS. SassScript is the scripting language itself. Sass may be expanded with Compass (useful for prefixes different browsers). "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Sass est un métalangage de CSS. C'est un langage de"+
-									" script qui est interprété en CSS. SassScript est le"+
-									" langage de script lui-même. Sass peut-être étoffé"+
-									" avec Compass (pratique pour les préfixes des"+
-									" différents navigateurs). "+
+									"<b>Sass</b> est un métalangage de CSS. C'est un langage de script qui est interprété en CSS. SassScript est le langage de script lui-même. Sass peut-être étoffé avec Compass (pratique pour les préfixes des différents navigateurs). "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a target='_blank' href='http://sass-lang.com/'>sass-lang.com</a>"+
@@ -948,10 +783,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"MySQL is (as of July 2013) the world's second most widely used relational database management system and most widely used open-source RDBMS. MySQL is a central component of the widely used LAMP open source web application software stack (and other 'AMP' stacks). "+
+									"<b>MySQL</b> is (as of July 2013) the world's second most widely used relational database management system and most widely used open-source RDBMS. MySQL is a central component of the widely used LAMP open source web application software stack (and other 'AMP' stacks). "+
 								"</span>"+
 								"<span lang='fr'>"+
-									"MySQL est un système de gestion de bases de données relationnelles. Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, Informix et Microsoft SQL Server. "+
+									"<b>MySQL</b> est un système de gestion de bases de données relationnelles. Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, Informix et Microsoft SQL Server. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/MySQL'>en.wikipedia.org</a>"+
@@ -1034,23 +869,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" Linux is a computer operating system assembled under"+
-									" the model of free and open-source software development"+
-									" and distribution. Linux was originally developed as a"+
-									" free operating system for Intel x86–based personal"+
-									" computers, but has since been ported to more computer"+
-									" hardware platforms than any other operating system. "+
+									"<b>Linux</b> is a computer operating system assembled under the model of free and open-source software development and distribution. Linux was originally developed as a free operating system for Intel x86–based personal computers, but has since been ported to more computer hardware platforms than any other operating system. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Linux est un système d’exploitation libre multitâche,"+
-									" multiplate-forme et multi-utilisateur de type UNIX"+
-									" basé sur le noyau Linux, résultat des efforts de"+
-									" multiples projets collaborant via Internet. Il peut"+
-									" faire fonctionner la plupart des modèles d’ordinateurs"+
-									" existant, des superordinateurs aux systèmes embarqués"+
-									" en passant par les serveurs et les ordinateurs personnels,"+
-									" sur lesquels l’installation est facilitée par des"+
-									" distributions Linux. "+
+									"<b>Linux</b> est un système d’exploitation libre multitâche, multiplate-forme et multi-utilisateur de type UNIX basé sur le noyau Linux, résultat des efforts de multiples projets collaborant via Internet. Il peut faire fonctionner la plupart des modèles d’ordinateurs existant, des superordinateurs aux systèmes embarqués en passant par les serveurs et les ordinateurs personnels, sur lesquels l’installation est facilitée par des distributions Linux. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Linux'>en.wikipedia.org</a>"+
@@ -1076,21 +898,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" A shell script is a computer program designed to be"+
-									" run by the Unix shell, a command line interpreter."+
-									" The various dialects of shell scripts are considered"+
-									" to be scripting languages. Typical operations performed"+
-									" by shell scripts include file manipulation,"+
-									" program execution, and printing text. "+
+									"A <b>shell script</b> is a computer program designed to be run by the Unix shell, a command line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Un script shell est un programme informatique conçu"+
-									" pour être exécuté par le shell Unix, un interpréteur"+
-									" de ligne de commande. Les divers dialectes de scripts"+
-									" shell sont considérés comme langages de script. Les"+
-									" opérations typiques effectuées par des scripts shell"+
-									" comprennent la manipulation de fichiers, l'exécution"+
-									" du programme, et l'impression de texte. "+
+									"Un <b>script shell</b> est un programme informatique conçu pour être exécuté par le shell Unix, un interpréteur de ligne de commande. Les divers dialectes de scripts shell sont considérés comme langages de script. Les opérations typiques effectuées par des scripts shell comprennent la manipulation de fichiers, l'exécution du programme, et l'impression de texte. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a target='_blank' href='http://en.wikipedia.org/wiki/Shell_script'>en.wikipedia.org</a>"+
@@ -1114,10 +925,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"C++ is a general-purpose programming compiled language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low-level memory manipulation. C++ has also been found useful in many other contexts, including desktop applications, servers, performance-critical applications, and entertainment software. "+
+									"<b>C++</b> is a general-purpose programming compiled language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low-level memory manipulation. C++ has also been found useful in many other contexts, including desktop applications, servers, performance-critical applications, and entertainment software. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									"C++ est un langage de programmation compilé, permettant la programmation sous de multiples paradigmes comme la programmation procédurale, la programmation orientée objet et la programmation générique. C++ est l'un des langages de programmation les plus populaires, avec une grande variété de plate-formes matérielles et de systèmes d'exploitation. "+
+									"<b>C++</b> est un langage de programmation compilé, permettant la programmation sous de multiples paradigmes comme la programmation procédurale, la programmation orientée objet et la programmation générique. C++ est l'un des langages de programmation les plus populaires, avec une grande variété de plate-formes matérielles et de systèmes d'exploitation. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/C++'>en.wikipedia.org</a>"+
@@ -1171,21 +982,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" <b>Photoshop</b> is an editing software, processing and computer"+
-									" aided drafting. It is mainly used for processing digital photographs,"+
-									" but also serves to create images from scratch. It works"+
-									" essentially on raster images because the images are composed of"+
-									" a grid of pixels. The advantage of these images is to reproduce"+
-									" subtle gradations of color. "+
+									"<b>Photoshop</b> is an editing software, processing and computer aided drafting. It is mainly used for processing digital photographs, but also serves to create images from scratch. It works essentially on raster images because the images are composed of a grid of pixels. The advantage of these images is to reproduce subtle gradations of color. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" <b>Photoshop</b> est un logiciel de retouche, de traitement et"+
-									" de dessin assisté par ordinateur. Il est principalement utilisé"+
-									" pour le traitement de photographies numériques, mais sert"+
-									" également à la création d’images à partir de rien. Il travaille"+
-									" essentiellement sur images matricielles car les images sont"+
-									" constituées d’une grille de pixels. L’intérêt de ces images est"+
-									" de reproduire des graduations subtiles de couleurs. "+
+									"<b>Photoshop</b> est un logiciel de retouche, de traitement et de dessin assisté par ordinateur. Il est principalement utilisé pour le traitement de photographies numériques, mais sert également à la création d’images à partir de rien. Il travaille essentiellement sur images matricielles car les images sont constituées d’une grille de pixels. L’intérêt de ces images est de reproduire des graduations subtiles de couleurs. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Adobe_Photoshop'>en.wikipedia.org</a>"+
@@ -1210,15 +1010,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" Adobe Illustrator is a vector graphics editor. "+
+									"<b>Adobe Illustrator</b> is a vector graphics editor. "+
 								"</span>"+
 								"<span lang='fr'>"+
-									" Adobe Illustrator est un logiciel de création"+
-									" graphique vectorielle. Il peut être utilisé"+
-									" indépendamment ou en complément de Photoshop,"+
-									" il offre des outils de dessin vectoriel puissants."+
-									" Les images vectorielles sont constituées de courbes"+
-									" générées par des formules mathématiques. "+
+									"<b>Adobe Illustrator</b> est un logiciel de création graphique vectorielle. Il peut être utilisé indépendamment ou en complément de Photoshop, il offre des outils de dessin vectoriel puissants. Les images vectorielles sont constituées de courbes générées par des formules mathématiques. "+
 								"</span>"+
 								"<span class='sourceLink'>"+
 									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Adobe_Illustrator'>en.wikipedia.org</a>"+
@@ -1245,14 +1040,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									" InDesign is a desktop publishing software application."+
-									" It can be used to create works such as posters, flyers,"+
-									" brochures, magazines, newspapers and books."+
+									"<b>InDesign</b> is a desktop publishing software application. It can be used to create works such as posters, flyers, brochures, magazines, newspapers and books."+
 								"</span>"+
 								"<span lang='fr'>"+
-									" InDesign est un logiciel d'application d'édition. Il peut"+
-									" être utilisé pour créer des œuvres telles que des affiches,"+
-									" dépliants, brochures, magazines, journaux ou livres."+
+									"<b>InDesign</b> est un logiciel d'application d'édition. Il peut être utilisé pour créer des œuvres telles que des affiches, dépliants, brochures, magazines, journaux ou livres."+
 								"</span>"+
 							"</p>"
 					}
@@ -1261,61 +1052,3 @@ window.data = [
 		]
 	}
 ];
-
-/*
-			}, {
-				name: "xxxxxxx",
-				img: "xxxxxxx",
-				title: {
-					icon: "fa-xxxxxxx",
-					span: "xxxxxxx"
-				},
-				subRub: [
-					{
-						title: {
-							icon: "fa-info-circle",
-							en: "About",
-							fr: "À propos"
-						},
-						content:
-							"<p></p>"
-					}
-				]
-			}
-
-			}, {
-				name: "xxxxxxx",
-				img: "xxxxxxx",
-				href: "xxxxxxx",
-				title: {
-					icon: "fa-xxxxxxx",
-					span: "xxxxxxx"
-				},
-				appLink: {
-					en: "xxxxxxx",
-					fr: "xxxxxxx"
-				},
-				tags: [
-					{ name: "xxxxxxx", title: "xxxxxxx" },
-				],
-				subRub: [
-					{
-						title: {
-							icon: "fa-xxxxxxx",
-							en: "xxxxxxx",
-							fr: "xxxxxxx"
-						},
-						content:
-
-					}, {
-						title: {
-							icon: "fa-xxxxxxx",
-							en: "xxxxxxx",
-							fr: "xxxxxxx"
-						},
-						content:
-
-					}
-				]
-			}
-*/
