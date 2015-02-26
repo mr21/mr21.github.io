@@ -946,7 +946,18 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									"MySQL is (as of July 2013) the world's second most widely used relational database management system and most widely used open-source RDBMS. MySQL is a central component of the widely used LAMP open source web application software stack (and other 'AMP' stacks). "+
+								"</span>"+
+								"<span lang='fr'>"+
+									"MySQL est un système de gestion de bases de données relationnelles. Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, Informix et Microsoft SQL Server. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/MySQL'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/MySQL'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
@@ -963,7 +974,18 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									"<b>PHP</b> is a server-side scripting language designed for web development but also used as a general-purpose programming language. PHP is an imperative language and object oriented like C++. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									"<b>PHP</b> est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet comme C++. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/PHP'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/PHP'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
@@ -981,7 +1003,18 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									"<b>Git</b> is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows. As with most other distributed revision control systems, and unlike most client–server systems, every Git working directory is a full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									"<b>Git</b> est un logiciel de gestion de versions. Git ne repose pas sur un serveur centralisé. C'est un outil de bas niveau, qui se veut simple et performant, dont la principale tâche est de gérer l'évolution du contenu d'une arborescence. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/Git_(software)'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/xxxxxxx'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
@@ -1079,7 +1112,18 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									"C++ is a general-purpose programming compiled language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low-level memory manipulation. C++ has also been found useful in many other contexts, including desktop applications, servers, performance-critical applications, and entertainment software. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									"C++ est un langage de programmation compilé, permettant la programmation sous de multiples paradigmes comme la programmation procédurale, la programmation orientée objet et la programmation générique. C++ est l'un des langages de programmation les plus populaires, avec une grande variété de plate-formes matérielles et de systèmes d'exploitation. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/C++'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/C++'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
@@ -1096,7 +1140,18 @@ window.data = [
 							fr: "À propos"
 						},
 						content:
-							"<p></p>"
+							"<p>"+
+								"<span lang='en'>"+
+									"<b>C</b> is a <b>general-purpose</b>, <b>imperative</b> computer programming language. It supports structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Le <b>C</b> est un langage de programmation <b>impératif</b>, <b>généraliste</b>, conçu pour la <b>programmation système</b>. Inventé au début des années 1970 pour réécrire UNIX, C est devenu un des langages les plus utilisés. De nombreux langages plus modernes comme C++, Java et PHP reprennent des aspects de C. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a lang='en' target='_blank' href='http://en.wikipedia.org/wiki/C_(programming_language)'>en.wikipedia.org</a>"+
+									"<a lang='fr' target='_blank' href='http://fr.wikipedia.org/wiki/C_(langage)'>fr.wikipedia.org</a>"+
+								"</span>."+
+							"</p>"
 					}
 				]
 			}, {
@@ -1227,7 +1282,6 @@ window.data = [
 					}
 				]
 			}
-
 
 			}, {
 				name: "xxxxxxx",
