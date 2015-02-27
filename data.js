@@ -623,6 +623,79 @@ window.data = [
 			}
 		]
 	}, {
+		rub: "contrib",
+		data: [
+			{
+				name: "jquery-pr-2011",
+				img: "logos/jquery.png",
+				linkText: "CSS: the values like \"+=10%\" aren't ignored anymore (like .animate).",
+				href: "https://github.com/jquery/jquery/pull/2011",
+				title: {
+					span: "jQuery : .css()"
+				},
+				appLink: {
+					en: "Read the pull request (gh-2011)",
+					fr: "Lire la pull request (gh-2011)"
+				},
+				tags: [
+					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "More informations",
+							fr: "Plus d'informations"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"..."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"..."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
+				name: "font-awesome-pr-5760",
+				img: "logos/font-awesome.png",
+				linkText: ".fa { text-indent: initial; }",
+				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
+				title: {
+					span: "Font-Awesome : text-indent"
+				},
+				appLink: {
+					en: "Read the pull request (gh-5760)",
+					fr: "Lire la pull request (gh-5760)"
+				},
+				tags: [
+					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "More informations",
+							fr: "Plus d'informations"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"..."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"..."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}
+		]
+	}, {
 		rub: "skills",
 		data: [
 			{
