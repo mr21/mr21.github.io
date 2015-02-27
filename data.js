@@ -628,7 +628,7 @@ window.data = [
 			{
 				name: "jquery-pr-2011",
 				img: "logos/jquery.png",
-				linkText: "CSS: the values like \"+=10%\" aren't ignored anymore (like .animate).",
+				linkText: "CSS: the values like \"+=10%\" aren't ignored anymore (like .animate)",
 				href: "https://github.com/jquery/jquery/pull/2011",
 				title: {
 					span: "jQuery : .css()"

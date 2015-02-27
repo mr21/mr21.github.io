@@ -11,8 +11,12 @@ function dataToHtml() {
 
 		$.each(this.data, function() {
 			htmlLinks +=
-				'<a class="'+this.name+'" href="##toggle(p, '+this.name+')">'+
-					'<img src="'+(this.img || "logos/"+this.name+".png")+'"/>'+
+				'<a class="gray" name="'+this.name+'" href="##toggle(p, '+this.name+')">'+
+					'<img src="'+(this.img || "logos/"+this.name+".png")+'"/>';
+			if (this.linkText)
+				htmlLinks +=
+					'<span>'+this.linkText+'</span>';
+			htmlLinks +=
 				'</a>';
 
 			htmlData +=
@@ -72,7 +76,7 @@ function dataToHtml() {
 		$(htmlLinks)
 			.appendTo(".rub." + this.rub + " .content")
 			.prop("el_data", function() {
-				return $("."+this.className, jq_data);
+				return $("."+this.name, jq_data);
 			});
 
 	});

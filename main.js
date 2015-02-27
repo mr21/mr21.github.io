@@ -201,7 +201,7 @@ $(function() {
 			if (!p)
 				closePage();
 			else
-				openPage($("a." + p));
+				openPage($("[name='"+p+"']"));
 		}
 	});
 

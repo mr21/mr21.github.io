@@ -227,6 +227,20 @@ body[lang="fr"] [lang="en"],
 	width: 20%;
 	}
 
+.contrib .content > a {
+	width: 100%;
+	}
+	.contrib .content > a img {
+		float: left;
+		width: 50px;
+		margin-right: 10px;
+		}
+	.contrib .content > a span {
+		line-height: 50px;
+		font-weight: bold;
+		font-size: 13px;
+		}
+
 /* social */
 .social {
 	position: relative;
