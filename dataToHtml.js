@@ -1,12 +1,13 @@
 function dataToHtml() {
 
-	var	el_data =
+	var	jq_data =
 		$("<div id='data'>")
 			.prependTo(document.body);
 
 	$.each(window.data, function() {
 
-		var html = "";
+		var html = "",
+			jq_content = $(".rub." + this.rub + " .content");
 
 		$.each(this.data, function() {
 			html +=
@@ -62,7 +63,17 @@ function dataToHtml() {
 		$("<div>")
 			.addClass(this.rub)
 			.append(html)
-			.appendTo(el_data);
+			.appendTo(jq_data)
+			.children()
+				.each(function() {
+					$("<a>")
+						.prop("el_data", this)
+						.attr("class", this.className)
+						.attr("href", "##toggle(p, " + this.className + ")")
+						.append($(this).children("img:first-child"))
+						.appendTo(jq_content);
+				});
 
 	});
+
 }

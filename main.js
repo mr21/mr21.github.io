@@ -4,19 +4,6 @@ $(function() {
 
 	dataToHtml();
 
-	// data --------------------------------
-	$("#data > *").each(function() {
-		var jq_content = $(".rub." + this.className + " .content");
-		$(this).children().each(function() {
-			$("<a>")
-				.prop("el_data", this)
-				.attr("class", this.className)
-				.attr("href", "##toggle(p, " + this.className + ")")
-				.append($(this).children("img:first-child"))
-				.appendTo(jq_content);
-		});
-	});
-
 	// languages ---------------------------
 	(function() {
 		var	jq_oldLang = $(),
