@@ -223,6 +223,9 @@ body[lang="fr"] [lang="en"],
 	width: 85px;
 	}
 
+.skills .content > a {
+	width: 20%;
+	}
 
 /* social */
 .social {
