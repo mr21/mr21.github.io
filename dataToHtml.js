@@ -11,7 +11,7 @@ function dataToHtml() {
 		$.each(this.data, function() {
 			html +=
 				'<div class="'+this.name+'">'+
-					'<img src="'+this.img+'"/>'+
+					'<img src="'+(this.img || "logos/"+this.name+".png")+'"/>'+
 
 					// h2 --------------------
 					'<h2>';
@@ -43,8 +43,9 @@ function dataToHtml() {
 			}
 
 					// .subRub -----------------
-			$.each(this.subRub, function() {
-				html +=
+			if (this.subRub)
+				$.each(this.subRub, function() {
+					html +=
 					'<div class="subRub">'+
 						'<a href="#" class="gray subTitle">'+
 							'<i class="fa fa-fw '+this.title.icon+'"></i>'+
@@ -53,7 +54,7 @@ function dataToHtml() {
 						'</a>'+
 						this.content+
 					'</div>';
-			});
+				});
 			html +=
 				'</div>';
 		});

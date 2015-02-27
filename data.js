@@ -627,7 +627,6 @@ window.data = [
 		data: [
 			{
 				name: "javascript",
-				img: "logos/javascript.png",
 				title: {
 					span: "JavaScript"
 				},
@@ -655,7 +654,6 @@ window.data = [
 				]
 			}, {
 				name: "jquery",
-				img: "logos/jquery.png",
 				title: {
 					span: "jQuery"
 				},
@@ -682,7 +680,6 @@ window.data = [
 				]
 			}, {
 				name: "html5",
-				img: "logos/html5.png",
 				title: {
 					icon: "fa-html5",
 					span: "HTML5"
@@ -711,7 +708,6 @@ window.data = [
 				]
 			}, {
 				name: "css3",
-				img: "logos/css3.png",
 				title: {
 					icon: "fa-css3",
 					span: "CSS3"
@@ -740,7 +736,6 @@ window.data = [
 				]
 			}, {
 				name: "sass",
-				img: "logos/sass.png",
 				title: {
 					icon: "fa-css3",
 					span: "Sass"
@@ -768,7 +763,6 @@ window.data = [
 				]
 			}, {
 				name: "mysql",
-				img: "logos/mysql.png",
 				title: {
 					icon: "fa-database",
 					span: "MySQL"
@@ -797,7 +791,6 @@ window.data = [
 				]
 			}, {
 				name: "php",
-				img: "logos/php.png",
 				title: {
 					span: "PHP"
 				},
@@ -825,7 +818,6 @@ window.data = [
 				]
 			}, {
 				name: "git",
-				img: "logos/git.png",
 				title: {
 					icon: "fa-git-square",
 					span: "git"
@@ -854,7 +846,6 @@ window.data = [
 				]
 			}, {
 				name: "linux",
-				img: "logos/linux.png",
 				title: {
 					icon: "fa-linux",
 					span: "Linux"
@@ -883,7 +874,6 @@ window.data = [
 				]
 			}, {
 				name: "shell-scripting",
-				img: "logos/shell.png",
 				title: {
 					icon: "fa-terminal",
 					span: "Shell scripting"
@@ -911,7 +901,6 @@ window.data = [
 				]
 			}, {
 				name: "cplusplus",
-				img: "logos/c++.png",
 				title: {
 					span: "C++"
 				},
@@ -939,7 +928,6 @@ window.data = [
 				]
 			}, {
 				name: "c",
-				img: "logos/c.png",
 				title: {
 					span: "C"
 				},
@@ -967,7 +955,6 @@ window.data = [
 				]
 			}, {
 				name: "photoshop",
-				img: "logos/photoshop.png",
 				title: {
 					icon: "fa-picture-o",
 					span: "Photoshop"
@@ -996,7 +983,6 @@ window.data = [
 				]
 			}, {
 				name: "illustrator",
-				img: "logos/illustrator.png",
 				title: {
 					span: "Illustrator"
 				},
@@ -1025,7 +1011,6 @@ window.data = [
 				]
 			}, {
 				name: "indesign",
-				img: "logos/indesign.png",
 				title: {
 					icon: "fa-file-pdf-o",
 					span: "InDesign"
