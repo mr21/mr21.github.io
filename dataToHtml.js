@@ -6,25 +6,29 @@ function dataToHtml() {
 
 	$.each(window.data, function() {
 
-		var html = "",
-			jq_content = $(".rub." + this.rub + " .content");
+		var htmlData = "",
+			htmlLinks = "";
 
 		$.each(this.data, function() {
-			html +=
-				'<div class="'+this.name+'">'+
+			htmlLinks +=
+				'<a class="'+this.name+'" href="##toggle(p, '+this.name+')">'+
 					'<img src="'+(this.img || "logos/"+this.name+".png")+'"/>'+
+				'</a>';
+
+			htmlData +=
+				'<div class="'+this.name+'">'+
 
 					// h2 --------------------
 					'<h2>';
 			if (this.title.icon)
-				html +=
+				htmlData +=
 						'<i class="fa '+this.title.icon+'"></i>';
-			html +=
+			htmlData +=
 						'<span> '+this.title.span+'</span>'+
 					'</h2>';
 
 			if (this.appLink)
-				html +=
+				htmlData +=
 					// .appLink ---------------
 					'<a class="appLink" target="_blank" href="'+this.href+'">'+
 						'<span lang="en">'+this.appLink.en+'</span>'+
@@ -32,21 +36,21 @@ function dataToHtml() {
 					'</a>';
 
 			if (this.tags) {
-				html +=
+				htmlData +=
 					// .tags ------------------
 					'<div class="tags">';
 				$.each(this.tags, function() {
-					html +=
+					htmlData +=
 						' <a href="##toggle(p, '+this.name+')">'+this.title+'</a>';
 				});
-				html +=
+				htmlData +=
 					'</div>';
 			}
 
 					// .subRub -----------------
 			if (this.subRub)
 				$.each(this.subRub, function() {
-					html +=
+					htmlData +=
 					'<div class="subRub">'+
 						'<a href="#" class="gray subTitle">'+
 							'<i class="fa fa-fw '+this.title.icon+'"></i>'+
@@ -56,23 +60,20 @@ function dataToHtml() {
 						this.content+
 					'</div>';
 				});
-			html +=
+			htmlData +=
 				'</div>';
 		});
 
 		$("<div>")
 			.addClass(this.rub)
-			.append(html)
-			.appendTo(jq_data)
-			.children()
-				.each(function() {
-					$("<a>")
-						.prop("el_data", this)
-						.attr("class", this.className)
-						.attr("href", "##toggle(p, " + this.className + ")")
-						.append($(this).children("img:first-child"))
-						.appendTo(jq_content);
-				});
+			.append(htmlData)
+			.appendTo(jq_data);
+
+		$(htmlLinks)
+			.appendTo(".rub." + this.rub + " .content")
+			.prop("el_data", function() {
+				return $("."+this.className, jq_data);
+			});
 
 	});
 
