@@ -47,6 +47,15 @@ li {
 		font-weight: bold;
 		}
 
+.warningMsg {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: .25em;
+	color: #f44;
+	font: bold 11px sans-serif;
+	}
+
 body[lang="en"] [lang="fr"],
 body[lang="fr"] [lang="en"],
 #data {
@@ -61,6 +70,7 @@ body[lang="fr"] [lang="en"],
 	padding: 30px 50px 50px;
 	}
 		h1 {
+			position: relative;
 			font-weight: normal;
 			font-family: 'Alfa Slab One', sans-serif;
 			}
