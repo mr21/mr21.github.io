@@ -1,11 +1,26 @@
+/* smooth transition */
+body,
+h1,
+.global,
+.global .rub .content {
+	transition: background .5s ease;
+	}
+h1 {
+	transition-property: color;
+	}
+
+/* colors */
+/* - text color global */
 body,
 body       a.light { color: #ddd; }
 body.light,
 body.light a.light { color: #222; }
 
+/* - link over */
 body       a.light:hover { color: #fff; }
 body.light a.light:hover { color: #000; }
 
+/* - main background */
 body       { background: #343434 url("bg-dark.png");  }
 body.light { background: #c9c9c9 url("bg-light.png"); }
 body       .global { background: rgba(  0,  0,  0, .5); }
@@ -16,6 +31,8 @@ body       .rub .content .page { background: rgba(  0,  0,  0, .5); }
 body.light .rub .content .page { background: rgba(255,255,255, .6); }
 body       .rub .content > a:after { background: rgb(  6,  6,  6); }
 body.light .rub .content > a:after { background: rgb(230,230,230); }
+
+/* - other text colors */
 body       h1 { color: #fff; }
 body.light h1 { color: #000; }
 body       code { background: rgba(255,255,255, .1); }
