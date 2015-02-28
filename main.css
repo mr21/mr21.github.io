@@ -112,7 +112,7 @@ body[lang="fr"] [lang="en"],
 				}
 				.rub .content.alpha-mouseover > a,
 				.rub .content.alpha-selected > a {
-					opacity: .3;
+					opacity: .5;
 					}
 				.rub .content > a:hover,
 				.rub .content > a.selected {
