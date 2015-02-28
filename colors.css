@@ -9,9 +9,13 @@ body.light a.light:hover { color: #000; }
 body       { background: #343434 url("bg-dark.png");  }
 body.light { background: #c9c9c9 url("bg-light.png"); }
 body       .global { background: rgba(  0,  0,  0, .5); }
-body.light .global { background: rgba(255,255,255, .3); }
+body.light .global { background: rgba(255,255,255, .5); }
 body       .content { background: rgba(  0,  0,  0, .5); }
-body.light .content { background: rgba(255,255,255, .7); }
+body.light .content { background: rgba(  0,  0,  0, .1); }
+body       .rub .content .page { background: rgba(  0,  0,  0, .5); }
+body.light .rub .content .page { background: rgba(255,255,255, .6); }
+body       .rub .content > a:after { background: rgb(  6,  6,  6); }
+body.light .rub .content > a:after { background: rgb(230,230,230); }
 body       h1 { color: #fff; }
 body.light h1 { color: #000; }
 body       code { background: rgba(255,255,255, .1); }
@@ -34,7 +38,3 @@ body       .languages :hover    img { border-color: rgba(255,255,255, .1); }
 body.light .languages :hover    img { border-color: rgba(  0,  0,  0, .1); }
 body       .languages .selected img { border-color: rgba(255,255,255, .2); }
 body.light .languages .selected img { border-color: rgba(  0,  0,  0, .2); }
-body       .rub .content .page { background: rgba(  0,  0,  0, .3); }
-body.light .rub .content .page { background: #fff; }
-body       .rub .content > a:after { background: rgb(  8,  8,  8); }
-body.light .rub .content > a:after { background: #fff; }
