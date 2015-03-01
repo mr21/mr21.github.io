@@ -632,11 +632,11 @@ window.data = [
 				href: "https://github.com/jquery/jquery/pull/2011",
 				title: {
 					icon: "fa-code-fork",
-					span: "jQuery : .css()"
+					span: "jQuery - #2011 : .css"
 				},
 				appLink: {
-					en: "Read the pull request (gh-2011)",
-					fr: "Lire la pull request (gh-2011)"
+					en: "Access to the pull request",
+					fr: "Accéder à la pull request"
 				},
 				tags: [
 					{ name: "javascript", title: "JavaScript" },
@@ -645,17 +645,38 @@ window.data = [
 				subRub: [
 					{
 						title: {
-							icon: "fa-info-circle",
-							en: "More informations",
-							fr: "Plus d'informations"
+							icon: "fa-bug",
+							en: "Bug description",
+							fr: "Description du bug"
 						},
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"..."+
+									"With the versions <code>1.11.2</code> and <code>2.1.3</code> it is not possible to increment a CSS property with a value having a unit other than <code>\"px\"</code>. The code&nbsp;:<br/>"+
 								"</span>"+
 								"<span lang='fr'>"+
-									"..."+
+									"Avec les versions <code>1.11.2</code> et <code>2.1.3</code> il est impossible d'incrémenter une propriété CSS d'une valeur ayant une autre unité que <code>\"px\"</code>. Ce code&nbsp;:<br/>"+
+								"</span>"+
+								"<code>$(\"...\").css(\"width\", \"+=50%\");</code>"+
+								"<span lang='en'> increments the <code>width</code> of 50 pixels instead of 50%. </span>"+
+								"<span lang='fr'> incrémente <code>width</code> de 50 pixels au lieu de 50%. </span>"+
+								"<span class='sourceLink'>"+
+									"<a target='_blank' href='http://jsfiddle.net/Mr21/ga9jbnab/'>jsfiddle.net/Mr21/ga9jbnab/</a>"+
+								"</span>."+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-wrench",
+							en: "How has it been fixed&nbsp;?",
+							fr: "Comment a t-il été fixé&nbsp;?"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"Because the conversion of units was already operating with the method <code>.animate</code> my pull request was to refactor the code to make it work with both methods."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Étant donné que la conversion d'unités fonctionnait déjà avec la méthode <code>.animate</code>, ma pull request consistait à remanier le code pour que ça marche avec les deux méthodes."+
 								"</span>"+
 							"</p>"
 					}
@@ -679,31 +700,36 @@ window.data = [
 				subRub: [
 					{
 						title: {
-							icon: "fa-info-circle",
-							en: "More informations",
-							fr: "Plus d'informations"
+							icon: "fa-bug",
+							en: "Bug description",
+							fr: "Description du bug"
 						},
 						content:
-							"<div>"+
-								"<p>"+
-									"<span lang='en'>"+
-										"The CSS property <code>text-indent</code> is used to put an indented line at the start of an elements of type <code>block</code> or <code>inline-block</code>, its default value is <code>inherit</code>. The elements <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> being <code>inline-block</code> they inherit of the indented line when they are put in a <code>&lt;p&gt;</code> for example. "+
-									"</span>"+
-									"<span lang='fr'>"+
-										"La propriété CSS <code>text-indent</code> est utilisé pour mettre un alinéa sur la première ligne d'un éléments de type <code>block</code> ou <code>inline-block</code>, sa valeur par défaut est <code>inherit</code>. Les éléments de type <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> étant <code>inline-block</code> ils héritent de l'alinéa quand ils sont mis dans un <code>&lt;p&gt;</code> par exemple. "+
-									"</span>"+
-									"<span class='sourceLink'>"+
-										"<a target='_blank' href='http://mr21.fr/fa/text-indent'>mr21.fr/fa/text-indent</a>"+
-									"</span>."+
-								"</p>"+
-								"<p>"+
-									"<span lang='en'>This pull request consists in adding </span>"+
-									"<span lang='fr'>Cette pull request consiste à rajouter </span>"+
-									"<code>.fa { text-indent: 0; }</code>"+
-									"<span lang='en'> directly into the font-awesome.css file.</span>"+
-									"<span lang='fr'> directement dans le fichier font-awesome.css.</span>"+
-								"</p>"+
-							"</div>"
+							"<p>"+
+								"<span lang='en'>"+
+									"The CSS property <code>text-indent</code> is used to put an indented line at the start of an elements of type <code>block</code> or <code>inline-block</code>, its default value is <code>inherit</code>. The elements <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> being <code>inline-block</code> they inherit of the indented line when they are put in a <code>&lt;p&gt;</code> for example. "+
+								"</span>"+
+								"<span lang='fr'>"+
+									"La propriété CSS <code>text-indent</code> est utilisé pour mettre un alinéa sur la première ligne d'un éléments de type <code>block</code> ou <code>inline-block</code>, sa valeur par défaut est <code>inherit</code>. Les éléments de type <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> étant <code>inline-block</code> ils héritent de l'alinéa quand ils sont mis dans un <code>&lt;p&gt;</code> par exemple. "+
+								"</span>"+
+								"<span class='sourceLink'>"+
+									"<a target='_blank' href='http://mr21.fr/fa/text-indent'>mr21.fr/fa/text-indent</a>"+
+								"</span>."+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-wrench",
+							en: "How has it been fixed&nbsp;?",
+							fr: "Comment a t-il été fixé&nbsp;?"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>This pull request consists in adding </span>"+
+								"<span lang='fr'>Cette pull request consiste à rajouter </span>"+
+								"<code>.fa { text-indent: 0; }</code>"+
+								"<span lang='en'> directly into the font-awesome.css file.</span>"+
+								"<span lang='fr'> directement dans le fichier font-awesome.css.</span>"+
+							"</p>"
 					}
 				]
 			}
