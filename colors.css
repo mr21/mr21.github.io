@@ -45,8 +45,8 @@ body       .tags a { background: rgba(153,153,255, .15); }
 body.light .tags a { background: rgba( 85, 85,255, .25); }
 body       .tags a:hover { background: rgba(153,153,255, .3); }
 body.light .tags a:hover { background: rgba( 85, 85,255, .4); }
-body       a.gray { color: #666; }
-body.light a.gray { color: #666; }
+body       .gray { color: #666; }
+body.light .gray { color: #666; }
 body       a.gray:hover { color: #ccc; }
 body.light a.gray:hover { color: #333; }
 body       a.gray.open { color: #ddd; }
