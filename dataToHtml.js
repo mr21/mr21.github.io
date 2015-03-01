@@ -26,7 +26,7 @@ function dataToHtml() {
 					'<h2>';
 			if (this.title.icon)
 				htmlData +=
-						'<i class="fa '+this.title.icon+'"></i>';
+						'<i class="fa fa-fw '+this.title.icon+'"></i>';
 			htmlData +=
 						'<span> '+this.title.span+'</span>'+
 					'</h2>';

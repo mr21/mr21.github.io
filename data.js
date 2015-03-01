@@ -631,6 +631,7 @@ window.data = [
 				linkText: "CSS: the values like \"+=10%\" aren't ignored anymore (like .animate)",
 				href: "https://github.com/jquery/jquery/pull/2011",
 				title: {
+					icon: "fa-code-fork",
 					span: "jQuery : .css()"
 				},
 				appLink: {
@@ -665,6 +666,7 @@ window.data = [
 				linkText: ".fa { text-indent: initial; }",
 				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 				title: {
+					icon: "fa-code-fork",
 					span: "Font-Awesome : text-indent"
 				},
 				appLink: {
