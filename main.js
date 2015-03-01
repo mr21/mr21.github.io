@@ -47,7 +47,7 @@ $(function() {
 
 	// page .thatUseIt ---------------------
 	(function() {
-		var	jq_page = $("#data .skills > *, #data .projects > *"),
+		var	jq_page = $("#data * > *"),
 			jq_tags = jq_page.find(".tags a");
 		jq_page.each(function() {
 			var	name = this.className,

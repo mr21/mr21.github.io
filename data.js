@@ -674,8 +674,7 @@ window.data = [
 					fr: "Lire la pull request (gh-5760)"
 				},
 				tags: [
-					{ name: "javascript", title: "JavaScript" },
-					{ name: "jquery",     title: "jQuery" }
+					{ name: "css3", title: "CSS3" }
 				],
 				subRub: [
 					{
