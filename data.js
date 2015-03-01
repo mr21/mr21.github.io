@@ -667,11 +667,11 @@ window.data = [
 				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 				title: {
 					icon: "fa-code-fork",
-					span: "Font-Awesome : text-indent"
+					span: "Font-Awesome - #5760 : text-indent"
 				},
 				appLink: {
-					en: "Read the pull request (gh-5760)",
-					fr: "Lire la pull request (gh-5760)"
+					en: "Access to the pull request",
+					fr: "Accéder à la pull request"
 				},
 				tags: [
 					{ name: "css3", title: "CSS3" }
@@ -684,14 +684,26 @@ window.data = [
 							fr: "Plus d'informations"
 						},
 						content:
-							"<p>"+
-								"<span lang='en'>"+
-									"..."+
-								"</span>"+
-								"<span lang='fr'>"+
-									"..."+
-								"</span>"+
-							"</p>"
+							"<div>"+
+								"<p>"+
+									"<span lang='en'>"+
+										"The CSS property <code>text-indent</code> is used to put an indented line at the start of an elements of type <code>block</code> or <code>inline-block</code>, its default value is <code>inherit</code>. The elements <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> being <code>inline-block</code> they inherit of the indented line when they are put in a <code>&lt;p&gt;</code> for example. "+
+									"</span>"+
+									"<span lang='fr'>"+
+										"La propriété CSS <code>text-indent</code> est utilisé pour mettre un alinéa sur la première ligne d'un éléments de type <code>block</code> ou <code>inline-block</code>, sa valeur par défaut est <code>inherit</code>. Les éléments de type <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> étant <code>inline-block</code> ils héritent de l'alinéa quand ils sont mis dans un <code>&lt;p&gt;</code> par exemple. "+
+									"</span>"+
+									"<span class='sourceLink'>"+
+										"<a target='_blank' href='http://mr21.fr/fa/text-indent'>mr21.fr/fa/text-indent</a>"+
+									"</span>."+
+								"</p>"+
+								"<p>"+
+									"<span lang='en'>This pull request consists in adding </span>"+
+									"<span lang='fr'>Cette pull request consiste à rajouter </span>"+
+									"<code>.fa { text-indent: 0; }</code>"+
+									"<span lang='en'> directly into the font-awesome.css file.</span>"+
+									"<span lang='fr'> directement dans le fichier font-awesome.css.</span>"+
+								"</p>"+
+							"</div>"
 					}
 				]
 			}
