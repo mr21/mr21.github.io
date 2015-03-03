@@ -4,8 +4,8 @@ window.data = [
 		data: [
 			{
 				name: "youtube-playlists-manager",
-				img: "https://mr21.github.io/YouTube-playlists-manager/thumbnail.jpg",
-				href: "http://mr21.fr/YouTube-playlists-manager/",
+				img: "../youtube-playlists-manager/thumbnail.jpg",
+				href: "../youtube-playlists-manager/",
 				title: {
 					icon: "fa-youtube-play",
 					span: "YouTube - playlists manager"
@@ -57,10 +57,10 @@ window.data = [
 									"<span lang='fr'>Si vous cliquez sur ce bouton&nbsp;:</span>"+
 									"<b> <i class='fa fa-sign-in'></i> Login with Google</b>"+
 									"<span lang='en'>"+
-										"a Google's popup will appear to connect you to your personnal YouTube account directly. After that you will be able to manage your own playlists by rename it, reorder the videos, etc. Once you have completed your changes, you will be able to summarize all changes with a diff viewing by clicking this button&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;. "+
+										" a Google's popup will appear to connect you to your personnal YouTube account directly. After that you will be able to manage your own playlists by rename it, reorder the videos, etc. Once you have completed your changes, you will be able to summarize all changes with a diff viewing by clicking this button&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;. "+
 									"</span>"+
 									"<span lang='fr'>"+
-										"une popup Google va apparaître pour vous connecter directement à votre compte YouTube personnel. Après ça vous serez en mesure de gérer vos propres playlists en les renommant, en changeant l'ordre des vidéos, etc. Une fois que vous aurez terminé vos changements, vous aurez la possibilité d'avoir resumé des modifications en cliquant sur ce bouton&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;. "+
+										" une popup Google va apparaître pour vous connecter directement à votre compte YouTube personnel. Après ça vous serez en mesure de gérer vos propres playlists en les renommant, en changeant l'ordre des vidéos, etc. Une fois que vous aurez terminé vos changements, vous aurez la possibilité d'avoir resumé des modifications en cliquant sur ce bouton&nbsp;:&nbsp;<i class='fa fa-save'></i>&nbsp;. "+
 									"</span>"+
 								"</p>"+
 								"<p>"+
@@ -70,7 +70,7 @@ window.data = [
 									"<span lang='fr'>"+
 										"Quand la page résumant les changements apparaît, vous avez le choix de tout annuler ou de tout sauvegarder sur votre compte YouTube à vous. Sur cette page vous verrez différentes icônes etc. que vous pouvez comprendre facilement à l'aide de cette image&nbsp;: "+
 									"</span>"+
-									"<a target='_blank' href='YouTube-playlists-manager/img/help-diff.jpg'><b>help.jpg</b></a>."+
+									"<a target='_blank' href='youtube-playlists-manager/img/help-diff.jpg'><b>help.jpg</b></a>."+
 								"</p>"+
 							"</div>"
 					}, {
@@ -155,8 +155,8 @@ window.data = [
 				]
 			}, {
 				name: "killdemall",
-				img: "http://mr21.fr/KillDemAll/thumbnail.jpg",
-				href: "http://mr21.fr/KillDemAll/",
+				img: "../killdemall/thumbnail.jpg",
+				href: "../killdemall/",
 				title: {
 					icon: "fa-gamepad",
 					span: "KillDemAll"
@@ -227,8 +227,8 @@ window.data = [
 				]
 			}, {
 				name: "artificial-orbit-simulation",
-				img: "https://mr21.github.io/artificial-orbit-simulation/thumbnail.jpg",
-				href: "http://mr21.fr/artificial-orbit-simulation/",
+				img: "../artificial-orbit-simulation/thumbnail.jpg",
+				href: "../artificial-orbit-simulation/",
 				title: {
 					icon: "fa-rocket",
 					span: "Artificial Orbit Simulation"
@@ -312,8 +312,8 @@ window.data = [
 				]
 			}, {
 				name: "jquery-dragndrop",
-				img: "https://mr21.github.io/jquery-dragndrop/thumbnail.jpg",
-				href: "http://mr21.fr/jquery-dragndrop/",
+				img: "../jquery-dragndrop/thumbnail.jpg",
+				href: "../jquery-dragndrop/",
 				title: {
 					icon: "fa-plug",
 					span: "jQuery - dragndrop"
@@ -347,8 +347,8 @@ window.data = [
 				]
 			}, {
 				name: "jquery-tabs",
-				img: "https://mr21.github.io/jquery-tabs/thumbnail.jpg",
-				href: "http://mr21.fr/jquery-tabs/",
+				img: "../jquery-tabs/thumbnail.jpg",
+				href: "../jquery-tabs/",
 				title: {
 					icon: "fa-plug",
 					span: "jQuery - tabs"
@@ -382,8 +382,8 @@ window.data = [
 				]
 			}, {
 				name: "canvasloth",
-				img: "https://mr21.github.io/canvasloth/thumbnail.jpg",
-				href: "http://mr21.fr/canvasloth/",
+				img: "../canvasloth/thumbnail.jpg",
+				href: "../canvasloth/",
 				title: {
 					icon: "fa-html5",
 					span: "Canvasloth"
@@ -416,8 +416,8 @@ window.data = [
 				]
 			}, {
 				name: "windows8-loading",
-				img: "https://mr21.github.io/css-animations/windows8-loading/thumbnail.jpg",
-				href: "http://mr21.fr/css-animations/windows8-loading/",
+				img: "../css-animations/windows8-loading/thumbnail.jpg",
+				href: "../css-animations/windows8-loading/",
 				title: {
 					icon: "fa-css3",
 					span: "Windows8 - loading"
@@ -450,8 +450,8 @@ window.data = [
 				]
 			}, {
 				name: "learncss",
-				img: "https://mr21.github.io/learnCSS/thumbnail.jpg",
-				href: "http://mr21.fr/learnCSS/",
+				img: "../learncss/thumbnail.jpg",
+				href: "../learncss/",
 				title: {
 					icon: "fa-css3",
 					span: "LearnCSS"
@@ -513,8 +513,8 @@ window.data = [
 				]
 			}, {
 				name: "gitfast",
-				img: "https://mr21.github.io/GitFast/thumbnail.jpg",
-				href: "https://github.com/Mr21/GitFast",
+				img: "../gitfast/thumbnail.jpg",
+				href: "https://github.com/Mr21/gitfast",
 				title: {
 					icon: "fa-git-square",
 					span: "GitFast"
@@ -586,12 +586,12 @@ window.data = [
 					}
 				]
 			}, {
-				name: "carouselparallax",
-				img: "http://mr21.fr/CarouselParallax/thumbnail.jpg",
-				href: "http://mr21.fr/CarouselParallax/",
+				name: "carousel-parallax",
+				img: "../carousel-parallax/thumbnail.jpg",
+				href: "../carousel-parallax/",
 				title: {
 					icon: "fa-html5",
-					span: "CarouselParallax"
+					span: "Carousel-Parallax"
 				},
 				appLink: {
 					en: "Scroll the paralax&nbsp;!",
