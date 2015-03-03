@@ -2,7 +2,9 @@
 body,
 h1,
 .global,
-.global .rub .content {
+.global .rub .content,
+.global .rub .content .page,
+.global .rub .content > a:after {
 	transition: background .5s ease;
 	}
 h1 {
