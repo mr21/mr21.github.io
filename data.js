@@ -590,15 +590,16 @@ window.data = [
 				img: "../carousel-parallax/thumbnail.jpg",
 				href: "../carousel-parallax/",
 				title: {
-					icon: "fa-html5",
+					icon: "fa-plug",
 					span: "Carousel-Parallax"
 				},
 				appLink: {
-					en: "Scroll the paralax&nbsp;!",
-					fr: "Faire défiler le parallax&nbsp;!"
+					en: "Watch the paralax&nbsp;!",
+					fr: "Faîtes défiler le parallax&nbsp;!"
 				},
 				tags: [
 					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" },
 					{ name: "css3",       title: "CSS3" },
 					{ name: "photoshop",  title: "Photoshop" }
 				],
