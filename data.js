@@ -607,16 +607,31 @@ window.data = [
 					{
 						title: {
 							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"<b>Carousel-Parallax</b> is another jQuery carousel plugin except that this one offer a nice parallax effect during the slide change. This has the effect of giving <b>an impression of depth</b>."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"<b>Carousel-Parallax</b> est un énième carousel jQuery sauf que celui-ci propose un joli effet de parallax lors du changement de slide. Ce qui donne <b>une impression de profondeur</b>."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-code",
 							en: "How does it work&nbsp;?",
 							fr: "Comment ça marche&nbsp;?"
 						},
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"To make its <b>paralax</b>, the script use the CSS property <code>z-index</code> to calculate the more or less faster move of the elements during the changement of the slide. This has the effect of giving <b>an impression of depth</b>."+
+									"To make its <b>paralax</b>, the plugin use the CSS property <code>z-index</code> to calculate the more or less faster move of the elements during the changement of the slide."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Pour faire son <b>parallax</b>, le script utilise la propriété CSS <code>z-index</code> pour calculer les déplacements plus ou moins rapide des éléments lors du changement de slide. Ce qui a pour effet de donner <b>une impression de profondeur</b>."+
+									"Pour faire son <b>parallax</b>, le plugin utilise la propriété CSS <code>z-index</code> des différents <i>layers</i> pour calculer les déplacements plus ou moins rapide des éléments lors du changement de slide."+
 								"</span>"+
 							"</p>"
 					}
