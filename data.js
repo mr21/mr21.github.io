@@ -524,8 +524,8 @@ window.data = [
 					fr: "Aller sur le repo&nbsp;!"
 				},
 				tags: [
-					{ name: "git",  title: "Git" },
-					{ name: "bash", title: "Bash" }
+					{ name: "git",             title: "Git" },
+					{ name: "shell-scripting", title: "Shell-scripting" }
 				],
 				subRub: [
 					{
@@ -594,7 +594,7 @@ window.data = [
 					span: "Carousel-Parallax"
 				},
 				appLink: {
-					en: "Watch the paralax&nbsp;!",
+					en: "Watch the parallax&nbsp;!",
 					fr: "Faîtes défiler le parallax&nbsp;!"
 				},
 				tags: [
@@ -628,7 +628,7 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"To make its <b>paralax</b>, the plugin use the CSS property <code>z-index</code> to calculate the more or less faster move of the elements during the changement of the slide."+
+									"To make its <b>parallax</b>, the plugin use the CSS property <code>z-index</code> to calculate the more or less faster move of the elements during the changement of the slide."+
 								"</span>"+
 								"<span lang='fr'>"+
 									"Pour faire son <b>parallax</b>, le plugin utilise la propriété CSS <code>z-index</code> des différents <i>layers</i> pour calculer les déplacements plus ou moins rapide des éléments lors du changement de slide."+
