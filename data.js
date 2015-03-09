@@ -514,14 +514,14 @@ window.data = [
 			}, {
 				name: "gitfast",
 				img: "../gitfast/thumbnail.jpg",
-				href: "https://github.com/Mr21/gitfast",
+				href: "../gitfast/",
 				title: {
 					icon: "fa-git-square",
 					span: "GitFast"
 				},
 				appLink: {
-					en: "Access to the repo&nbsp;!",
-					fr: "Aller sur le repo&nbsp;!"
+					en: "Watch the list of aliases",
+					fr: "Voir la liste des alias"
 				},
 				tags: [
 					{ name: "git",             title: "Git" },
@@ -537,52 +537,12 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"<b>GitFast.sh</b> is a <b>Bash</b> shell script file offering many intelligent <b>aliases</b> to accelerate the use of <b>Git</b> on the command line."+
+									"<b>gitfast.sh</b> is a <b>Bash</b> shell script file offering many intelligent <b>aliases</b> to accelerate the use of <b>Git</b> on the command line."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"<b>GitFast.sh</b> est un script shell pour <b>Bash</b> offrant une serie d'<b>alias</b> intelligents pour accélérer l'usage de <b>Git</b> en ligne de commande."+
+									"<b>gitfast.sh</b> est un script shell pour <b>Bash</b> offrant une serie d'<b>alias</b> intelligents pour accélérer l'usage de <b>Git</b> en ligne de commande."+
 								"</span>"+
 							"</p>"
-					}, {
-						title: {
-							icon: "fa-list-ul",
-							en: "The list of proposed aliases&nbsp;?",
-							fr: "La liste des alias proposés&nbsp;?"
-						},
-						content:
-							"<div>"+
-								"<table>"+
-								"<thead>"+
-									"<tr>"+
-										"<td class='alias'>Alias</td>"+
-										"<td>"+
-											"<span lang='en'>Git equivalent</span>"+
-											"<span lang='fr'>Équivalent Git</span>"+
-										"</td>"+
-									"</tr>"+
-								"</thead>"+
-								"<tbody>"+
-									"<tr><td><code>gst</code></td>             <td><code>git status</code></td></tr>"+
-									"<tr><td><code>gad</code></td>             <td><code>git add -A ; git status</code></td></tr>"+
-									"<tr><td><code>gad <i>foo</i></code></td>  <td><code>git add <i>foo</i> ; git status</code></td></tr>"+
-									"<tr><td><code>gbr</code></td>             <td><code>git branch</code></td></tr>"+
-									"<tr><td><code>gbr <i>foo</i></code></td>  <td><code>git checkout <i>foo</i> ; git branch</code></td></tr>"+
-									"<tr><td><code>gps</code></td>             <td><code>git push</code></td></tr>"+
-									"<tr><td><code>gpf</code></td>             <td><code>git push -f</code></td></tr>"+
-									"<tr><td><code>gpl</code></td>             <td><code>git pull</code></td></tr>"+
-									"<tr><td><code>gls</code></td>             <td><code>git shortlog</code></td></tr>"+
-									"<tr><td><code>glf</code></td>             <td><code>git log --stat</code></td></tr>"+
-									"<tr><td><code>gdf</code></td>             <td><code>git diff</code></td></tr>"+
-									"<tr><td><code>gdf <i>foo</i></code></td>  <td><code>git diff <i>foo</i></code></td></tr>"+
-									"<tr><td><code>gco</code></td>             <td><code>git checkout</code></td></tr>"+
-									"<tr><td><code>gci</code></td>             <td><code>git commit -m \"...\"</code></td></tr>"+
-									"<tr><td><code>gci <i>foo</i></code></td>  <td><code>git commit -m \"<i>foo</i>\"</code></td></tr>"+
-									"<tr><td><code>grh</code></td>             <td><code>git reset HEAD</code></td></tr>"+
-									"<tr><td><code>grh <i>1</i></code></td>    <td><code>git reset HEAD^</code></td></tr>"+
-									"<tr><td><code>grh <i>2</i></code></td>    <td><code>git reset HEAD^^</code></td></tr>"+
-								"</tbody>"+
-								"</table>"+
-							"</div>"
 					}
 				]
 			}, {
