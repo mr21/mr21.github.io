@@ -604,11 +604,11 @@ window.data = [
 			{
 				name: "jquery-pr-2011",
 				img: "logos/jquery.png",
-				linkText: "CSS: the values like \"+=10%\" aren't ignored anymore (like .animate)",
+				linkText: "CSS: Support relative adjustment in any applicable unit",
 				href: "https://github.com/jquery/jquery/pull/2011",
 				title: {
 					icon: "fa-code-fork",
-					span: "jQuery - #2011 : .css"
+					span: "jQuery - #2011 : CSS"
 				},
 				appLink: {
 					en: "Access to the pull request",
