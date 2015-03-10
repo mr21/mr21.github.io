@@ -162,11 +162,6 @@ body[lang="fr"] [lang="en"],
 					display: inline-block;
 					font-weight: bold;
 					}
-					.rub .content .page .appLink:before {
-						content: "\f08e"; /* fa-external-link */
-						font: 14px FontAwesome;
-						margin-right: .2em;
-						}
 				.rub .content .page .sourceLink:before {
 					content: "cf.\A0";
 					}

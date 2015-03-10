@@ -614,6 +614,11 @@ window.data = [
 					en: "Access to the pull request",
 					fr: "Accéder à la pull request"
 				},
+				fiddle: {
+					href: "http://jsfiddle.net/Mr21/ga9jbnab/",
+					en: "Demonstration of the bug",
+					fr: "Démonstration du bug"
+				},
 				tags: [
 					{ name: "javascript", title: "JavaScript" },
 					{ name: "jquery",     title: "jQuery" }
@@ -634,11 +639,8 @@ window.data = [
 									"Avec les versions <code>1.11.2</code> et <code>2.1.3</code> il est impossible d'incrémenter une propriété CSS d'une valeur ayant une autre unité que <code>\"px\"</code>. Ce code&nbsp;:<br/>"+
 								"</span>"+
 								"<code>$(\"...\").css(\"width\", \"+=50%\");</code>"+
-								"<span lang='en'> increments the <code>width</code> of 50 pixels instead of 50%. </span>"+
-								"<span lang='fr'> incrémente <code>width</code> de 50 pixels au lieu de 50%. </span>"+
-								"<span class='sourceLink'>"+
-									"<a target='_blank' href='http://jsfiddle.net/Mr21/ga9jbnab/'>jsfiddle.net/Mr21/ga9jbnab/</a>"+
-								"</span>."+
+								"<span lang='en'> increments the <code>width</code> of 50 pixels instead of 50%.</span>"+
+								"<span lang='fr'> incrémente <code>width</code> de 50 pixels au lieu de 50%.</span>"+
 							"</p>"
 					}, {
 						title: {
@@ -670,6 +672,11 @@ window.data = [
 					en: "Access to the pull request",
 					fr: "Accéder à la pull request"
 				},
+				fiddle: {
+					href: "http://jsfiddle.net/Mr21/pft9gL4v/",
+					en: "Demonstration of the bug",
+					fr: "Démonstration du bug"
+				},
 				tags: [
 					{ name: "css3", title: "CSS3" }
 				],
@@ -683,14 +690,11 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"The CSS property <code>text-indent</code> is used to put an indented line at the start of an elements of type <code>block</code> or <code>inline-block</code>, its default value is <code>inherit</code>. The elements <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> being <code>inline-block</code> they inherit of the indented line when they are put in a <code>&lt;p&gt;</code> for example. "+
+									"The CSS property <code>text-indent</code> is used to put an indented line at the start of an elements of type <code>block</code> or <code>inline-block</code>, its default value is <code>inherit</code>. The elements <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> being <code>inline-block</code> they inherit of the indented line when they are put in a <code>&lt;p&gt;</code> for example."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"La propriété CSS <code>text-indent</code> est utilisé pour mettre un alinéa sur la première ligne d'un éléments de type <code>block</code> ou <code>inline-block</code>, sa valeur par défaut est <code>inherit</code>. Les éléments de type <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> étant <code>inline-block</code> ils héritent de l'alinéa quand ils sont mis dans un <code>&lt;p&gt;</code> par exemple. "+
+									"La propriété CSS <code>text-indent</code> est utilisé pour mettre un alinéa sur la première ligne d'un éléments de type <code>block</code> ou <code>inline-block</code>, sa valeur par défaut est <code>inherit</code>. Les éléments de type <code>&lt;i class=\"fa\"&gt;&lt;/i&gt;</code> étant <code>inline-block</code> ils héritent de l'alinéa quand ils sont mis dans un <code>&lt;p&gt;</code> par exemple."+
 								"</span>"+
-								"<span class='sourceLink'>"+
-									"<a target='_blank' href='http://mr21.fr/fa/text-indent'>mr21.fr/fa/text-indent</a>"+
-								"</span>."+
 							"</p>"
 					}, {
 						title: {

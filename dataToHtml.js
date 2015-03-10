@@ -35,9 +35,19 @@ function dataToHtml() {
 				htmlData +=
 					// .appLink ---------------
 					'<a class="appLink" target="_blank" href="'+this.href+'">'+
+						'<i class="fa fa-fw fa-external-link"></i> '+
 						'<span lang="en">'+this.appLink.en+'</span>'+
 						'<span lang="fr">'+this.appLink.fr+'</span>'+
-					'</a>';
+					'</a><br/>';
+
+			if (this.fiddle)
+				htmlData +=
+					// .fiddle ---------------
+					'<a class="fiddle" target="_blank" href="'+this.fiddle.href+'">'+
+						'<i class="fa fa-fw fa-jsfiddle"></i> '+
+						'<span lang="en">'+this.fiddle.en+'</span>'+
+						'<span lang="fr">'+this.fiddle.fr+'</span>'+
+					'</a><br/>';
 
 			if (this.tags) {
 				htmlData +=
