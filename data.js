@@ -264,10 +264,10 @@ window.data = [
 									"<i class='fa fa-arrow-down'></i> "+
 									"<i class='fa fa-arrow-left'></i> . "+
 									"<span lang='en'>"+
-										"So, it's easy to <b>understand</b> how <b>the placement into orbit</b> around a planet works.<br/> I wanted to code this page after seeing the video&nbsp;: "+
+										"So, it's easy to <b>understand</b> how <b>the placement into orbit</b> around a planet works.<br/> I wanted to code this page after seeing the video "+
 									"</span>"+
 									"<span lang='fr'>"+
-										"Ainsi, il est facile de <b>réaliser</b> comment fonctionne <b>le placement en orbite</b> d'un objet autour d'une planète.<br/> J'ai voulu coder cette chose après avoir vu cette vidéo&nbsp;: "+
+										"Ainsi, il est facile de <b>réaliser</b> comment fonctionne <b>le placement en orbite</b> d'un objet autour d'une planète.<br/> J'ai voulu coder cette page après avoir vu la vidéo "+
 									"</span>"+
 									"<a href='http://youtu.be/t-nWPBBWRZs' target='_blank'>e-penser (Ep.03)</a>. "+
 									"<span lang='en'>"+
