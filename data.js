@@ -512,6 +512,41 @@ window.data = [
 					}
 				]
 			}, {
+				name: "joystick-html5",
+				img: "../joystick-html5/thumbnail.jpg",
+				href: "../joystick-html5/",
+				title: {
+					icon: "fa-gamepad",
+					span: "Joystick - HTML5"
+				},
+				appLink: {
+					en: "See it in action&nbsp;!",
+					fr: "Voir la démo&nbsp;!"
+				},
+				tags: [
+					{ name: "html5",      title: "html5" },
+					{ name: "javascript", title: "javascript" },
+					{ name: "css3",       title: "CSS3" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"On mobile (or tablet) all is touchscreen so when creating a game in HTML5 with Canvas or other it's impossible to take into account the keyboard or mouse if we want our application to work on all the devices. That's why I wrote this script that uses the <code>touchStart/Move/End</code> events to create a virtual joystick."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Sur mobile (et sur tablette) tout est tactile du coup quand on crée un jeu en HTML5 avec Canvas ou autre il est impossible de prendre en compte le clavier ou la souris si l'on veut que notre application puisse fonctionner sur tous les devices. C'est pourquoi j'ai écrit ce script qui utilise les événements <code>touchStart/Move/End</code> pour créer un joystick virtuel."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
 				name: "gitfast",
 				img: "../gitfast/thumbnail.jpg",
 				href: "../gitfast/",
