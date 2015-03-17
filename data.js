@@ -238,10 +238,11 @@ window.data = [
 					fr: "3 … 2 … 1 … décollage&nbsp;!"
 				},
 				tags: [
-					{ name: "javascript", title: "JavaScript" },
-					{ name: "canvas",     title: "Canvas" },
-					{ name: "canvasloth", title: "Canvasloth" },
-					{ name: "photoshop",  title: "Photoshop" }
+					{ name: "javascript",     title: "JavaScript" },
+					{ name: "canvas",         title: "Canvas" },
+					{ name: "canvasloth",     title: "Canvasloth" },
+					{ name: "joystick-html5", title: "Joystick-HTML5" },
+					{ name: "photoshop",      title: "Photoshop" }
 				],
 				subRub: [
 					{
