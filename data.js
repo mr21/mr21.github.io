@@ -226,6 +226,56 @@ window.data = [
 					}
 				]
 			}, {
+				name: "canvas-pixelsfinger",
+				img: "../canvas-pixelsfinger/thumbnail.jpg",
+				href: "../canvas-pixelsfinger/",
+				title: {
+					icon: "fa-hand-o-right",
+					span: "Canvas - pixels finger"
+				},
+				appLink: {
+					en: "Click and have fun by moving your fingers&nbsp;!",
+					fr: "Cliquez et amusez-vous à bouger vos doigts&nbsp;!"
+				},
+				tags: [
+					{ name: "javascript",     title: "JavaScript" },
+					{ name: "canvas",         title: "Canvas" },
+					{ name: "canvasloth",     title: "Canvasloth" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"The file <b>canvas-pixelsfinger.js</b> simulates the effect of a finger that we pass on a still fresh paint. In the same way as Photoshop, two parameters are considered&nbsp;: the <b>size</b> of the finger and its <b>intensity</b> (the force with which we press summarized to a float from 0 to 1)."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Le fichier <b>canvas-pixelsfinger.js</b> permet de simuler l'effet d'un doigt que l'on passerai sur une peinture encore fraîche. De la même manière que Photoshop, deux paramètres sont pris en compte&nbsp;: la <b>taille</b> du doigt ainsi que son <b>intensité</b> (la force avec laquelle l'on appuierait ici résumé à un float allant de 0 à 1)."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-mobile",
+							en: "On mobile",
+							fr: "Sur mobile"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"On mobile, the <b>HTML5 events</b> launched when we move our fingers provide some information such as the <b>position</b> of the finger on the screen but also its <b>strength</b>, as well, depending on how you press more or less stronger the pixels will move more or less far."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Sur mobile, les <b>événements HTML5</b> lancés lorsque l'on bouge nos doigts donnent plusieurs informations telle que la <b>position</b> du doigt sur l'écran mais aussi sa <b>force</b>, ainsi selon si l'on appuie plus ou moins fort les pixels vont se déplacer plus ou moins loin&nbsp;!"+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
 				name: "artificial-orbit-simulation",
 				img: "../artificial-orbit-simulation/thumbnail.jpg",
 				href: "../artificial-orbit-simulation/",
