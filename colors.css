@@ -4,7 +4,7 @@ h1,
 .global,
 .global .rub .content,
 .global .rub .content .page,
-.global .rub .content > a:after {
+.global .rub .content > a {
 	transition: background .5s ease;
 	}
 h1 {
@@ -31,8 +31,8 @@ body       .content { background: rgba(  0,  0,  0, .5); }
 body.light .content { background: rgba(  0,  0,  0, .1); }
 body       .rub .content .page { background: rgba(  0,  0,  0, .5); }
 body.light .rub .content .page { background: rgba(255,255,255, .6); }
-body       .rub .content > a:after { background: rgb(  6,  6,  6); }
-body.light .rub .content > a:after { background: rgb(230,230,230); }
+body       .rub .content > a { background: rgb(  6,  6,  6); }
+body.light .rub .content > a { background: rgb(230,230,230); }
 
 /* - other text colors */
 body       h1 { color: #fff; }

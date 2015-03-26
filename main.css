@@ -92,9 +92,6 @@ body[lang="fr"] [lang="en"],
 			.colors {
 				font-size: 18px;
 				}
-				.colors a {
-
-					}
 		.rub .header {
 			padding: 5px 0;
 			margin-top: 20px;
@@ -135,6 +132,7 @@ body[lang="fr"] [lang="en"],
 					height: 10px;
 					left: 50%;
 					margin-left: -5px;
+					background: inherit;
 					transform: rotate(45deg);
 					transition: bottom .25s ease;
 					bottom: -15px;
@@ -224,14 +222,9 @@ body[lang="fr"] [lang="en"],
 				}
 
 /* particular */
-.gitfast td.alias {
-	width: 85px;
-	}
-
 .skills .content > a {
 	width: 20%;
 	}
-
 .contrib .content > a {
 	width: 100%;
 	}
