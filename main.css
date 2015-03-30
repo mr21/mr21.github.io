@@ -132,7 +132,7 @@ body[lang="fr"] [lang="en"],
 					height: 10px;
 					left: 50%;
 					margin-left: -5px;
-					background: inherit;
+					/*background: inherit;*/
 					transform: rotate(45deg);
 					transition: bottom .25s ease;
 					bottom: -15px;
