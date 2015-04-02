@@ -115,15 +115,19 @@ body[lang="fr"] [lang="en"],
 				float: left;
 				width: 25%;
 				overflow: hidden;
-				transition: opacity .2s ease;
+				transition: all .2s ease;
 				}
 				.rub .content.alpha-mouseover > a,
 				.rub .content.alpha-selected > a {
-					opacity: .5;
+					opacity: .6;
+					-webkit-filter: saturate(0%);
+					filter: saturate(0%);
 					}
 				.rub .content > a:hover,
 				.rub .content > a.selected {
 					opacity: 1;
+					-webkit-filter: saturate(120%);
+					filter: saturate(120%);
 					}
 				.rub .content > a:after {
 					content: "";
