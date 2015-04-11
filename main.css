@@ -250,18 +250,19 @@ body[lang="fr"] [lang="en"],
 	}
 	.social .icon-container {
 		position: absolute;
-		width: 14.285%; /* 100 / 7 */
+		width: 12.5%; /* 100 / 8 */
 		text-align: center;
 		transition: all .3s ease;
 		visibility: visible;
 		}
 		.social .link,
-		.social .icon-container:nth-of-type(2) { left: 14.285%; }
-		.social .icon-container:nth-of-type(3) { left: 28.571%; }
-		.social .icon-container:nth-of-type(4) { left: 42.857%; }
-		.social .icon-container:nth-of-type(5) { left: 57.143%; }
-		.social .icon-container:nth-of-type(6) { left: 71.429%; }
-		.social .icon-container:nth-of-type(7) { left: 85.714%; }
+		.social .icon-container:nth-of-type(2) { left: 12.5%; }
+		.social .icon-container:nth-of-type(3) { left: 25.0%; }
+		.social .icon-container:nth-of-type(4) { left: 37.5%; }
+		.social .icon-container:nth-of-type(5) { left: 50.0%; }
+		.social .icon-container:nth-of-type(6) { left: 62.5%; }
+		.social .icon-container:nth-of-type(7) { left: 75.0%; }
+		.social .icon-container:nth-of-type(8) { left: 87.5%; }
 		.social .icon-container.selected {
 			left: 0%;
 			}
