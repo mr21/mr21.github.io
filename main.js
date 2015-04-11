@@ -109,7 +109,9 @@ $(function() {
 			jq_page.slideDown(SLIDE_DUR, function() {
 				var jq_subTitles = $(this).find(".subTitle");
 				if (!jq_subTitles.hasClass("open"))
-					jq_subTitles.eq(0).click();
+					setTimeout(function() {
+						jq_subTitles.eq(0).click();
+					}, 300);
 			});
 		}
 
