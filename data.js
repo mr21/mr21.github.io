@@ -769,7 +769,7 @@ window.data = [
 			}, {
 				name: "font-awesome-pr-5760",
 				img: "logos/font-awesome.png",
-				linkText: ".fa { text-indent: initial; }",
+				linkText: ".fa { text-indent: 0; }",
 				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 				title: {
 					icon: "fa-code-fork",
