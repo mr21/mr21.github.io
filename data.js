@@ -715,7 +715,7 @@ window.data = [
 				href: "https://github.com/jquery/jquery/pull/2011",
 				title: {
 					icon: "fa-code-fork",
-					span: "jQuery - #2011 : CSS"
+					span: "jQuery - #2011 : CSS, Effects"
 				},
 				appLink: {
 					en: "Access to the pull request",
@@ -740,14 +740,14 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"With the versions <code>1.11.2</code> and <code>2.1.3</code> it is not possible to increment a CSS property with a value having a unit other than <code>\"px\"</code>. The code&nbsp;:<br/>"+
+									"It was not possible to increment a CSS property with a value having a unit other than <code>\"px\"</code>. In other words, the code&nbsp;:<br/>"+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Avec les versions <code>1.11.2</code> et <code>2.1.3</code> il est impossible d'incrémenter une propriété CSS d'une valeur ayant une autre unité que <code>\"px\"</code>. Ce code&nbsp;:<br/>"+
+									"Il était impossible d'incrémenter une propriété CSS d'une valeur ayant une autre unité que <code>\"px\"</code>, Autrement dit, ce code&nbsp;:<br/>"+
 								"</span>"+
 								"<code>$(\"...\").css(\"width\", \"+=50%\");</code>"+
-								"<span lang='en'> increments the <code>width</code> of 50 pixels instead of 50%.</span>"+
-								"<span lang='fr'> incrémente <code>width</code> de 50 pixels au lieu de 50%.</span>"+
+								"<span lang='en'> incremented the <code>width</code> of 50 <b>pixels</b> instead of 50<b>%</b>.</span>"+
+								"<span lang='fr'> incrémentait la <code>width</code> de 50 <b>pixels</b> au lieu de 50<b>%</b>.</span>"+
 							"</p>"
 					}, {
 						title: {
@@ -758,10 +758,95 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"Because the conversion of units was already operating with the method <code>.animate</code> my pull request was to refactor the code to make it work with both methods."+
+									"Because the conversion of units was already operating with the method <code>.animate</code> my pull request was to refactor the code to make it work with both methods. And therefore I wrote 15 new unit tests."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Étant donné que la conversion d'unités fonctionnait déjà avec la méthode <code>.animate</code>, ma pull request consistait à remanier le code pour que ça marche avec les deux méthodes."+
+									"Étant donné que la conversion d'unités fonctionnait déjà avec la méthode <code>.animate</code>, ma <i>pull request</i> consistait à remanier le code pour que ça marche avec les deux méthodes. Et par conséquent j'ai rajouté 15 nouveaux tests unitaires."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-thumbs-o-up",
+							en: "Thanks",
+							fr: "Remerciements"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"Thanks to <b>gibson042</b> to have review the pull request."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Merci à <b>gibson042</b> d'avoir aidé et relu la <i>pull request</i>."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
+				name: "jquery-pr-2218",
+				img: "logos/jquery.png",
+				linkText: "Effects: jQuery.easing._default",
+				href: "https://github.com/jquery/jquery/pull/2218",
+				title: {
+					icon: "fa-code-fork",
+					span: "jQuery - #2218 : Effects, Tween"
+				},
+				appLink: {
+					en: "Access to the pull request",
+					fr: "Accéder à la pull request"
+				},
+				fiddle: {
+					href: "http://jsfiddle.net/Mr21/wh5sdgzu/",
+					en: "Demonstration of the bug",
+					fr: "Démonstration du bug"
+				},
+				tags: [
+					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-bug",
+							en: "Bug description",
+							fr: "Description du problème"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"When the <code>easing</code> attribute was not specified for the method <code>.animate</code>, a default value (<code>\"swing\"</code>) is assigned to it, the problem was that: this value remained inaccessible from the user's callbacks (<code>progress</code>, <code>start</code>, <code>done</code>).<br/>"+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Lorsque l'attribut <code>easing</code> n'était pas spécifié à la méthode <code>.animate</code> une valeur par défaut (<code>\"swing\"</code>) lui été assigné, le problème était que cette valeur restait innacessible depuis les callbacks (<code>progress</code>, <code>start</code>, <code>done</code>) de l'utilisateur.<br/>"+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-wrench",
+							en: "How has it been fixed&nbsp;?",
+							fr: "Comment a t-il été fixé&nbsp;?"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"I added the <code>jQuery.easing._default = \"swing\";</code> attribute (for a better <i>coding style</i>) then I wrote it at two locations in the code to cover all the possible cases. And therefore I wrote 2 new unit tests."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"J'ai rajouté l'attribut <code>jQuery.easing._default = \"swing\";</code> (pour un meilleur <i>coding style</i>) que j'ai ensuite placé à deux endroits pour couvrir tous les cas possibles. Et par conséquent j'ai rajouté 2 nouveaux tests unitaires."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-thumbs-o-up",
+							en: "Thanks",
+							fr: "Remerciements"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"Thanks to <b>gibson042</b> to have review the pull request."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Merci à <b>gibson042</b> d'avoir aidé et relu la <i>pull request</i>."+
 								"</span>"+
 							"</p>"
 					}
