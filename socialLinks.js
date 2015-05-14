@@ -3,13 +3,15 @@ $(function () {
 		jq_social = $(".social"),
 		jq_links = $(".link > *", jq_social),
 		fn_close = function() {
-			jq_oldLink
-				.removeClass("open")
-				.parent()
-					.removeClass("selected")
+			if (jq_oldLink) {
+				jq_oldLink
+					.removeClass("open")
 					.parent()
-						.removeClass("one-is-selected");
-			jq_oldLink[0]._jq_link.fadeOut(200);
+						.removeClass("selected")
+						.parent()
+							.removeClass("one-is-selected");
+				jq_oldLink[0]._jq_link.fadeOut(200);
+			}
 		};
 
 	$(window).keydown(function(e) {
