@@ -813,10 +813,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"When the <code>easing</code> attribute was not specified for the method <code>.animate</code>, a default value (<code>\"swing\"</code>) is assigned to it, the problem was that: this value remained inaccessible from the user's callbacks (<code>progress</code>, <code>start</code>, <code>done</code>).<br/>"+
+									"When the <code>easing</code> attribute was not specified for the method <code>.animate</code>, a default value (<code>\"swing\"</code>) is assigned to it, the problem was that: this value remained inaccessible from the user's callbacks (<code>progress</code>, <code>start</code>, <code>done</code>)."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Lorsque l'attribut <code>easing</code> n'était pas spécifié à la méthode <code>.animate</code> une valeur par défaut (<code>\"swing\"</code>) lui été assigné, le problème était que cette valeur restait innacessible depuis les callbacks (<code>progress</code>, <code>start</code>, <code>done</code>) de l'utilisateur.<br/>"+
+									"Lorsque l'attribut <code>easing</code> n'était pas spécifié à la méthode <code>.animate</code> une valeur par défaut (<code>\"swing\"</code>) lui été assigné, le problème était que cette valeur restait innacessible depuis les callbacks (<code>progress</code>, <code>start</code>, <code>done</code>) de l'utilisateur."+
 								"</span>"+
 							"</p>"
 					}, {
@@ -847,6 +847,85 @@ window.data = [
 								"</span>"+
 								"<span lang='fr'>"+
 									"Merci à <b>gibson042</b> d'avoir aidé et relu la <i>pull request</i>."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
+				name: "jquery-pr-2292",
+				img: "logos/jquery.png",
+				linkText: "Effects: .finish should call progress(1)",
+				href: "https://github.com/jquery/jquery/pull/2292",
+				title: {
+					icon: "fa-code-fork",
+					span: "jQuery - #2292 : Effects"
+				},
+				appLink: {
+					en: "Access to the pull request",
+					fr: "Accéder à la pull request"
+				},
+				fiddle: {
+					href: "http://jsfiddle.net/Mr21/cr5391w2/",
+					en: "Demonstration of the bug",
+					fr: "Démonstration du bug"
+				},
+				tags: [
+					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-bug",
+							en: "Bug description",
+							fr: "Description du problème"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"The animations from the methode <code>.animate()</code> can be stopped and terminate with <code>.finish()</code> however this methode doesn't call (wrongly) the <code>progress</code> callback to notify the animation is now finished at 100%."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Les animations issues de la méthode <code>.animate()</code> peuvent être stoppé et terminé en avance via <code>.finish()</code>, cependant cette méthode n'appelle pas (à tort) le callback de progression <code>progress</code> pour notifier que l'animation est arrivé à 100%."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-wrench",
+							en: "How has it been fixed&nbsp;?",
+							fr: "Comment a t-il été fixé&nbsp;?"
+						},
+						content:
+							"<div>"+
+								"<p>"+
+									"<span lang='en'>I had to add this line</span>"+
+									"<span lang='fr'>J'ai dû ajouter cette ligne</span>"+
+									"<span>&nbsp;: <code>deferred.notifyWith(elem,[animation,1,0]);</code><br/></span>"+
+									"<span lang='en'>in the function who ends the CSS animations.</span>"+
+									"<span lang='fr'>dans la fonction qui s'occupe de mettre fin aux animations CSS.</span>"+
+								"</p>"+
+								"<p>"+
+									"<span lang='en'>"+
+										"Therefore I wrote 10 new unit tests using a <b>QUnit</b> plugin (qunit-assert-step) providing the ability to check the order of the asserts."+
+									"</span>"+
+									"<span lang='fr'>"+
+										"Par conséquent j'ai ajouté aussi une dizaine de tests unitaires utilisant un plugin <b>QUnit</b> (qunit-assert-step) offrant la possibilité de vérifier l'ordre des asserts."+
+									"</span>"+
+								"</p>"+
+							"</div>"
+					}, {
+						title: {
+							icon: "fa-thumbs-o-up",
+							en: "Thanks",
+							fr: "Remerciements"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"Thanks to <b>dmethvin, gibson042, mzgol</b> to have review the pull request."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Merci à <b>dmethvin, gibson042, mzgol</b> d'avoir aidés et relus la <i>pull request</i>."+
 								"</span>"+
 							"</p>"
 					}
