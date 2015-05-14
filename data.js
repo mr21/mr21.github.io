@@ -883,10 +883,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"The animations from the methode <code>.animate()</code> can be stopped and terminate with <code>.finish()</code> however this methode doesn't call (wrongly) the <code>progress</code> callback to notify the animation is now finished at 100%."+
+									"The animations from the methode <code>.animate()</code> can be stopped and terminate with <code>.finish()</code> however this methode doesn't call (wrongly) the <code>progress</code> callback to notify to the developer that the animation is now finished at 100%."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Les animations issues de la méthode <code>.animate()</code> peuvent être stoppé et terminé en avance via <code>.finish()</code>, cependant cette méthode n'appelle pas (à tort) le callback de progression <code>progress</code> pour notifier que l'animation est arrivé à 100%."+
+									"Les animations issues de la méthode <code>.animate()</code> peuvent être stoppé et terminé en avance via <code>.finish()</code>, cependant cette méthode n'appelle pas (à tort) le callback de progression <code>progress</code> pour notifier au développeur que l'animation est arrivé à 100%."+
 								"</span>"+
 							"</p>"
 					}, {
