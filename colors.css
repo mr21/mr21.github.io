@@ -15,6 +15,7 @@ h1 {
 /* - text color global */
 body,
 body       a.light { color: #ddd; }
+body > .waiting,
 body.light,
 body.light a.light { color: #222; }
 
