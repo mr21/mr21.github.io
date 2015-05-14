@@ -18,6 +18,10 @@ body       a.light { color: #ddd; }
 body.light,
 body.light a.light { color: #222; }
 
+/* - waiting */
+body > .waiting { background: #fff; }
+body .waiting .windows8-loading { color: rgb(120,120,255); }
+
 /* - link over */
 body       a.light:hover { color: #fff; }
 body.light a.light:hover { color: #000; }

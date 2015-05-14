@@ -487,7 +487,7 @@ window.data = [
 					}
 				]
 			}, {
-				name: "windows8-loading",
+				name: "css-windows8-loading",
 				img: "../css-animations/windows8-loading/thumbnail.jpg",
 				href: "../css-animations/windows8-loading/",
 				title: {
