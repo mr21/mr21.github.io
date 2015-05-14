@@ -7,7 +7,7 @@ $(function() {
 	design();
 	linksMouseOver();
 	tags();
-	projects(SLIDE_DUR);
 	projectsSubtitles(SLIDE_DUR);
+	projects(SLIDE_DUR);
 
 });
