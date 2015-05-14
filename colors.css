@@ -49,10 +49,14 @@ body       .tags a:hover { background: rgba(153,153,255, .3); }
 body.light .tags a:hover { background: rgba( 85, 85,255, .4); }
 body       .gray { color: #666; }
 body.light .gray { color: #666; }
+
 body       a.gray:hover { color: #ccc; }
 body.light a.gray:hover { color: #333; }
-body       a.gray.open { color: #ddd; }
-body.light a.gray.open { color: #222; }
+body       a.gray.open,
+body       a.gray.selected { color: #ddd; }
+body.light a.gray.open,
+body.light a.gray.selected { color: #222; }
+
 body       .languages :hover    img { border-color: rgba(255,255,255, .1); }
 body.light .languages :hover    img { border-color: rgba(  0,  0,  0, .1); }
 body       .languages .selected img { border-color: rgba(255,255,255, .2); }
