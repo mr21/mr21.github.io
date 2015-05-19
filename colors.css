@@ -37,7 +37,7 @@ body.light .content { background: rgba(  0,  0,  0, .1); }
 body       .rub .content .page { background: rgba(  0,  0,  0, .5); }
 body.light .rub .content .page { background: rgba(255,255,255, .6); }
 body       .rub .content > a:after { background: rgb(  6,  6,  6); }
-body.light .rub .content > a:after { background: rgb(230,230,230); }
+body.light .rub .content > a:after { background: rgb(233,233,233); }
 
 /* - other text colors */
 body       h1 { color: #fff; }

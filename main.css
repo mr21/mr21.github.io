@@ -225,23 +225,30 @@ body[lang="fr"] [lang="en"],
 				clear: both;
 				}
 
-/* particular */
+/* skills */
 .skills .content > a {
 	width: 20%;
 	}
+
+/* contrib */
 .contrib .content > a {
 	width: 100%;
 	}
-	.contrib .content > a img {
-		float: left;
-		width: 50px;
-		margin-right: 10px;
+	.contrib .content > a > * {
+		vertical-align: middle;
 		}
-	.contrib .content > a span {
-		line-height: 50px;
-		font-weight: bold;
-		font-size: 13px;
-		}
+		.contrib .content > a img {
+			display: inline;
+			width: 45px;
+			margin: 4px 10px 4px 0;
+			}
+		.contrib .content > a span {
+			font-weight: bold;
+			font-size: 13px;
+			}
+.contrib .page {
+	border-radius: 2px;
+	}
 
 /* social */
 .social {
