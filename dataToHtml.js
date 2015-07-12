@@ -20,22 +20,25 @@ function dataToHtml() {
 				'</a>';
 
 			htmlData +=
-				'<div class="'+this.name+'">'+
+				'<div class="'+this.name+'">';
 
+			if (this.title) {
 					// h2 --------------------
-					'<h2>';
-			if (this.title.icon)
 				htmlData +=
+					'<h2 class="title">';
+				if (this.title.icon)
+					htmlData +=
 						'<i class="fa fa-fw '+this.title.icon+'"></i>';
-			htmlData +=
+				htmlData +=
 						'<span> '+this.title.span+'</span>'+
 					'</h2>';
+			}
 
 			if (this.appLink)
 				htmlData +=
 					// .appLink ---------------
 					'<a class="appLink" target="_blank" href="'+this.href+'">'+
-						'<i class="fa fa-fw fa-external-link"></i> '+
+						'<i class="fa fa-fw"></i> '+
 						'<span lang="en">'+this.appLink.en+'</span>'+
 						'<span lang="fr">'+this.appLink.fr+'</span>'+
 					'</a><br/>';

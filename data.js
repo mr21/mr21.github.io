@@ -713,13 +713,9 @@ window.data = [
 				img: "logos/jquery.png",
 				linkText: "CSS: Support relative adjustment in any applicable unit",
 				href: "https://github.com/jquery/jquery/pull/2011",
-				title: {
-					icon: "fa-code-fork",
-					span: "jQuery - #2011 : CSS, Effects"
-				},
 				appLink: {
-					en: "Access to the pull request",
-					fr: "Accéder à la pull request"
+					en: "Access to the pull request #2011",
+					fr: "Accéder à la pull request #2011"
 				},
 				fiddle: {
 					href: "http://jsfiddle.net/Mr21/ga9jbnab/",
@@ -786,13 +782,9 @@ window.data = [
 				img: "logos/jquery.png",
 				linkText: "Effects: jQuery.easing._default",
 				href: "https://github.com/jquery/jquery/pull/2218",
-				title: {
-					icon: "fa-code-fork",
-					span: "jQuery - #2218 : Effects, Tween"
-				},
 				appLink: {
-					en: "Access to the pull request",
-					fr: "Accéder à la pull request"
+					en: "Access to the pull request #2218",
+					fr: "Accéder à la pull request #2218"
 				},
 				fiddle: {
 					href: "http://jsfiddle.net/Mr21/wh5sdgzu/",
@@ -856,13 +848,9 @@ window.data = [
 				img: "logos/jquery.png",
 				linkText: "Effects: .finish should call progress(1)",
 				href: "https://github.com/jquery/jquery/pull/2292",
-				title: {
-					icon: "fa-code-fork",
-					span: "jQuery - #2292 : Effects"
-				},
 				appLink: {
-					en: "Access to the pull request",
-					fr: "Accéder à la pull request"
+					en: "Access to the pull request #2292",
+					fr: "Accéder à la pull request #2292"
 				},
 				fiddle: {
 					href: "http://jsfiddle.net/Mr21/cr5391w2/",
@@ -935,13 +923,9 @@ window.data = [
 				img: "logos/font-awesome.png",
 				linkText: ".fa { text-indent: 0; }",
 				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
-				title: {
-					icon: "fa-code-fork",
-					span: "Font-Awesome - #5760 : text-indent"
-				},
 				appLink: {
-					en: "Access to the pull request",
-					fr: "Accéder à la pull request"
+					en: "Access to the pull request #5760",
+					fr: "Accéder à la pull request #5760"
 				},
 				fiddle: {
 					href: "http://jsfiddle.net/Mr21/pft9gL4v/",
