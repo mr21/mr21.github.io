@@ -5,12 +5,12 @@ window.data = [
 			{
 				name: "youtube-playlists-manager",
 				img: "../youtube-playlists-manager/thumbnail.jpg",
-				href: "../youtube-playlists-manager/",
 				title: {
 					icon: "fa-youtube-play",
 					span: "YouTube - playlists manager"
 				},
 				appLink: {
+					href: "../youtube-playlists-manager/",
 					en: "Organize your playlists now&nbsp;!",
 					fr: "Organisez vos playlists maintenant&nbsp;!"
 				},
@@ -156,12 +156,12 @@ window.data = [
 			}, {
 				name: "killdemall",
 				img: "../killdemall/thumbnail.jpg",
-				href: "../killdemall/",
 				title: {
 					icon: "fa-gamepad",
 					span: "KillDemAll"
 				},
 				appLink: {
+					href: "../killdemall/",
 					en: "Click and play&nbsp;!",
 					fr: "Cliquez pour jouer&nbsp;!"
 				},
@@ -228,12 +228,12 @@ window.data = [
 			}, {
 				name: "canvas-pixelsfinger",
 				img: "../canvas-pixelsfinger/thumbnail.jpg",
-				href: "../canvas-pixelsfinger/",
 				title: {
 					icon: "fa-hand-o-right",
 					span: "Canvas - pixels finger"
 				},
 				appLink: {
+					href: "../canvas-pixelsfinger/",
 					en: "Click and have fun by moving your fingers&nbsp;!",
 					fr: "Cliquez et amusez-vous à bouger vos doigts&nbsp;!"
 				},
@@ -299,12 +299,12 @@ window.data = [
 			}, {
 				name: "artificial-orbit-simulation",
 				img: "../artificial-orbit-simulation/thumbnail.jpg",
-				href: "../artificial-orbit-simulation/",
 				title: {
 					icon: "fa-rocket",
 					span: "Artificial Orbit Simulation"
 				},
 				appLink: {
+					href: "../artificial-orbit-simulation/",
 					en: "3 … 2 … 1 … lift off&nbsp;!",
 					fr: "3 … 2 … 1 … décollage&nbsp;!"
 				},
@@ -385,12 +385,12 @@ window.data = [
 			}, {
 				name: "jquery-dragndrop",
 				img: "../jquery-dragndrop/thumbnail.jpg",
-				href: "../jquery-dragndrop/",
 				title: {
 					icon: "fa-plug",
 					span: "jQuery - dragndrop"
 				},
 				appLink: {
+					href: "../jquery-dragndrop/",
 					en: "Try the demo&nbsp;!",
 					fr: "Testez la démo&nbsp;!"
 				},
@@ -420,12 +420,12 @@ window.data = [
 			}, {
 				name: "jquery-tabs",
 				img: "../jquery-tabs/thumbnail.jpg",
-				href: "../jquery-tabs/",
 				title: {
 					icon: "fa-plug",
 					span: "jQuery - tabs"
 				},
 				appLink: {
+					href: "../jquery-tabs/",
 					en: "Try the demo&nbsp;!",
 					fr: "Testez la démo&nbsp;!"
 				},
@@ -455,12 +455,12 @@ window.data = [
 			}, {
 				name: "canvasloth",
 				img: "../canvasloth/thumbnail.jpg",
-				href: "../canvasloth/",
 				title: {
 					icon: "fa-html5",
 					span: "Canvasloth"
 				},
 				appLink: {
+					href: "../canvasloth/",
 					en: "Try the demo&nbsp;!",
 					fr: "Testez la démo&nbsp;!"
 				},
@@ -489,12 +489,12 @@ window.data = [
 			}, {
 				name: "css-windows8-loading",
 				img: "../css-animations/windows8-loading/thumbnail.jpg",
-				href: "../css-animations/windows8-loading/",
 				title: {
 					icon: "fa-css3",
 					span: "Windows8 - loading"
 				},
 				appLink: {
+					href: "../css-animations/windows8-loading/",
 					en: "See it in action&nbsp;!",
 					fr: "Voir la démo&nbsp;!"
 				},
@@ -523,12 +523,12 @@ window.data = [
 			}, {
 				name: "learncss",
 				img: "../learncss/thumbnail.jpg",
-				href: "../learncss/",
 				title: {
 					icon: "fa-css3",
 					span: "LearnCSS"
 				},
 				appLink: {
+					href: "../learncss/",
 					en: "Learn interactively all the CSS selectors&nbsp;!",
 					fr: "Apprendre interactivement tous les sélecteurs CSS&nbsp;!"
 				},
@@ -586,12 +586,12 @@ window.data = [
 			}, {
 				name: "joystick-html5",
 				img: "../joystick-html5/thumbnail.jpg",
-				href: "../joystick-html5/",
 				title: {
 					icon: "fa-gamepad",
 					span: "Joystick - HTML5"
 				},
 				appLink: {
+					href: "../joystick-html5/",
 					en: "See it in action&nbsp;!",
 					fr: "Voir la démo&nbsp;!"
 				},
@@ -621,12 +621,12 @@ window.data = [
 			}, {
 				name: "gitfast",
 				img: "../gitfast/thumbnail.jpg",
-				href: "../gitfast/",
 				title: {
 					icon: "fa-git-square",
 					span: "GitFast"
 				},
 				appLink: {
+					href: "../gitfast/",
 					en: "Watch the list of aliases",
 					fr: "Voir la liste des alias"
 				},
@@ -655,12 +655,12 @@ window.data = [
 			}, {
 				name: "carousel-parallax",
 				img: "../carousel-parallax/thumbnail.jpg",
-				href: "../carousel-parallax/",
 				title: {
 					icon: "fa-plug",
 					span: "Carousel-Parallax"
 				},
 				appLink: {
+					href: "../carousel-parallax/",
 					en: "Watch the parallax&nbsp;!",
 					fr: "Faîtes défiler le parallax&nbsp;!"
 				},
@@ -712,8 +712,8 @@ window.data = [
 				name: "jquery-pr-2292",
 				img: "logos/jquery.png",
 				linkText: "jQuery: Effects: .finish should call progress(1)",
-				href: "https://github.com/jquery/jquery/pull/2292",
 				appLink: {
+					href: "https://github.com/jquery/jquery/pull/2292",
 					en: "Access to the pull request #2292",
 					fr: "Accéder à la pull request #2292"
 				},
@@ -787,8 +787,8 @@ window.data = [
 				name: "jquery-pr-2218",
 				img: "logos/jquery.png",
 				linkText: "jQuery: Effects: jQuery.easing._default",
-				href: "https://github.com/jquery/jquery/pull/2218",
 				appLink: {
+					href: "https://github.com/jquery/jquery/pull/2218",
 					en: "Access to the pull request #2218",
 					fr: "Accéder à la pull request #2218"
 				},
@@ -853,8 +853,8 @@ window.data = [
 				name: "jquery-pr-2011",
 				img: "logos/jquery.png",
 				linkText: "jQuery: CSS: Support relative adjustment in any applicable unit",
-				href: "https://github.com/jquery/jquery/pull/2011",
 				appLink: {
+					href: "https://github.com/jquery/jquery/pull/2011",
 					en: "Access to the pull request #2011",
 					fr: "Accéder à la pull request #2011"
 				},
@@ -922,8 +922,8 @@ window.data = [
 				name: "font-awesome-pr-5760",
 				img: "logos/font-awesome.png",
 				linkText: "Font-Awesome: .fa { text-indent: 0; }",
-				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 				appLink: {
+					href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 					en: "Access to the pull request #5760",
 					fr: "Accéder à la pull request #5760"
 				},

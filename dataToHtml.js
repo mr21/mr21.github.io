@@ -1,13 +1,16 @@
 function dataToHtml() {
 
-	var	jq_data =
-		$("<div id='data'>")
-			.prependTo(document.body);
+	var
+		jq_data = $("<div id='data'>").prependTo(document.body)
+	;
 
 	$.each(window.data, function() {
 
-		var htmlData = "",
-			htmlLinks = "";
+		var
+			htmlData = "",
+			htmlLinks = "",
+			dat
+		;
 
 		$.each(this.data, function() {
 			htmlLinks +=
@@ -34,14 +37,14 @@ function dataToHtml() {
 					'</h2>';
 			}
 
-			if (this.appLink)
+			if (dat = this.appLink) {
 				htmlData +=
-					// .appLink ---------------
-					'<a class="appLink" target="_blank" href="'+this.href+'">'+
+					'<a class="appLink" target="_blank" href="'+dat.href+'">'+
 						'<i class="fa fa-fw"></i> '+
-						'<span lang="en">'+this.appLink.en+'</span>'+
-						'<span lang="fr">'+this.appLink.fr+'</span>'+
+						'<span lang="en">'+dat.en+'</span>'+
+						'<span lang="fr">'+dat.fr+'</span>'+
 					'</a><br/>';
+			}
 
 			if (this.fiddle)
 				htmlData +=
