@@ -717,7 +717,7 @@ window.data = [
 					en: "Access to the pull request #2292",
 					fr: "Accéder à la pull request #2292"
 				},
-				fiddle: {
+				jsfiddle: {
 					href: "http://jsfiddle.net/Mr21/cr5391w2/",
 					en: "Demonstration of the bug",
 					fr: "Démonstration du bug"
@@ -792,7 +792,7 @@ window.data = [
 					en: "Access to the pull request #2218",
 					fr: "Accéder à la pull request #2218"
 				},
-				fiddle: {
+				jsfiddle: {
 					href: "http://jsfiddle.net/Mr21/wh5sdgzu/",
 					en: "Demonstration of the bug",
 					fr: "Démonstration du bug"
@@ -858,7 +858,7 @@ window.data = [
 					en: "Access to the pull request #2011",
 					fr: "Accéder à la pull request #2011"
 				},
-				fiddle: {
+				jsfiddle: {
 					href: "http://jsfiddle.net/Mr21/ga9jbnab/",
 					en: "Demonstration of the bug",
 					fr: "Démonstration du bug"
@@ -927,7 +927,7 @@ window.data = [
 					en: "Access to the pull request #5760",
 					fr: "Accéder à la pull request #5760"
 				},
-				fiddle: {
+				jsfiddle: {
 					href: "http://jsfiddle.net/Mr21/pft9gL4v/",
 					en: "Demonstration of the bug",
 					fr: "Démonstration du bug"

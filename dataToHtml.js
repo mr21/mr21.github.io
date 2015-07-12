@@ -46,18 +46,17 @@ function dataToHtml() {
 					'</a><br/>';
 			}
 
-			if (this.fiddle)
+			if (dat = this.jsfiddle) {
 				htmlData +=
-					// .fiddle ---------------
-					'<a class="fiddle" target="_blank" href="'+this.fiddle.href+'">'+
+					'<a class="jsfiddle" target="_blank" href="'+dat.href+'">'+
 						'<i class="fa fa-fw fa-jsfiddle"></i> '+
-						'<span lang="en">'+this.fiddle.en+'</span>'+
-						'<span lang="fr">'+this.fiddle.fr+'</span>'+
+						'<span lang="en">'+dat.en+'</span>'+
+						'<span lang="fr">'+dat.fr+'</span>'+
 					'</a><br/>';
+			}
 
 			if (this.tags) {
 				htmlData +=
-					// .tags ------------------
 					'<div class="tags">';
 				$.each(this.tags, function() {
 					htmlData +=
@@ -67,8 +66,7 @@ function dataToHtml() {
 					'</div>';
 			}
 
-					// .subRub -----------------
-			if (this.subRub)
+			if (this.subRub) {
 				$.each(this.subRub, function() {
 					htmlData +=
 					'<div class="subRub">'+
@@ -80,6 +78,8 @@ function dataToHtml() {
 						this.content+
 					'</div>';
 				});
+			}
+
 			htmlData +=
 				'</div>';
 		});
