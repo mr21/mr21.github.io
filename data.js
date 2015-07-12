@@ -711,7 +711,7 @@ window.data = [
 			{
 				name: "jquery-pr-2011",
 				img: "logos/jquery.png",
-				linkText: "CSS: Support relative adjustment in any applicable unit",
+				linkText: "jQuery: CSS: Support relative adjustment in any applicable unit",
 				href: "https://github.com/jquery/jquery/pull/2011",
 				appLink: {
 					en: "Access to the pull request #2011",
@@ -780,7 +780,7 @@ window.data = [
 			}, {
 				name: "jquery-pr-2218",
 				img: "logos/jquery.png",
-				linkText: "Effects: jQuery.easing._default",
+				linkText: "jQuery: Effects: jQuery.easing._default",
 				href: "https://github.com/jquery/jquery/pull/2218",
 				appLink: {
 					en: "Access to the pull request #2218",
@@ -846,7 +846,7 @@ window.data = [
 			}, {
 				name: "jquery-pr-2292",
 				img: "logos/jquery.png",
-				linkText: "Effects: .finish should call progress(1)",
+				linkText: "jQuery: Effects: .finish should call progress(1)",
 				href: "https://github.com/jquery/jquery/pull/2292",
 				appLink: {
 					en: "Access to the pull request #2292",
@@ -921,7 +921,7 @@ window.data = [
 			}, {
 				name: "font-awesome-pr-5760",
 				img: "logos/font-awesome.png",
-				linkText: ".fa { text-indent: 0; }",
+				linkText: "Font-Awesome: .fa { text-indent: 0; }",
 				href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 				appLink: {
 					en: "Access to the pull request #5760",
