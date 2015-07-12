@@ -709,16 +709,16 @@ window.data = [
 		rub: "contrib",
 		data: [
 			{
-				name: "jquery-pr-2011",
+				name: "jquery-pr-2292",
 				img: "logos/jquery.png",
-				linkText: "jQuery: CSS: Support relative adjustment in any applicable unit",
-				href: "https://github.com/jquery/jquery/pull/2011",
+				linkText: "jQuery: Effects: .finish should call progress(1)",
+				href: "https://github.com/jquery/jquery/pull/2292",
 				appLink: {
-					en: "Access to the pull request #2011",
-					fr: "Accéder à la pull request #2011"
+					en: "Access to the pull request #2292",
+					fr: "Accéder à la pull request #2292"
 				},
 				fiddle: {
-					href: "http://jsfiddle.net/Mr21/ga9jbnab/",
+					href: "http://jsfiddle.net/Mr21/cr5391w2/",
 					en: "Demonstration of the bug",
 					fr: "Démonstration du bug"
 				},
@@ -731,19 +731,16 @@ window.data = [
 						title: {
 							icon: "fa-bug",
 							en: "Bug description",
-							fr: "Description du bug"
+							fr: "Description du problème"
 						},
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"It was not possible to increment a CSS property with a value having a unit other than <code>\"px\"</code>. In other words, the code&nbsp;:<br/>"+
+									"The animations from the methode <code>.animate()</code> can be stopped and terminate with <code>.finish()</code> however this methode doesn't call (wrongly) the <code>progress</code> callback to notify to the developer that the animation is now finished at 100%."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Il était impossible d'incrémenter une propriété CSS d'une valeur ayant une autre unité que <code>\"px\"</code>, Autrement dit, ce code&nbsp;:<br/>"+
+									"Les animations issues de la méthode <code>.animate()</code> peuvent être stoppé et terminé en avance via <code>.finish()</code>, cependant cette méthode n'appelle pas (à tort) le callback de progression <code>progress</code> pour notifier au développeur que l'animation est arrivé à 100%."+
 								"</span>"+
-								"<code>$(\"...\").css(\"width\", \"+=50%\");</code>"+
-								"<span lang='en'> incremented the <code>width</code> of 50 <b>pixels</b> instead of 50<b>%</b>.</span>"+
-								"<span lang='fr'> incrémentait la <code>width</code> de 50 <b>pixels</b> au lieu de 50<b>%</b>.</span>"+
 							"</p>"
 					}, {
 						title: {
@@ -752,14 +749,23 @@ window.data = [
 							fr: "Comment a t-il été fixé&nbsp;?"
 						},
 						content:
-							"<p>"+
-								"<span lang='en'>"+
-									"Because the conversion of units was already operating with the method <code>.animate</code> my pull request was to refactor the code to make it work with both methods. And therefore I wrote 15 new unit tests."+
-								"</span>"+
-								"<span lang='fr'>"+
-									"Étant donné que la conversion d'unités fonctionnait déjà avec la méthode <code>.animate</code>, ma <i>pull request</i> consistait à remanier le code pour que ça marche avec les deux méthodes. Et par conséquent j'ai rajouté 15 nouveaux tests unitaires."+
-								"</span>"+
-							"</p>"
+							"<div>"+
+								"<p>"+
+									"<span lang='en'>I had to add this line</span>"+
+									"<span lang='fr'>J'ai dû ajouter cette ligne</span>"+
+									"<span>&nbsp;: <code>deferred.notifyWith(elem,[animation,1,0]);</code><br/></span>"+
+									"<span lang='en'>in the function who ends the CSS animations.</span>"+
+									"<span lang='fr'>dans la fonction qui s'occupe de mettre fin aux animations CSS.</span>"+
+								"</p>"+
+								"<p>"+
+									"<span lang='en'>"+
+										"Therefore I wrote 10 new unit tests using a <b>QUnit</b> plugin (qunit-assert-step) providing the ability to check the order of the asserts."+
+									"</span>"+
+									"<span lang='fr'>"+
+										"Par conséquent j'ai ajouté aussi une dizaine de tests unitaires utilisant un plugin <b>QUnit</b> (qunit-assert-step) offrant la possibilité de vérifier l'ordre des asserts."+
+									"</span>"+
+								"</p>"+
+							"</div>"
 					}, {
 						title: {
 							icon: "fa-thumbs-o-up",
@@ -769,10 +775,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"Thanks to <b>gibson042</b> to have review the pull request."+
+									"Thanks to <b>dmethvin, gibson042, mzgol</b> to have review the pull request."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Merci à <b>gibson042</b> d'avoir aidé et relu la <i>pull request</i>."+
+									"Merci à <b>dmethvin, gibson042, mzgol</b> d'avoir aidés et relus la <i>pull request</i>."+
 								"</span>"+
 							"</p>"
 					}
@@ -844,16 +850,16 @@ window.data = [
 					}
 				]
 			}, {
-				name: "jquery-pr-2292",
+				name: "jquery-pr-2011",
 				img: "logos/jquery.png",
-				linkText: "jQuery: Effects: .finish should call progress(1)",
-				href: "https://github.com/jquery/jquery/pull/2292",
+				linkText: "jQuery: CSS: Support relative adjustment in any applicable unit",
+				href: "https://github.com/jquery/jquery/pull/2011",
 				appLink: {
-					en: "Access to the pull request #2292",
-					fr: "Accéder à la pull request #2292"
+					en: "Access to the pull request #2011",
+					fr: "Accéder à la pull request #2011"
 				},
 				fiddle: {
-					href: "http://jsfiddle.net/Mr21/cr5391w2/",
+					href: "http://jsfiddle.net/Mr21/ga9jbnab/",
 					en: "Demonstration of the bug",
 					fr: "Démonstration du bug"
 				},
@@ -866,16 +872,19 @@ window.data = [
 						title: {
 							icon: "fa-bug",
 							en: "Bug description",
-							fr: "Description du problème"
+							fr: "Description du bug"
 						},
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"The animations from the methode <code>.animate()</code> can be stopped and terminate with <code>.finish()</code> however this methode doesn't call (wrongly) the <code>progress</code> callback to notify to the developer that the animation is now finished at 100%."+
+									"It was not possible to increment a CSS property with a value having a unit other than <code>\"px\"</code>. In other words, the code&nbsp;:<br/>"+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Les animations issues de la méthode <code>.animate()</code> peuvent être stoppé et terminé en avance via <code>.finish()</code>, cependant cette méthode n'appelle pas (à tort) le callback de progression <code>progress</code> pour notifier au développeur que l'animation est arrivé à 100%."+
+									"Il était impossible d'incrémenter une propriété CSS d'une valeur ayant une autre unité que <code>\"px\"</code>, Autrement dit, ce code&nbsp;:<br/>"+
 								"</span>"+
+								"<code>$(\"...\").css(\"width\", \"+=50%\");</code>"+
+								"<span lang='en'> incremented the <code>width</code> of 50 <b>pixels</b> instead of 50<b>%</b>.</span>"+
+								"<span lang='fr'> incrémentait la <code>width</code> de 50 <b>pixels</b> au lieu de 50<b>%</b>.</span>"+
 							"</p>"
 					}, {
 						title: {
@@ -884,23 +893,14 @@ window.data = [
 							fr: "Comment a t-il été fixé&nbsp;?"
 						},
 						content:
-							"<div>"+
-								"<p>"+
-									"<span lang='en'>I had to add this line</span>"+
-									"<span lang='fr'>J'ai dû ajouter cette ligne</span>"+
-									"<span>&nbsp;: <code>deferred.notifyWith(elem,[animation,1,0]);</code><br/></span>"+
-									"<span lang='en'>in the function who ends the CSS animations.</span>"+
-									"<span lang='fr'>dans la fonction qui s'occupe de mettre fin aux animations CSS.</span>"+
-								"</p>"+
-								"<p>"+
-									"<span lang='en'>"+
-										"Therefore I wrote 10 new unit tests using a <b>QUnit</b> plugin (qunit-assert-step) providing the ability to check the order of the asserts."+
-									"</span>"+
-									"<span lang='fr'>"+
-										"Par conséquent j'ai ajouté aussi une dizaine de tests unitaires utilisant un plugin <b>QUnit</b> (qunit-assert-step) offrant la possibilité de vérifier l'ordre des asserts."+
-									"</span>"+
-								"</p>"+
-							"</div>"
+							"<p>"+
+								"<span lang='en'>"+
+									"Because the conversion of units was already operating with the method <code>.animate</code> my pull request was to refactor the code to make it work with both methods. And therefore I wrote 15 new unit tests."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Étant donné que la conversion d'unités fonctionnait déjà avec la méthode <code>.animate</code>, ma <i>pull request</i> consistait à remanier le code pour que ça marche avec les deux méthodes. Et par conséquent j'ai rajouté 15 nouveaux tests unitaires."+
+								"</span>"+
+							"</p>"
 					}, {
 						title: {
 							icon: "fa-thumbs-o-up",
@@ -910,10 +910,10 @@ window.data = [
 						content:
 							"<p>"+
 								"<span lang='en'>"+
-									"Thanks to <b>dmethvin, gibson042, mzgol</b> to have review the pull request."+
+									"Thanks to <b>gibson042</b> to have review the pull request."+
 								"</span>"+
 								"<span lang='fr'>"+
-									"Merci à <b>dmethvin, gibson042, mzgol</b> d'avoir aidés et relus la <i>pull request</i>."+
+									"Merci à <b>gibson042</b> d'avoir aidé et relu la <i>pull request</i>."+
 								"</span>"+
 							"</p>"
 					}
