@@ -1,5 +1,4 @@
 function dataToHtml() {
-
 	var
 		jq_data = $("<div id='data'>").prependTo(document.body)
 	;
@@ -13,27 +12,31 @@ function dataToHtml() {
 		;
 
 		$.each(this.data, function() {
+
+			dat = this.link;
 			htmlLinks +=
-				'<a class="gray" name="'+this.name+'" href="##toggle(p, '+this.name+')">'+
-					'<img src="'+(this.img || "logos/"+this.name+".png")+'"/>';
-			if (this.linkText)
+				'<a class="gray" name="'+dat.name+'" href="##toggle(p, '+dat.name+')">'+
+					'<img src="'+(dat.img || "logos/"+dat.name+".png")+'"/>';
+			if (dat.text) {
 				htmlLinks +=
-					'<span>'+this.linkText+'</span>';
+					'<b>'+dat.tag+'</b>'+
+					'<span> '+dat.text+'</span>';
+			}
 			htmlLinks +=
 				'</a>';
 
 			htmlData +=
-				'<div class="'+this.name+'">';
+				'<div class="'+dat.name+'">';
 
-			if (this.title) {
-					// h2 --------------------
+			if (dat = this.title) {
 				htmlData +=
 					'<h2 class="title">';
-				if (this.title.icon)
+				if (dat.icon) {
 					htmlData +=
-						'<i class="fa fa-fw '+this.title.icon+'"></i>';
+						'<i class="fa fa-fw '+dat.icon+'"></i>';
+				}
 				htmlData +=
-						'<span> '+this.title.span+'</span>'+
+						'<span> '+dat.span+'</span>'+
 					'</h2>';
 			}
 
@@ -87,14 +90,15 @@ function dataToHtml() {
 		$("<div>")
 			.addClass(this.rub)
 			.append(htmlData)
-			.appendTo(jq_data);
+			.appendTo(jq_data)
+		;
 
 		$(htmlLinks)
 			.appendTo(".rub." + this.rub + " .content")
 			.prop("el_data", function() {
 				return $("."+this.name, jq_data);
-			});
-
+			})
+		;
 	});
 
 }

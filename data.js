@@ -3,8 +3,10 @@ window.data = [
 		rub: "projects",
 		data: [
 			{
-				name: "youtube-playlists-manager",
-				img: "../youtube-playlists-manager/thumbnail.jpg",
+				link: {
+					name: "youtube-playlists-manager",
+					img: "../youtube-playlists-manager/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-youtube-play",
 					span: "YouTube - playlists manager"
@@ -154,8 +156,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "killdemall",
-				img: "../killdemall/thumbnail.jpg",
+				link: {
+					name: "killdemall",
+					img: "../killdemall/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-gamepad",
 					span: "KillDemAll"
@@ -226,8 +230,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "canvas-pixelsfinger",
-				img: "../canvas-pixelsfinger/thumbnail.jpg",
+				link: {
+					name: "canvas-pixelsfinger",
+					img: "../canvas-pixelsfinger/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-hand-o-right",
 					span: "Canvas - pixels finger"
@@ -297,8 +303,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "artificial-orbit-simulation",
-				img: "../artificial-orbit-simulation/thumbnail.jpg",
+				link: {
+					name: "artificial-orbit-simulation",
+					img: "../artificial-orbit-simulation/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-rocket",
 					span: "Artificial Orbit Simulation"
@@ -383,8 +391,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "jquery-dragndrop",
-				img: "../jquery-dragndrop/thumbnail.jpg",
+				link: {
+					name: "jquery-dragndrop",
+					img: "../jquery-dragndrop/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-plug",
 					span: "jQuery - dragndrop"
@@ -418,8 +428,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "jquery-tabs",
-				img: "../jquery-tabs/thumbnail.jpg",
+				link: {
+					name: "jquery-tabs",
+					img: "../jquery-tabs/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-plug",
 					span: "jQuery - tabs"
@@ -453,8 +465,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "canvasloth",
-				img: "../canvasloth/thumbnail.jpg",
+				link: {
+					name: "canvasloth",
+					img: "../canvasloth/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-html5",
 					span: "Canvasloth"
@@ -487,8 +501,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "css-windows8-loading",
-				img: "../css-animations/windows8-loading/thumbnail.jpg",
+				link: {
+					name: "css-windows8-loading",
+					img: "../css-animations/windows8-loading/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-css3",
 					span: "Windows8 - loading"
@@ -521,8 +537,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "learncss",
-				img: "../learncss/thumbnail.jpg",
+				link: {
+					name: "learncss",
+					img: "../learncss/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-css3",
 					span: "LearnCSS"
@@ -584,8 +602,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "joystick-html5",
-				img: "../joystick-html5/thumbnail.jpg",
+				link: {
+					name: "joystick-html5",
+					img: "../joystick-html5/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-gamepad",
 					span: "Joystick - HTML5"
@@ -619,8 +639,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "gitfast",
-				img: "../gitfast/thumbnail.jpg",
+				link: {
+					name: "gitfast",
+					img: "../gitfast/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-git-square",
 					span: "GitFast"
@@ -653,8 +675,10 @@ window.data = [
 					}
 				]
 			}, {
-				name: "carousel-parallax",
-				img: "../carousel-parallax/thumbnail.jpg",
+				link: {
+					name: "carousel-parallax",
+					img: "../carousel-parallax/thumbnail.jpg"
+				},
 				title: {
 					icon: "fa-plug",
 					span: "Carousel-Parallax"
@@ -709,9 +733,12 @@ window.data = [
 		rub: "contrib",
 		data: [
 			{
-				name: "jquery-pr-2292",
-				img: "logos/jquery.png",
-				linkText: "jQuery: Effects: .finish should call progress(1)",
+				link: {
+					name: "jquery-pr-2292",
+					img: "logos/jquery.png",
+					tag: "jQuery",
+					text: "Effects: .finish should call progress(1)",
+				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2292",
 					en: "Access to the pull request #2292",
@@ -784,9 +811,12 @@ window.data = [
 					}
 				]
 			}, {
-				name: "jquery-pr-2218",
-				img: "logos/jquery.png",
-				linkText: "jQuery: Effects: jQuery.easing._default",
+				link: {
+					name: "jquery-pr-2218",
+					img: "logos/jquery.png",
+					tag: "jQuery",
+					text: "Effects: jQuery.easing._default",
+				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2218",
 					en: "Access to the pull request #2218",
@@ -850,9 +880,12 @@ window.data = [
 					}
 				]
 			}, {
-				name: "jquery-pr-2011",
-				img: "logos/jquery.png",
-				linkText: "jQuery: CSS: Support relative adjustment in any applicable unit",
+				link: {
+					name: "jquery-pr-2011",
+					img: "logos/jquery.png",
+					tag: "jQuery",
+					text: "CSS: Support relative adjustment in any applicable unit",
+				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2011",
 					en: "Access to the pull request #2011",
@@ -919,9 +952,12 @@ window.data = [
 					}
 				]
 			}, {
-				name: "font-awesome-pr-5760",
-				img: "logos/font-awesome.png",
-				linkText: "Font-Awesome: .fa { text-indent: 0; }",
+				link: {
+					name: "font-awesome-pr-5760",
+					img: "logos/font-awesome.png",
+					tag: "Font-Awesome",
+					text: ".fa { text-indent: 0; }",
+				},
 				appLink: {
 					href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
 					en: "Access to the pull request #5760",
@@ -973,7 +1009,9 @@ window.data = [
 		rub: "skills",
 		data: [
 			{
-				name: "javascript",
+				link: {
+					name: "javascript"
+				},
 				title: {
 					span: "JavaScript"
 				},
@@ -1000,7 +1038,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "jquery",
+				link: {
+					name: "jquery"
+				},
 				title: {
 					span: "jQuery"
 				},
@@ -1026,7 +1066,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "html5",
+				link: {
+					name: "html5"
+				},
 				title: {
 					icon: "fa-html5",
 					span: "HTML5"
@@ -1054,7 +1096,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "css3",
+				link: {
+					name: "css3"
+				},
 				title: {
 					icon: "fa-css3",
 					span: "CSS3"
@@ -1082,7 +1126,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "sass",
+				link: {
+					name: "sass"
+				},
 				title: {
 					icon: "fa-css3",
 					span: "Sass"
@@ -1109,7 +1155,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "mysql",
+				link: {
+					name: "mysql"
+				},
 				title: {
 					icon: "fa-database",
 					span: "MySQL"
@@ -1137,7 +1185,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "php",
+				link: {
+					name: "php"
+				},
 				title: {
 					span: "PHP"
 				},
@@ -1164,7 +1214,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "git",
+				link: {
+					name: "git"
+				},
 				title: {
 					icon: "fa-git-square",
 					span: "git"
@@ -1192,7 +1244,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "linux",
+				link: {
+					name: "linux"
+				},
 				title: {
 					icon: "fa-linux",
 					span: "Linux"
@@ -1220,7 +1274,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "shell-scripting",
+				link: {
+					name: "shell-scripting"
+				},
 				title: {
 					icon: "fa-terminal",
 					span: "Shell scripting"
@@ -1247,7 +1303,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "cplusplus",
+				link: {
+					name: "cplusplus"
+				},
 				title: {
 					span: "C++"
 				},
@@ -1274,7 +1332,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "c",
+				link: {
+					name: "c"
+				},
 				title: {
 					span: "C"
 				},
@@ -1301,7 +1361,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "photoshop",
+				link: {
+					name: "photoshop"
+				},
 				title: {
 					icon: "fa-picture-o",
 					span: "Photoshop"
@@ -1329,7 +1391,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "illustrator",
+				link: {
+					name: "illustrator"
+				},
 				title: {
 					span: "Illustrator"
 				},
@@ -1357,7 +1421,9 @@ window.data = [
 					}
 				]
 			}, {
-				name: "indesign",
+				link: {
+					name: "indesign"
+				},
 				title: {
 					icon: "fa-file-pdf-o",
 					span: "InDesign"
