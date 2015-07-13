@@ -4,6 +4,7 @@ h1,
 .global,
 .global .rub .content,
 .global .rub .content .page,
+.global .rub .content > a b,
 .global .rub .content > a:after {
 	transition: background .5s ease;
 	}
@@ -36,6 +37,8 @@ body       .content { background: rgba(  0,  0,  0, .5); }
 body.light .content { background: rgba(  0,  0,  0, .1); }
 body       .rub .content .page { background: rgba(  0,  0,  0, .5); }
 body.light .rub .content .page { background: rgba(255,255,255, .6); }
+body       .contrib .content > a b { border-color: rgba(255,255,255, .15); background: rgba(  0,  0,  0,.5); }
+body.light .contrib .content > a b { border-color: rgba(  0,  0,  0, .33); background: rgba(255,255,255,.5); }
 body       .rub .content > a:after { background: rgb(  6,  6,  6); }
 body.light .rub .content > a:after { background: rgb(233,233,233); }
 

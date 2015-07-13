@@ -242,6 +242,8 @@ body[lang="fr"] [lang="en"],
 /* contrib */
 .contrib .content > a {
 	width: 100%;
+	font-weight: bold;
+	font-size: 13px;
 	}
 	.contrib .content > a > * {
 		vertical-align: middle;
@@ -251,9 +253,10 @@ body[lang="fr"] [lang="en"],
 			width: 45px;
 			margin: 4px 10px 4px 0;
 			}
-		.contrib .content > a span {
-			font-weight: bold;
-			font-size: 13px;
+		.contrib .content > a b {
+			padding: .2em .4em;
+			border-radius: 4px;
+			border: 1px solid;
 			}
 .contrib .page {
 	border-radius: 2px;
