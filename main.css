@@ -47,14 +47,15 @@ li {
 		font-weight: bold;
 		}
 
-.warningMsg {
+.lastUpdate {
 	position: absolute;
 	right: 0;
-	top: 50%;
-	margin-top: .25em;
-	color: #f44;
+	top: 26px;
 	font: bold 11px sans-serif;
 	}
+	[lang="fr"] .lastUpdate {
+		position: static;
+		}
 
 body[lang="en"] [lang="fr"],
 body[lang="fr"] [lang="en"],
