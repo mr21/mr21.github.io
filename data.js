@@ -739,6 +739,10 @@ window.data = [
 					tag: "jQuery",
 					text: "Core: .each &amp; .map should accept an undefined/null value"
 				},
+				title: {
+					icon: "fa-code-fork",
+					span: "jQuery#2363 - Core: .each/.map"
+				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2363",
 					en: "Access to the pull request #2363",
@@ -809,6 +813,10 @@ window.data = [
 					img: "logos/jquery.png",
 					tag: "jQuery",
 					text: "Effects: .finish should call progress(1)"
+				},
+				title: {
+					icon: "fa-code-fork",
+					span: "jQuery#2292 - Effects: .finish"
 				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2292",
@@ -888,6 +896,10 @@ window.data = [
 					tag: "jQuery",
 					text: "Effects: jQuery.easing._default"
 				},
+				title: {
+					icon: "fa-code-fork",
+					span: "jQuery#2218 - Effects: $.easing/.animate"
+				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2218",
 					en: "Access to the pull request #2218",
@@ -956,6 +968,10 @@ window.data = [
 					img: "logos/jquery.png",
 					tag: "jQuery",
 					text: "CSS: Support relative adjustment in any applicable unit"
+				},
+				title: {
+					icon: "fa-code-fork",
+					span: "jQuery#2011 - CSS: .css"
 				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2011",
@@ -1027,7 +1043,11 @@ window.data = [
 					name: "font-awesome-pr-5760",
 					img: "logos/font-awesome.png",
 					tag: "Font-Awesome",
-					text: ".fa { text-indent: 0; }"
+					text: "Core: .fa { text-indent: 0; }"
+				},
+				title: {
+					icon: "fa-code-fork",
+					span: "Font-Awesome#5760 - Core: text-indent"
 				},
 				appLink: {
 					href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
