@@ -734,10 +734,81 @@ window.data = [
 		data: [
 			{
 				link: {
+					name: "jquery-pr-2363",
+					img: "logos/jquery.png",
+					tag: "jQuery",
+					text: "Core: .each &amp; .map should accept an undefined/null value"
+				},
+				appLink: {
+					href: "https://github.com/jquery/jquery/pull/2363",
+					en: "Access to the pull request #2363",
+					fr: "Accéder à la pull request #2363"
+				},
+				jsfiddle: {
+					href: "http://jsfiddle.net/Mr21/p8y6o987/",
+					en: "Demonstration of the bug",
+					fr: "Démonstration du bug"
+				},
+				tags: [
+					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-bug",
+							en: "Behaviour description",
+							fr: "Description du problème"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"The <code>.each</code> and <code>.map</code> methods crashes if called with an <code>undefined</code> or <code>null</code> value. This forces the user to write an additional <code>if</code> where he wants to iterate an array without knowing if it's defined or not."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Les méthodes <code>.each</code> et <code>.map</code> plantent si elles sont appelées avec une valeur <code>undefined</code> ou <code>null</code>. Ce qui oblige l'utilisateur à écrire un <code>if</code> supplémentaire à tous les endroits où il ne peut être sur que le tableau sur lequel il veut itérer soit défini ou non."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-wrench",
+							en: "How has it been fixed&nbsp;?",
+							fr: "Comment a t-il été fixé&nbsp;?"
+						},
+						content:
+							"<div>"+
+								"<p>"+
+									"<span lang='en'>"+
+										"I had to reordered some instructions and change <code>isArrayLike</code>, an internal function used to check if a given variable is an array or not. Therefore I wrote 4 new unit tests."+
+									"</span>"+
+									"<span lang='fr'>"+
+										"J'ai dû ré-ordonné certaines instructions et modifier <code>isArrayLike</code>, une fonction interne utilisé pour vérifier si une variable donnée correspond à un tableau ou non. Par conséquent j'ai ajouté 4 nouveaux tests unitaires."+
+									"</span>"+
+								"</p>"+
+							"</div>"
+					}, {
+						title: {
+							icon: "fa-thumbs-o-up",
+							en: "Thanks",
+							fr: "Remerciements"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"Thanks to <b>timmywil, gibson042, mzgol</b> to have review the pull request."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Merci à <b>timmywil, gibson042, mzgol</b> d'avoir aidés et relus la <i>pull request</i>."+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
+				link: {
 					name: "jquery-pr-2292",
 					img: "logos/jquery.png",
 					tag: "jQuery",
-					text: "Effects: .finish should call progress(1)",
+					text: "Effects: .finish should call progress(1)"
 				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2292",
@@ -815,7 +886,7 @@ window.data = [
 					name: "jquery-pr-2218",
 					img: "logos/jquery.png",
 					tag: "jQuery",
-					text: "Effects: jQuery.easing._default",
+					text: "Effects: jQuery.easing._default"
 				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2218",
@@ -884,7 +955,7 @@ window.data = [
 					name: "jquery-pr-2011",
 					img: "logos/jquery.png",
 					tag: "jQuery",
-					text: "CSS: Support relative adjustment in any applicable unit",
+					text: "CSS: Support relative adjustment in any applicable unit"
 				},
 				appLink: {
 					href: "https://github.com/jquery/jquery/pull/2011",
@@ -956,7 +1027,7 @@ window.data = [
 					name: "font-awesome-pr-5760",
 					img: "logos/font-awesome.png",
 					tag: "Font-Awesome",
-					text: ".fa { text-indent: 0; }",
+					text: ".fa { text-indent: 0; }"
 				},
 				appLink: {
 					href: "https://github.com/FortAwesome/Font-Awesome/pull/5760",
