@@ -616,8 +616,8 @@ window.data = [
 					fr: "Voir la démo&nbsp;!"
 				},
 				tags: [
-					{ name: "html5",      title: "html5" },
-					{ name: "javascript", title: "javascript" },
+					{ name: "html5",      title: "HTML5" },
+					{ name: "javascript", title: "JavaScript" },
 					{ name: "css3",       title: "CSS3" }
 				],
 				subRub: [
