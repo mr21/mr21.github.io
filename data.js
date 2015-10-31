@@ -734,6 +734,76 @@ window.data = [
 		data: [
 			{
 				link: {
+					name: "sass-site-pr-138",
+					img: "logos/sass.png",
+					tag: "Sass's website",
+					text: "Learn page: UX improvement"
+				},
+				title: {
+					icon: "fa-code-fork",
+					span: "Sass-site#138 - learn page: Syntax switcher"
+				},
+				appLink: {
+					href: "https://github.com/sass/sass-site/pull/138",
+					en: "Access to the pull request #138",
+					fr: "Accéder à la pull request #138"
+				},
+				tags: [
+					{ name: "javascript", title: "JavaScript" },
+					{ name: "jquery",     title: "jQuery" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-bug",
+							en: "Behaviour description",
+							fr: "Description du problème"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"The tabs <code>Sass/SCSS</code> on the page <a href='http://sass-lang.com/guide' target='_blank'>sass-lang.com/guide</a> are useful to see the differences between these two syntaxes, however before this Pull Request they were not linked with each others. In other words, if we wanted to see all the examples in <code>Sass</code> and not in <code>SCSS</code> we had to click 6 times."+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Les onglets <code>Sass/SCSS</code> de la page <a href='http://sass-lang.com/guide' target='_blank'>sass-lang.com/guide</a> sont utiles pour voir les différences entre les deux syntaxes, néanmoins avant cette <i>Pull Request</i> ils n'étaient pas liés les uns aux autres. Autrement dit, si nous voulions voir tous les exemples de la page en <code>Sass</code> et non en <code>SCSS</code> il nous fallait cliquer 6 fois."+
+								"</span>"+
+							"</p>"
+					}, {
+						title: {
+							icon: "fa-wrench",
+							en: "What have I changed&nbsp;?",
+							fr: "Qu'ai-je modifié&nbsp;?"
+						},
+						content:
+							"<div>"+
+								"<p>"+
+									"<span lang='en'>"+
+										"Now, when we click on a tab the script simulate another click for each other tab in the page. I've also aligned every piece of <code>Sass</code> code with their equivalent of <code>SCSS</code> code for a better visibility and understanding."+
+									"</span>"+
+									"<span lang='fr'>"+
+										"Maintenant, quand on clique sur un tab le script simule un clique sur tous les autres tab de la page. J'ai également fais en sorte d'aligner chaque bout de code <code>Sass</code> (mis en exemple) avec leur équivalent <code>SCSS</code> pour une meilleur visibilité et compréhension."+
+									"</span>"+
+								"</p>"+
+							"</div>"
+					}, {
+						title: {
+							icon: "fa-thumbs-o-up",
+							en: "Thanks",
+							fr: "Remerciements"
+						},
+						content:
+							"<p>"+
+								"<span lang='en'>"+
+									"Thanks to the Sass team to highlighted this tiny contribution <a target='_blank' href='https://twitter.com/SassCSS/status/654438833447038976'>on Twitter</a> <3"+
+								"</span>"+
+								"<span lang='fr'>"+
+									"Merci à l'équipe Sass d'avoir mis en avant cette mini contribution <a target='_blank' href='https://twitter.com/SassCSS/status/654438833447038976'>sur Twitter</a> <3"+
+								"</span>"+
+							"</p>"
+					}
+				]
+			}, {
+				link: {
 					name: "jquery-pr-2363",
 					img: "logos/jquery.png",
 					tag: "jQuery",
