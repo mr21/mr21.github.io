@@ -320,7 +320,7 @@ window.data = [
 					{ name: "javascript",     title: "JavaScript" },
 					{ name: "canvas",         title: "Canvas" },
 					{ name: "canvasloth",     title: "Canvasloth" },
-					{ name: "joystick-html5", title: "Joystick-HTML5" },
+					{ name: "joystick",       title: "Joystick" },
 					{ name: "photoshop",      title: "Photoshop" }
 				],
 				subRub: [
@@ -603,15 +603,15 @@ window.data = [
 				]
 			}, {
 				link: {
-					name: "joystick-html5",
-					img: "../joystick-html5/thumbnail.jpg"
+					name: "joystick",
+					img: "https://jquery-element.github.io/joystick/thumbnail.jpg"
 				},
 				title: {
 					icon: "fa-gamepad",
-					span: "Joystick - HTML5"
+					span: "Joystick"
 				},
 				appLink: {
-					href: "../joystick-html5/",
+					href: "http://jquery-element.github.io/joystick/",
 					en: "See it in action&nbsp;!",
 					fr: "Voir la démo&nbsp;!"
 				},
