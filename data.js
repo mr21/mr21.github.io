@@ -4,6 +4,42 @@ window.data = [
 		data: [
 			{
 				link: {
+					name: "fileplayer"
+				},
+				title: {
+					icon: "fa-eject",
+					span: "FilePlayer"
+				},
+				appLink: {
+					href: "http://fileplayer.github.io",
+					en: "Play your files directly in your browser&nbsp;!",
+					fr: "Jouez vos fichiers directement dans votre navigateur&nbsp;!"
+				},
+				tags: [
+					{ name: "html5",            title: "HTML5" },
+					{ name: "javascript",       title: "JavaScript" },
+					{ name: "jquery",           title: "jQuery" },
+					{ name: "css3",             title: "CSS3" }
+				],
+				subRub: [
+					{
+						title: {
+							icon: "fa-info-circle",
+							en: "About",
+							fr: "À propos"
+						},
+						content:
+							"<div>"+
+								"<p lang='en'>"+
+									"<b>FilePlayer</b> is a full <b>HTML5 media player</b> directly hosted on GitHub. It aims to be a great demo of what can be done with the technologies <code>&lt;video&gt;</code>, <code>Canvas</code>, <code>CSS3</code>, <code>AudioContext</code>. It's possible to open and play severals media files, there is a playlist, a subtitles manager and many other options."+
+								"</p><p lang='fr'>"+
+									"<b>FilePlayer</b> est un <b>player multi-média</b> en <b>HTML5</b> directement hébergé sur GitHub. Ce projet se veut être une excellente démo de ce qui est possible de faire avec les technologies <code>&lt;video&gt;</code>, <code>Canvas</code>, <code>CSS3</code>, <code>AudioContext</code>. Il est possible d'ouvrir et lire plusieurs fichiers audio ou vidéo, il y a une playlist, un manager de sous-titres et tout un tas d'autres options."+
+								"</p>"+
+							"</div>"
+					}
+				]
+			}, {
+				link: {
 					name: "youtube-playlists-manager",
 					img: "../youtube-playlists-manager/thumbnail.jpg"
 				},
