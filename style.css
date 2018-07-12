@@ -1,0 +1,79 @@
+@font-face { font-family: "FAB"; src: url( "fa-brands-400.woff" ) }
+@font-face { font-family: "FA"; src: url( "fa-solid-900.woff" ); }
+@font-face { font-family: "OSC"; src: url( "OpenSansCondensed-Light.ttf" ); }
+@font-face { font-family: "ROB"; src: url( "Roboto-Regular.ttf" ); }
+@font-face { font-family: "CCO"; src: url( "ConcertOne-Regular.ttf" ); }
+
+.fa::before { font-family: "FA"; }
+.fab::before { font-family: "FAB"; }
+.icon::before {
+  content: attr( data-icon );
+  font-weight: normal;
+  font-style: normal;
+}
+.icon.space-left {
+  margin-left: .2em;
+}
+
+@keyframes keyframe-blink {
+  from { opacity: 1; }
+  to { opacity: .7; }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: table;
+  width: 100%;
+  margin: 0;
+  /*filter: invert(100%) hue-rotate(180deg);*/
+}
+
+a {
+  position: relative;
+  color: indianred;
+  font-family: "CCO";
+  text-decoration: none;
+  transition: .1s color;
+}
+a:hover {
+  animation: .3s ease-out keyframe-blink alternate infinite;
+}
+abbr {
+  color: indianred;
+  cursor: help;
+  text-decoration: none;
+}
+
+#global {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: honeydew;
+}
+#main {
+  margin: 0 auto;
+  padding: .4em 1em;
+  max-width: 420px;
+  font-size: 20px;
+  font-family: "ROB", sans-serif;
+  color: midnightblue;
+}
+#name {
+  font: 2em "OSC";
+  margin-bottom: 1em;
+}
+#username {
+  opacity: .8;
+}
+p {
+  opacity: .8;
+}
+#signature {
+  margin-top: 1.6em;
+}
+a[title="Twitter"] { color: #00aced; }
+a[title="Facebook"] { color: #4267b2; }
