@@ -47,29 +47,30 @@ abbr {
   cursor: help;
   text-decoration: none;
 }
+p {
+  margin: 1em 0;
+  opacity: .8;
+}
 
 #global {
   height: 100%;
   display: table-cell;
   vertical-align: middle;
-  background-color: honeydew;
+  color: #9f9;
+  font-size: 20px;
+  font-family: "ROB", sans-serif;
+  background: linear-gradient( #11112a, #000 );
 }
 #main {
   margin: 0 auto;
   padding: .4em 1em;
   max-width: 420px;
-  font-size: 20px;
-  font-family: "ROB", sans-serif;
-  color: midnightblue;
 }
 #name {
   font: 2em "OSC";
   margin-bottom: 1em;
 }
 #username {
-  opacity: .8;
-}
-p {
   opacity: .8;
 }
 #signature {
