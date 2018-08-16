@@ -69,6 +69,10 @@ p {
   font: 2em "OSC";
   margin: 0;
 }
+#avatar {
+  width: 64px;
+  border-radius: 8px;
+}
 #username {
   opacity: .8;
 }
