@@ -29,7 +29,6 @@ body {
   display: table;
   width: 100%;
   margin: 0;
-  /*filter: invert(100%) hue-rotate(180deg);*/
 }
 
 a {
@@ -68,7 +67,7 @@ p {
 }
 #name {
   font: 2em "OSC";
-  margin-bottom: 1em;
+  margin: 0;
 }
 #username {
   opacity: .8;
@@ -76,5 +75,3 @@ p {
 #signature {
   margin-top: 1.6em;
 }
-a[title="Twitter"] { color: #00aced; }
-a[title="Facebook"] { color: #4267b2; }
