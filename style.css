@@ -2,7 +2,7 @@
 @font-face { font-family: "FA";  src: url( "fa-duotone-900.woff2" ) }
 @font-face { font-family: "OSC"; src: url( "OpenSansCondensed-Light.ttf" ) }
 @font-face { font-family: "ROB"; src: url( "Roboto-Regular.ttf" ) }
-@font-face { font-family: "CCO"; src: url( "ConcertOne-Regular.ttf" ) }
+@font-face { font-family: "CCO"; src: url( "ConcertOne-Regular.woff2" ) }
 
 .icon {
 	position: relative;
